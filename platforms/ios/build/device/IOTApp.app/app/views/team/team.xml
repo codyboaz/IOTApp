@@ -1,0 +1,13 @@
+<Page loaded="pageLoaded">
+    <ActionBar>
+        <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
+            <Label text="Linkality" class="action-label"></Label>
+            <NavigationButton text="Back"/>
+        </StackLayout>
+    </ActionBar>
+
+    <StackLayout>
+        <Label text="Team Info" class="h1"/>
+
+    </StackLayout>
+</Page>

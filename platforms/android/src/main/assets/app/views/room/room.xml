@@ -1,0 +1,18 @@
+<Page loaded="pageLoaded">
+
+    <ActionBar>
+        <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
+            <Label text="Linkality" class="action-label"></Label>
+            <NavigationButton text="Back"/>
+        </StackLayout>
+    </ActionBar>
+
+    <StackLayout>
+        <Label text="Rooms" class="h1"/>
+        <Image src="~/views/images/bitLoby.png" class="bitLoby"/>
+
+            <button text="team info" tap="toTeam" class="btn btn-primary padded-top"/>
+
+
+    </StackLayout>
+</Page>

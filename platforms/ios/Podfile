@@ -1,0 +1,8 @@
+use_frameworks!
+
+target "IOTApp" do
+# Begin Podfile - /Users/Cody/Desktop/IOTApp/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
+ pod 'GoogleMaps' 
+ # End Podfile 
+
+end

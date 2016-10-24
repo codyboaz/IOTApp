@@ -1,14 +1,26 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
-    <ListView items="{{ beacons }}" >
-      <ListView.itemTemplate>
-        <GridLayout columns="auto,auto" rows="auto">
-            <Image src="~/images/beacon_linear.png" stretch ="none" col="0" />
-            <StackLayout col="1">
-              <Label text="{{ identifier }}" textWrap="true" class="title"/>
-              <Label text="{{ rssi }}" class="message"/>
-              <Label text="{{ distance }}" class="message"/>
-            </StackLayout>
-        </GridLayout>
-      </ListView.itemTemplate>
-  </ListView>
+<Page loaded="pageLoaded">
+    <ActionBar>
+      <NavigationButton visibility="collapsed"/>
+        <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
+            <Label text="Linkality" class="action-label"></Label>
+        </StackLayout>
+    </ActionBar>
+
+    <StackLayout>
+      <StackLayout class="margin">
+        <Label text="CSUMB" class="h2 text-center"/>
+        <Image src="~/views/images/csumb.png" class="csumbImg"/>
+        <Label text="Capstone Festival" class="h2 text-center"/>
+      </StackLayout>
+            <button text="Event Map" tap="eventMap" class="btn btn-primary"/>
+
+
+            <button text="Schedule" tap="schedule" class="btn btn-primary"/>
+
+
+            <button text="Social Zone" tap="socialZone" class="btn btn-primary"/>
+
+
+    </StackLayout>
+
 </Page>

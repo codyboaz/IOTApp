@@ -4,41 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon20x20@2x.png</key>
+		<data>
+		vzzKjiwZveBvlgfB/2N+RpNZsbA=
+		</data>
+		<key>AppIcon20x20@2x~ipad.png</key>
+		<data>
+		vzzKjiwZveBvlgfB/2N+RpNZsbA=
+		</data>
+		<key>AppIcon20x20@3x.png</key>
+		<data>
+		hVjbOmKu2vkZJAs/l7h8tW3qDx8=
+		</data>
+		<key>AppIcon20x20~ipad.png</key>
+		<data>
+		VEOTCp7QTbbUvVWnLfEHJTsl/7g=
+		</data>
 		<key>AppIcon29x29.png</key>
 		<data>
-		qvpzbykKOB+yfECKqxM/0JO8OtM=
+		1e9avuMaV0ObM/gR8FBguV9rEFU=
 		</data>
 		<key>AppIcon29x29@2x.png</key>
 		<data>
-		82tt178Q8eB+DHiMrrzmIUD9350=
+		GrM73CB3am/lLA4hYAoj0WWpcPs=
 		</data>
 		<key>AppIcon29x29@2x~ipad.png</key>
 		<data>
-		82tt178Q8eB+DHiMrrzmIUD9350=
+		GrM73CB3am/lLA4hYAoj0WWpcPs=
 		</data>
 		<key>AppIcon29x29@3x.png</key>
 		<data>
-		nSxRCD7SiQ+6e1gqG4WcTD4M9H8=
+		xWOBTn+wG1nRsuUZjLgelkCO9kE=
 		</data>
 		<key>AppIcon29x29~ipad.png</key>
 		<data>
-		qvpzbykKOB+yfECKqxM/0JO8OtM=
+		1e9avuMaV0ObM/gR8FBguV9rEFU=
 		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
-		qxAjQp3km/Gg4niZoGfKpWcfeII=
+		GydsmMSydx6w5aBi9bY3o5v3B3E=
 		</data>
 		<key>AppIcon40x40@2x~ipad.png</key>
 		<data>
-		qxAjQp3km/Gg4niZoGfKpWcfeII=
+		GydsmMSydx6w5aBi9bY3o5v3B3E=
 		</data>
 		<key>AppIcon40x40@3x.png</key>
 		<data>
-		GapOLqsWmvaUp36nCzHy3vzUFQE=
+		Oopn0uBS2Kjc0wVFYiPYXz9PD0s=
 		</data>
 		<key>AppIcon40x40~ipad.png</key>
 		<data>
-		QyDiUkO54s8KdFXcAsfktmO1jhg=
+		JKMwQdcSjAzJ6ROzFGZeEW/qf2M=
 		</data>
 		<key>AppIcon50x50@2x~ipad.png</key>
 		<data>
@@ -50,7 +66,7 @@
 		</data>
 		<key>AppIcon57x57.png</key>
 		<data>
-		BHwLcm2VR+PJ+lx1M54MgpL8q1o=
+		TmAvxvhZiTvOspTWCRgEMoJgf+w=
 		</data>
 		<key>AppIcon57x57@2x.png</key>
 		<data>
@@ -58,11 +74,11 @@
 		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
-		GapOLqsWmvaUp36nCzHy3vzUFQE=
+		Oopn0uBS2Kjc0wVFYiPYXz9PD0s=
 		</data>
 		<key>AppIcon60x60@3x.png</key>
 		<data>
-		Iv5eGSK46elvcf5cclpkM1gWX/g=
+		/ovgFGnK35GuyzgVgvBsP8kdV0g=
 		</data>
 		<key>AppIcon72x72@2x~ipad.png</key>
 		<data>
@@ -74,19 +90,19 @@
 		</data>
 		<key>AppIcon76x76@2x~ipad.png</key>
 		<data>
-		K4J39JD86QJdnSrNZcgVl2P2nv4=
+		yQWszPMAPAtC/QirF9xj/3E3/8E=
 		</data>
 		<key>AppIcon76x76~ipad.png</key>
 		<data>
-		Pibsvzk2giJzcL/obUev5Tx9viU=
+		tz93dO4E5R1oOLOlcJZtK79tRHc=
 		</data>
 		<key>AppIcon83.5x83.5@2x~ipad.png</key>
 		<data>
-		ItSvDzXnNrfCSfZdqWQfW2CL2Es=
+		oNcD0AFSUbCQhqFr8k4BBAEo9oc=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		HAqKmbvx8A6huYjLxToCIna3Ijs=
+		y6Hz8lU5ZtxdHsh1zG0gKvFPqP0=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -94,7 +110,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		gLRfDlj5akqMG3wMopYq75fZSBE=
+		a3/RbCxyG/qB/LLuaOxjJ0A9F+I=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -106,7 +122,7 @@
 		</data>
 		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
 		<data>
-		BLvU6xJ2ZUaXjXgHsNzReauM7JE=
+		N3wDYlxjH7FoYVmZB8oa1JSs1bk=
 		</data>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -805,75 +821,75 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mT4wTKPdnuS7KDXSM/38qBW+McI=
+		/PqT3nwy4KZL2ZoFW2QFweb9gO4=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
-		VmHTptUrPuWY7yNjVc09e8tr7A0=
+		MpFZgj1sh5tlIaSyOzATbnTlqRs=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
-		VmHTptUrPuWY7yNjVc09e8tr7A0=
+		MpFZgj1sh5tlIaSyOzATbnTlqRs=
 		</data>
 		<key>LaunchImage-700-Landscape@2x~ipad.png</key>
 		<data>
-		k21aIUTg02Sq+tQ4Vzubcl4Pb5g=
+		38bfXx1zl7wepX7j9GlF5u3uVQo=
 		</data>
 		<key>LaunchImage-700-Landscape~ipad.png</key>
 		<data>
-		N9s+iiOZn1HiJY0y0xfJUDEtG7I=
+		Q/5/UoByOWp5risFp2GM9tBh8R4=
 		</data>
 		<key>LaunchImage-700-Portrait@2x~ipad.png</key>
 		<data>
-		sWmnObyHWHBba7nEKnhZijZEmqo=
+		ljNEPs2OjM4NyKprI9ATxUzU5ho=
 		</data>
 		<key>LaunchImage-700-Portrait~ipad.png</key>
 		<data>
-		Zk/jItPuBD1wNNU8b58CfB0SO0c=
+		CxRvB9jp31Rxdm9343RM3TLZU9k=
 		</data>
 		<key>LaunchImage-700@2x.png</key>
 		<data>
-		5FwPyf/KfAgLkhx5lgXp74beCKw=
+		D7CA1k/3nMw8KSWa3qd4IHUdGsQ=
 		</data>
 		<key>LaunchImage-800-667h@2x.png</key>
 		<data>
-		Z0H3WvqXNO46fcQRjJd4TG7T9lY=
+		Udqu6Z5R3ZmhHP1Qj3AqpfIGrRI=
 		</data>
 		<key>LaunchImage-800-Landscape-736h@3x.png</key>
 		<data>
-		1uvU7ilcauI7R80FIhaEmEkvrB4=
+		rWEJbZSKHvLt279W1o4iDAypCJs=
 		</data>
 		<key>LaunchImage-800-Portrait-736h@3x.png</key>
 		<data>
-		0gSilJHkuDQ3/f588EBoqhtJKLc=
+		EGOHMoJx0LZE4xWPFEEvWLbAyVI=
 		</data>
 		<key>LaunchImage-Landscape@2x~ipad.png</key>
 		<data>
-		k21aIUTg02Sq+tQ4Vzubcl4Pb5g=
+		38bfXx1zl7wepX7j9GlF5u3uVQo=
 		</data>
 		<key>LaunchImage-Landscape~ipad.png</key>
 		<data>
-		N9s+iiOZn1HiJY0y0xfJUDEtG7I=
+		Q/5/UoByOWp5risFp2GM9tBh8R4=
 		</data>
 		<key>LaunchImage-Portrait@2x~ipad.png</key>
 		<data>
-		sWmnObyHWHBba7nEKnhZijZEmqo=
+		ljNEPs2OjM4NyKprI9ATxUzU5ho=
 		</data>
 		<key>LaunchImage-Portrait~ipad.png</key>
 		<data>
-		Zk/jItPuBD1wNNU8b58CfB0SO0c=
+		CxRvB9jp31Rxdm9343RM3TLZU9k=
 		</data>
 		<key>LaunchImage.png</key>
 		<data>
-		UpilHjIdUEDGS/eFgFVyt4X2qF8=
+		OcWbdrq/d5lWGHzXYNdz+wRaGGc=
 		</data>
 		<key>LaunchImage@2x.png</key>
 		<data>
-		5FwPyf/KfAgLkhx5lgXp74beCKw=
+		D7CA1k/3nMw8KSWa3qd4IHUdGsQ=
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		WOqe1DFeI2dyAM6AL6ek7CzUK0M=
+		IuTKlqlqdQ6piIr1Zn0J7qRX9Fs=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -881,7 +897,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		zd+YMCcrSZDD7ZtKKg/Xnkv3q+Q=
+		DDfxIE15imdXXqgtw8Cz5BWKAaI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -889,7 +905,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		SkN8TQ4K1MzVYu6RfWy+rrjoX24=
+		S2xi2xcc0mecSMRyWvB8HpFMYeQ=
 		</data>
 		<key>app/app.js</key>
 		<data>
@@ -2181,11 +2197,11 @@
 		</data>
 		<key>app/views/credentials/credentials.js</key>
 		<data>
-		9yx0RHJudU8KJOMsVbssAGkArYw=
+		IXPdgumaOxY8BS6WavhIT5iDEAY=
 		</data>
 		<key>app/views/credentials/credentials.xml</key>
 		<data>
-		BCHYp4A5eTuHm7OCvePpNpEa990=
+		qYZQoRA9UaU2LyisIqQqW3jFc8A=
 		</data>
 		<key>app/views/home/home.css</key>
 		<data>
@@ -2193,11 +2209,15 @@
 		</data>
 		<key>app/views/home/home.js</key>
 		<data>
-		UFWk3RLYKdy6acFuyjxCC+owP34=
+		zh+m+Cwd2k9WRUovUFJMP0pSOXM=
 		</data>
 		<key>app/views/home/home.xml</key>
 		<data>
-		cJUDADpMSpbDkbB63qbUver/rdQ=
+		3611dPquRDLNrR5uMMAYtOiFVT8=
+		</data>
+		<key>app/views/images/bitBuilding.png</key>
+		<data>
+		jdIUw8Z4G7gGxmEAOf5/CBU67Ew=
 		</data>
 		<key>app/views/images/bitLoby.png</key>
 		<data>
@@ -2291,103 +2311,147 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon20x20@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vzzKjiwZveBvlgfB/2N+RpNZsbA=
+			</data>
+			<key>hash2</key>
+			<data>
+			OFvyoSTO/D8wm9zxCD6ZZFrujv9fIedve07xVnw9PSs=
+			</data>
+		</dict>
+		<key>AppIcon20x20@2x~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vzzKjiwZveBvlgfB/2N+RpNZsbA=
+			</data>
+			<key>hash2</key>
+			<data>
+			OFvyoSTO/D8wm9zxCD6ZZFrujv9fIedve07xVnw9PSs=
+			</data>
+		</dict>
+		<key>AppIcon20x20@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hVjbOmKu2vkZJAs/l7h8tW3qDx8=
+			</data>
+			<key>hash2</key>
+			<data>
+			BvZUFQHrVEbZV5FIAGFgc0kgzVXqIxc5i1kG6eM3Huc=
+			</data>
+		</dict>
+		<key>AppIcon20x20~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VEOTCp7QTbbUvVWnLfEHJTsl/7g=
+			</data>
+			<key>hash2</key>
+			<data>
+			/EUP7OYPVd++lTc+tNL0xvjkj01QV00odJQwgoupc+U=
+			</data>
+		</dict>
 		<key>AppIcon29x29.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qvpzbykKOB+yfECKqxM/0JO8OtM=
+			1e9avuMaV0ObM/gR8FBguV9rEFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			J8799pdV7JeFYjb6yItoZhBRrSE0uUqArEfCpYH9IRQ=
+			LXG2ZRun6WCzGJtR2KLV5RKApK8wbdz3ax5O5pvV8Xs=
 			</data>
 		</dict>
 		<key>AppIcon29x29@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			82tt178Q8eB+DHiMrrzmIUD9350=
+			GrM73CB3am/lLA4hYAoj0WWpcPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			abmlPv6D9YnG2IOfgxuu+3fn+MOv/ODkdYDRCTXe67A=
+			+3ghgT3+Y37z0ZJXJBpADM9Fc+yTQeQlLEjH6OntvCk=
 			</data>
 		</dict>
 		<key>AppIcon29x29@2x~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			82tt178Q8eB+DHiMrrzmIUD9350=
+			GrM73CB3am/lLA4hYAoj0WWpcPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			abmlPv6D9YnG2IOfgxuu+3fn+MOv/ODkdYDRCTXe67A=
+			+3ghgT3+Y37z0ZJXJBpADM9Fc+yTQeQlLEjH6OntvCk=
 			</data>
 		</dict>
 		<key>AppIcon29x29@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nSxRCD7SiQ+6e1gqG4WcTD4M9H8=
+			xWOBTn+wG1nRsuUZjLgelkCO9kE=
 			</data>
 			<key>hash2</key>
 			<data>
-			CsWpdJ7VtjgfiUFcW7PEt+NUUBJ/lPG6bdmcK4udZis=
+			E49VXjEOTNv0/Ouu8ak7QKFf29KVY7ADMd7BlrWuGgY=
 			</data>
 		</dict>
 		<key>AppIcon29x29~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qvpzbykKOB+yfECKqxM/0JO8OtM=
+			1e9avuMaV0ObM/gR8FBguV9rEFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			J8799pdV7JeFYjb6yItoZhBRrSE0uUqArEfCpYH9IRQ=
+			LXG2ZRun6WCzGJtR2KLV5RKApK8wbdz3ax5O5pvV8Xs=
 			</data>
 		</dict>
 		<key>AppIcon40x40@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qxAjQp3km/Gg4niZoGfKpWcfeII=
+			GydsmMSydx6w5aBi9bY3o5v3B3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			rEGm0sT6OunhQNdoTjoBPjvJ/QKjp4Evu0Ll9HxIcYA=
+			6lQI2aG/uJDfZyRWmWXLDgpiN+nje2zAh+bLh1PHJQ8=
 			</data>
 		</dict>
 		<key>AppIcon40x40@2x~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qxAjQp3km/Gg4niZoGfKpWcfeII=
+			GydsmMSydx6w5aBi9bY3o5v3B3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			rEGm0sT6OunhQNdoTjoBPjvJ/QKjp4Evu0Ll9HxIcYA=
+			6lQI2aG/uJDfZyRWmWXLDgpiN+nje2zAh+bLh1PHJQ8=
 			</data>
 		</dict>
 		<key>AppIcon40x40@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GapOLqsWmvaUp36nCzHy3vzUFQE=
+			Oopn0uBS2Kjc0wVFYiPYXz9PD0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			dJqPKsq/JFl6xUxgMdZ7MHJdCN1UsWNZDIyAjc5UDl0=
+			2mrVObs6immdyUQNXB9Uzr+8EOiV6/lhvslas5LASA0=
 			</data>
 		</dict>
 		<key>AppIcon40x40~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QyDiUkO54s8KdFXcAsfktmO1jhg=
+			JKMwQdcSjAzJ6ROzFGZeEW/qf2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			bl7GW9DTJ+cbPqwvV/TXIWs7DgSWu3NTRSCh51bdAMk=
+			0G7/hsmA+zt1jFgH0WwA3/r9jt/xgojUFtT0R8KwDRk=
 			</data>
 		</dict>
 		<key>AppIcon50x50@2x~ipad.png</key>
@@ -2416,11 +2480,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BHwLcm2VR+PJ+lx1M54MgpL8q1o=
+			TmAvxvhZiTvOspTWCRgEMoJgf+w=
 			</data>
 			<key>hash2</key>
 			<data>
-			kzgjN3U89Zj5Z3p2RHN8EWfk0HzFDie3GdB3NZ1lgTg=
+			+MS2Eou6aH9AmhNpx4tWRxyROQB58ioxwbfh+7a/Sms=
 			</data>
 		</dict>
 		<key>AppIcon57x57@2x.png</key>
@@ -2438,22 +2502,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GapOLqsWmvaUp36nCzHy3vzUFQE=
+			Oopn0uBS2Kjc0wVFYiPYXz9PD0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			dJqPKsq/JFl6xUxgMdZ7MHJdCN1UsWNZDIyAjc5UDl0=
+			2mrVObs6immdyUQNXB9Uzr+8EOiV6/lhvslas5LASA0=
 			</data>
 		</dict>
 		<key>AppIcon60x60@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Iv5eGSK46elvcf5cclpkM1gWX/g=
+			/ovgFGnK35GuyzgVgvBsP8kdV0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			6g+t0I4U9xncfL+ZvxQNTeR8RS3136dRqDQZA0W0cOU=
+			Xyg3LIz4UoTJAmSdYqJt7vIU86h/Ib6J917HdngQBW0=
 			</data>
 		</dict>
 		<key>AppIcon72x72@2x~ipad.png</key>
@@ -2482,44 +2546,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K4J39JD86QJdnSrNZcgVl2P2nv4=
+			yQWszPMAPAtC/QirF9xj/3E3/8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			iS/uWhGgVvdoO/SqHC54kruHV3U9oYHvfub6gr9p7WA=
+			h77a5OolQIuq4jl65SFqB7STCwDw2IeRPp8+32wlZrg=
 			</data>
 		</dict>
 		<key>AppIcon76x76~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Pibsvzk2giJzcL/obUev5Tx9viU=
+			tz93dO4E5R1oOLOlcJZtK79tRHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			u4crLXIPtAR21Fu/n8SKYBtCAvP4VXACI8O63OaCDGo=
+			WBjJRQ5OykFMHDkYCXA48ELNDrGzysqylwZP44meEbU=
 			</data>
 		</dict>
 		<key>AppIcon83.5x83.5@2x~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ItSvDzXnNrfCSfZdqWQfW2CL2Es=
+			oNcD0AFSUbCQhqFr8k4BBAEo9oc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Cpa1e+gD2YYVFXTtiVbffjUYsr3MBHFLmTBans4Wbw=
+			pACnL8ziAw4LTRERlDfjKMef1Wz6yrDXIsmoZexI1ig=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HAqKmbvx8A6huYjLxToCIna3Ijs=
+			y6Hz8lU5ZtxdHsh1zG0gKvFPqP0=
 			</data>
 			<key>hash2</key>
 			<data>
-			yHbUtRyYApVmT7i4RkdL6dNVZdbIc4k/c2I5N3GGBUk=
+			anXvzbPgOyqnihWxfK9g3DR6/YU3J7JO/DvC/yThjfo=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -2537,11 +2601,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gLRfDlj5akqMG3wMopYq75fZSBE=
+			a3/RbCxyG/qB/LLuaOxjJ0A9F+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			7dYFQDa29eDRvsJhCyHfEparGi/MZuWo+BeWxBq5bqc=
+			H0zm46G0wm+rvH5Ytnx9bzmKMWPbTW5ZyBuL4IHzI/s=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -2570,11 +2634,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BLvU6xJ2ZUaXjXgHsNzReauM7JE=
+			N3wDYlxjH7FoYVmZB8oa1JSs1bk=
 			</data>
 			<key>hash2</key>
 			<data>
-			25MJi7qAqwtkS7qcLbtpmUYoxUVPPWXbKYv71jieOoc=
+			jYgckG+kxw2rIzzuhzvSIgDCmZ/prz0kGlpVrLbMMtA=
 			</data>
 		</dict>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
@@ -3987,187 +4051,187 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VmHTptUrPuWY7yNjVc09e8tr7A0=
+			MpFZgj1sh5tlIaSyOzATbnTlqRs=
 			</data>
 			<key>hash2</key>
 			<data>
-			VWzYdlTORuAgRRGDMfw4XKZGPuAeRKHMYz6Zm2pPW4U=
+			rU879DUE12+KRouBMlJ8KuvCc4m2HY6XCFhrZlclG4Q=
 			</data>
 		</dict>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VmHTptUrPuWY7yNjVc09e8tr7A0=
+			MpFZgj1sh5tlIaSyOzATbnTlqRs=
 			</data>
 			<key>hash2</key>
 			<data>
-			VWzYdlTORuAgRRGDMfw4XKZGPuAeRKHMYz6Zm2pPW4U=
+			rU879DUE12+KRouBMlJ8KuvCc4m2HY6XCFhrZlclG4Q=
 			</data>
 		</dict>
 		<key>LaunchImage-700-Landscape@2x~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k21aIUTg02Sq+tQ4Vzubcl4Pb5g=
+			38bfXx1zl7wepX7j9GlF5u3uVQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			3JoNcUCCsvfOzgc8piz3dcmmqNCYEaMDM6Y6+wGB0zk=
+			R25+zlpA50ABxpop6+Dh6sXAxZl3Ma/5zUzm/+DZfgM=
 			</data>
 		</dict>
 		<key>LaunchImage-700-Landscape~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N9s+iiOZn1HiJY0y0xfJUDEtG7I=
+			Q/5/UoByOWp5risFp2GM9tBh8R4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XWsdkAslYS3BARgeMF0RrMgxckPTSSrqGKucgUprQcs=
+			kRZVA5XeN2KTYEN0DsegZBbrpRxb5kmAYwFxAdRJ+6I=
 			</data>
 		</dict>
 		<key>LaunchImage-700-Portrait@2x~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sWmnObyHWHBba7nEKnhZijZEmqo=
+			ljNEPs2OjM4NyKprI9ATxUzU5ho=
 			</data>
 			<key>hash2</key>
 			<data>
-			JNQXmumg5/0ovHIjmVHdBkfgUMBc22iANdEkB9wrxnA=
+			UJsAoy0TzKLJdVEHWXyT9AdTJq+887mtcSRRwBaeAzc=
 			</data>
 		</dict>
 		<key>LaunchImage-700-Portrait~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zk/jItPuBD1wNNU8b58CfB0SO0c=
+			CxRvB9jp31Rxdm9343RM3TLZU9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			WGf/kUc7s93zNhcXPk1FTg9usLhBzUuuZGAlVWLa7Tw=
+			zegTaFAM5OqNR47S1TZpwIPc4ntQmzzliF2u/cQQn4U=
 			</data>
 		</dict>
 		<key>LaunchImage-700@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5FwPyf/KfAgLkhx5lgXp74beCKw=
+			D7CA1k/3nMw8KSWa3qd4IHUdGsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			7FhMDIov73IMvT2r+CfasHQVWrA0aSOO2iT/zVNvcUk=
+			R08p1+zx6TaWRi2dNX9c+jiT3En/vOk9n1eaCmlgAmM=
 			</data>
 		</dict>
 		<key>LaunchImage-800-667h@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z0H3WvqXNO46fcQRjJd4TG7T9lY=
+			Udqu6Z5R3ZmhHP1Qj3AqpfIGrRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			yfCkk1+aBwzYoAdWvMgzM2NtxVdFb+73WPttVxF/3GE=
+			i/re25/LiheuI/eHot4ks6IInNACQfmMnuIov/9X2LA=
 			</data>
 		</dict>
 		<key>LaunchImage-800-Landscape-736h@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1uvU7ilcauI7R80FIhaEmEkvrB4=
+			rWEJbZSKHvLt279W1o4iDAypCJs=
 			</data>
 			<key>hash2</key>
 			<data>
-			JRjDn4eHBZ/d4r6sRixI7oMG4hGMUy2e/T0xfjZYCr0=
+			7I5IWgY5wsU6OfbtduJiggmF6ZzBxZFc4G1q9z6wplU=
 			</data>
 		</dict>
 		<key>LaunchImage-800-Portrait-736h@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0gSilJHkuDQ3/f588EBoqhtJKLc=
+			EGOHMoJx0LZE4xWPFEEvWLbAyVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gqt89v1Cua6sNMpn30Bf0bskIST5djHbOQ0ctMFLhUU=
+			b4UTRP3e4EM6U4TOXGM2nuGfPPKxtrUC6b+DcpxdZYs=
 			</data>
 		</dict>
 		<key>LaunchImage-Landscape@2x~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k21aIUTg02Sq+tQ4Vzubcl4Pb5g=
+			38bfXx1zl7wepX7j9GlF5u3uVQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			3JoNcUCCsvfOzgc8piz3dcmmqNCYEaMDM6Y6+wGB0zk=
+			R25+zlpA50ABxpop6+Dh6sXAxZl3Ma/5zUzm/+DZfgM=
 			</data>
 		</dict>
 		<key>LaunchImage-Landscape~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N9s+iiOZn1HiJY0y0xfJUDEtG7I=
+			Q/5/UoByOWp5risFp2GM9tBh8R4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XWsdkAslYS3BARgeMF0RrMgxckPTSSrqGKucgUprQcs=
+			kRZVA5XeN2KTYEN0DsegZBbrpRxb5kmAYwFxAdRJ+6I=
 			</data>
 		</dict>
 		<key>LaunchImage-Portrait@2x~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sWmnObyHWHBba7nEKnhZijZEmqo=
+			ljNEPs2OjM4NyKprI9ATxUzU5ho=
 			</data>
 			<key>hash2</key>
 			<data>
-			JNQXmumg5/0ovHIjmVHdBkfgUMBc22iANdEkB9wrxnA=
+			UJsAoy0TzKLJdVEHWXyT9AdTJq+887mtcSRRwBaeAzc=
 			</data>
 		</dict>
 		<key>LaunchImage-Portrait~ipad.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zk/jItPuBD1wNNU8b58CfB0SO0c=
+			CxRvB9jp31Rxdm9343RM3TLZU9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			WGf/kUc7s93zNhcXPk1FTg9usLhBzUuuZGAlVWLa7Tw=
+			zegTaFAM5OqNR47S1TZpwIPc4ntQmzzliF2u/cQQn4U=
 			</data>
 		</dict>
 		<key>LaunchImage.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UpilHjIdUEDGS/eFgFVyt4X2qF8=
+			OcWbdrq/d5lWGHzXYNdz+wRaGGc=
 			</data>
 			<key>hash2</key>
 			<data>
-			4/fXWcSPSaxNK8M2ZwIXTlQczAbOtHZIBSF0dfsIWvw=
+			z0J4C4TPZwdcdjl4ZmOs6l4T0/NJPlNVXXoCZruxqa0=
 			</data>
 		</dict>
 		<key>LaunchImage@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5FwPyf/KfAgLkhx5lgXp74beCKw=
+			D7CA1k/3nMw8KSWa3qd4IHUdGsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			7FhMDIov73IMvT2r+CfasHQVWrA0aSOO2iT/zVNvcUk=
+			R08p1+zx6TaWRi2dNX9c+jiT3En/vOk9n1eaCmlgAmM=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WOqe1DFeI2dyAM6AL6ek7CzUK0M=
+			IuTKlqlqdQ6piIr1Zn0J7qRX9Fs=
 			</data>
 			<key>hash2</key>
 			<data>
-			nBheB73LMB6yH2X1SZz7GPwMv6W3xHJxDNfQVU7v7rE=
+			PgGLBsRFfRuGmJDbNo4SIHQlVlgm3cxyHBz2xLrCQyI=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -4185,22 +4249,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zd+YMCcrSZDD7ZtKKg/Xnkv3q+Q=
+			DDfxIE15imdXXqgtw8Cz5BWKAaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gaAfQ9pdvMbEcvSIAbXs4VIzyAdd/WRG8ks7t9aUPe4=
+			v4dECawmJ0aqDrLX86RQcCMl0VyKbhPhMcH/Sk7lYOg=
 			</data>
 		</dict>
 		<key>app/app.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SkN8TQ4K1MzVYu6RfWy+rrjoX24=
+			S2xi2xcc0mecSMRyWvB8HpFMYeQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			jrrYcyeFW0ql6B6uDcbXjaSu6VKaOEt0Wz3Q80wa9qY=
+			2SQdgiJv5PS3osP9VNLxNcDMC8X90vtF48/JSbthLnk=
 			</data>
 		</dict>
 		<key>app/app.js</key>
@@ -7749,22 +7813,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9yx0RHJudU8KJOMsVbssAGkArYw=
+			IXPdgumaOxY8BS6WavhIT5iDEAY=
 			</data>
 			<key>hash2</key>
 			<data>
-			WDfqX/oQhC0MrFNYs1/rnCm8mdF/PuUzxUvXzoOoeG4=
+			rqIqtrQgeIy5b1sMsZLhlBXHR558apfWOzMx2wmiaBE=
 			</data>
 		</dict>
 		<key>app/views/credentials/credentials.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BCHYp4A5eTuHm7OCvePpNpEa990=
+			qYZQoRA9UaU2LyisIqQqW3jFc8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			2+flYUr7QMTFV1xXOblLoiqSgeg4+fR3vhxU4HVC/OE=
+			2K3Tipfq0VniXNF82RcRC8latxXkG1/zw8PZdNNx84A=
 			</data>
 		</dict>
 		<key>app/views/home/home.css</key>
@@ -7782,22 +7846,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UFWk3RLYKdy6acFuyjxCC+owP34=
+			zh+m+Cwd2k9WRUovUFJMP0pSOXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0hoKyRiBp8oPlcbX/jjrFrA42rjMqOPz4sP0jubbMuc=
+			b48oa8GGz2yQ1mxH2/R0tmHZQUU1aLY7t9I+NWsG3jc=
 			</data>
 		</dict>
 		<key>app/views/home/home.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cJUDADpMSpbDkbB63qbUver/rdQ=
+			3611dPquRDLNrR5uMMAYtOiFVT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ce6ckMl3tNiBlJ7ymf+EeOjpbG0TvorOZy07yyKFoPw=
+			rrr3ZImPxbn29wXktke+56U6Kvg6Q+a492mKTTPDX0g=
+			</data>
+		</dict>
+		<key>app/views/images/bitBuilding.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jdIUw8Z4G7gGxmEAOf5/CBU67Ew=
+			</data>
+			<key>hash2</key>
+			<data>
+			FkzHgALOypDhJ0fmjrXg5gcbuv3dRPdccKiQmdyN2ow=
 			</data>
 		</dict>
 		<key>app/views/images/bitLoby.png</key>

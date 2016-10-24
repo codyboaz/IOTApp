@@ -1,61 +1,47 @@
-var observableModule = require("data/observable");
-var observableArrayModule = require("data/observable-array");
-var frameModule = require('ui/frame');
-
+var frameModule = require("ui/frame");
 var Estimote = require('nativescript-estimote-sdk');
 
-var data = new observableModule.Observable();
 
-function pageLoaded(args) {
+exports.pageLoaded = function(args) {
     var page = args.object;
-    if (page.ios) {
+    page.bindingContext = {};
 
-      var controller = frameModule.topmost().ios.controller;
+    var count = 0;
 
-      // show the navbar
-      frameModule.topmost().ios.navBarVisibility = "always";
-
-      // set the title
-      page.ios.title = 'Estimote Beacons';
-
-
-    }
-    var items = new observableArrayModule.ObservableArray([]);
-
-    data.set("beacons", items);
-
-    page.bindingContext = data;
-
-    this.options = {
+    var options = {
         callback : function(beacons){
           var items =[];
 
           for (var i = 0; i < beacons.length; i++) {
              var beacon = beacons[i];
              if (beacon.major > 0){
-                var distance = "NA";
-                var identifier = "Major:" + beacon.major + " Minor:" + beacon.minor;
+
+                if(beacon.major == 26418 && count < 1) {
+                  console.log("IT WORKS!")
+                  count ++;
+                }
 
                 if (beacon.proximity) {
                   distance = beacon.proximity;
                 }
 
-                var item = {
-                    "proximity" : beacon.proximity,
-                    "identifier": identifier,
-                    "distance":  "Distance: " + distance,
-                    "rssi": "Power: " +  beacon.rssi + "dBm"
-                };
-
-                items.push(item);
              }
           }
 
-          data.set("beacons", new observableArrayModule.ObservableArray(items));
         }
     };
 
-    new Estimote(this.options).startRanging();
+    new Estimote(options).startRanging();
 }
 
-exports.pageLoaded = pageLoaded;
+exports.eventMap = function() {
+    frameModule.topmost().navigate("views/map/map");
+}
+
+exports.schedule = function() {
+    frameModule.topmost().navigate("views/schedule/schedule");
+}
+
+exports.socialZone = function() {
+    frameModule.topmost().navigate("views/social/social");
+}

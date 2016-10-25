@@ -14,12 +14,12 @@ function onMapReady(args) {
   marker.position = mapsModule.Position.positionFromLatLng(36.652527, -121.797167);
   marker.title = "Room 141";
   marker.snippet = "Click For Info";
-  marker.userData = { index : 1};
   mapView.addMarker(marker);
 }
 
+
 function onMarkerSelect(args) {
-   console.log("Clicked on " +args.marker.title);
+  console.log("onMarkerSelect");
    if(args.marker.title == "Room 141"){
      frameModule.topmost().navigate("views/room/room");
    }

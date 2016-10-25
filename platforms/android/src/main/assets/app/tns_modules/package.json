@@ -1,11 +1,11 @@
 {
   "name": "tns-core-modules",
   "description": "Telerik NativeScript Core Modules",
-  "version": "2.3.0",
+  "version": "2.5.0-2016-10-24-4533",
   "homepage": "https://www.nativescript.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NativeScript/NativeScript/commit/dbeb0360c8567a803bb92d104f2683fed61aa541"
+    "url": "https://github.com/NativeScript/NativeScript/commit/22ae4b7e1b7f299108600903578b7a261c3495bf"
   },
   "files": [
     "**/*.d.ts",
@@ -24,7 +24,10 @@
   "license": "Apache-2.0",
   "typings": "tns-core-modules.d.ts",
   "dependencies": {
-    "tns-core-modules-widgets": "2.3.0"
+    "tns-core-modules-widgets": "next"
+  },
+  "devDependencies": {
+    "tns-platform-declarations": "*"
   },
   "nativescript": {
     "platforms": {
@@ -32,20 +35,22 @@
       "android": "2.1.1"
     }
   },
-  "_id": "tns-core-modules@2.3.0",
-  "_shasum": "8484a6a639cdcf845326e874f438b081a1c35900",
-  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.3.0.tgz",
-  "_from": "tns-core-modules@latest",
+  "publishConfig": {
+    "tag": "next"
+  },
+  "_id": "tns-core-modules@2.5.0-2016-10-24-4533",
   "scripts": {},
-  "_npmVersion": "3.10.3",
-  "_nodeVersion": "6.4.0",
+  "_shasum": "cf34b3061d26aacbffbd7d37e4c660be19e02010",
+  "_from": "tns-core-modules@>=2.5.0-2016-10-24-4533 <3.0.0",
+  "_npmVersion": "3.8.3",
+  "_nodeVersion": "5.10.1",
   "_npmUser": {
-    "name": "hdeshev",
-    "email": "hristo@deshev.com"
+    "name": "erjangavalji",
+    "email": "erjan.gavalji@gmail.com"
   },
   "dist": {
-    "shasum": "8484a6a639cdcf845326e874f438b081a1c35900",
-    "tarball": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.3.0.tgz"
+    "shasum": "cf34b3061d26aacbffbd7d37e4c660be19e02010",
+    "tarball": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.5.0-2016-10-24-4533.tgz"
   },
   "maintainers": [
     {
@@ -98,9 +103,10 @@
     }
   ],
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/tns-core-modules-2.3.0.tgz_1473938931074_0.6924647802952677"
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/tns-core-modules-2.5.0-2016-10-24-4533.tgz_1477318348969_0.1483554074075073"
   },
   "directories": {},
+  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.5.0-2016-10-24-4533.tgz",
   "readme": "ERROR: No README data found!"
 }

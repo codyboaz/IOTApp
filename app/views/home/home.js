@@ -1,6 +1,6 @@
 var frameModule = require("ui/frame");
 var Estimote = require('nativescript-estimote-sdk');
-
+var dialogs = require("ui/dialogs");
 
 exports.pageLoaded = function(args) {
     var page = args.object;
@@ -17,7 +17,9 @@ exports.pageLoaded = function(args) {
              if (beacon.major > 0){
 
                 if(beacon.major == 26418 && count < 1) {
-                  console.log("IT WORKS!")
+                  dialogs.alert("Beacon " + beacon.major + " was found").then(function() {
+                  console.log("Dialog closed!");
+                });
                   count ++;
                 }
 

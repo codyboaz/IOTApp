@@ -9,7 +9,7 @@
     </ActionBar>
 
    <GridLayout>
-    <maps:mapView latitude="36.652254" longitude="-121.797239"
+    <maps:mapView latitude="36.652254" longitude="-121.797239" markerSelect="onMarkerSelect"
     								zoom="19.15" mapReady="onMapReady"
     								markerSelect="onMarkerSelect" />
    </GridLayout>

@@ -31,6 +31,7 @@ var ListView = (function (_super) {
         _super.apply(this, arguments);
         this._androidViewId = -1;
         this._realizedItems = new Map();
+        this._realizedTemplates = new Map();
     }
     ListView.prototype._createUI = function () {
         this._android = new android.widget.ListView(this._context);
@@ -46,7 +47,8 @@ var ListView = (function (_super) {
             onItemClick: function (parent, convertView, index, id) {
                 var owner = that.get();
                 if (owner) {
-                    owner.notify({ eventName: ITEMTAP, object: owner, index: index, view: owner._getRealizedView(convertView, index) });
+                    var view = owner._realizedTemplates.get(owner._getItemTemplate(index).key).get(convertView);
+                    owner.notify({ eventName: ITEMTAP, object: owner, index: index, view: view });
                 }
             }
         }));
@@ -97,11 +99,15 @@ var ListView = (function (_super) {
             }
         });
     };
-    ListView.prototype._getRealizedView = function (convertView, index) {
-        if (!convertView) {
-            return this._getItemTemplateContent(index);
-        }
-        return this._realizedItems.get(convertView);
+    ListView.prototype._dumpRealizedTemplates = function () {
+        console.log("Realized Templates:");
+        this._realizedTemplates.forEach(function (value, index, map) {
+            console.log("\t" + index + ":");
+            value.forEach(function (value, index, map) {
+                console.log("\t\t" + index.hashCode() + ": " + value);
+            });
+        });
+        console.log("Realized Items Size: " + this._realizedItems.size);
     };
     ListView.prototype.clearRealizedCells = function () {
         var _this = this;
@@ -114,6 +120,18 @@ var ListView = (function (_super) {
             }
         });
         this._realizedItems.clear();
+        this._realizedTemplates.clear();
+    };
+    ListView.prototype._onItemTemplatesPropertyChanged = function (data) {
+        this._itemTemplatesInternal = new Array(this._defaultTemplate);
+        if (data.newValue) {
+            this._itemTemplatesInternal = this._itemTemplatesInternal.concat(data.newValue);
+        }
+        if (this.android) {
+            ensureListViewAdapterClass();
+            this.android.setAdapter(new ListViewAdapterClass(this));
+        }
+        this.refresh();
     };
     return ListView;
 }(common.ListView));
@@ -145,6 +163,14 @@ function ensureListViewAdapterClass() {
         ListViewAdapter.prototype.hasStableIds = function () {
             return true;
         };
+        ListViewAdapter.prototype.getViewTypeCount = function () {
+            return this._listView._itemTemplatesInternal.length;
+        };
+        ListViewAdapter.prototype.getItemViewType = function (index) {
+            var template = this._listView._getItemTemplate(index);
+            var itemViewType = this._listView._itemTemplatesInternal.indexOf(template);
+            return itemViewType;
+        };
         ListViewAdapter.prototype.getView = function (index, convertView, parent) {
             if (!this._listView) {
                 return null;
@@ -153,7 +179,17 @@ function ensureListViewAdapterClass() {
             if (index === (totalItemCount - 1)) {
                 this._listView.notify({ eventName: LOADMOREITEMS, object: this._listView });
             }
-            var view = this._listView._getRealizedView(convertView, index);
+            var template = this._listView._getItemTemplate(index);
+            var view;
+            if (convertView) {
+                view = this._listView._realizedTemplates.get(template.key).get(convertView);
+                if (!view) {
+                    throw new Error("There is no entry with key '" + convertView + "' in the realized views cache for template with key'" + template.key + "'.");
+                }
+            }
+            else {
+                view = template.createView();
+            }
             var args = {
                 eventName: ITEMLOADING, object: this._listView, index: index, view: view,
                 android: parent,
@@ -184,6 +220,12 @@ function ensureListViewAdapterClass() {
                         convertView = sp.android;
                     }
                 }
+                var realizedItemsForTemplateKey = this._listView._realizedTemplates.get(template.key);
+                if (!realizedItemsForTemplateKey) {
+                    realizedItemsForTemplateKey = new Map();
+                    this._listView._realizedTemplates.set(template.key, realizedItemsForTemplateKey);
+                }
+                realizedItemsForTemplateKey.set(convertView, args.view);
                 this._listView._realizedItems.set(convertView, args.view);
             }
             return convertView;

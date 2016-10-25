@@ -11,6 +11,7 @@ exports.homepage = function() {
   dialogs.prompt("Enter Your Name", "").then(function (r) {
     if(r.result){
       if(r.text.length > 0){
+        console.log("Dialog result: " + r.result + ", text: " + r.text);
       frameModule.topmost().navigate("views/home/home");
     } else {
       dialogs.alert("Please Enter a Name").then(function() {

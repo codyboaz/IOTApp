@@ -1,6 +1,6 @@
 {
   "name": "tns-core-modules-widgets",
-  "version": "2.3.0",
+  "version": "2.5.0-2016-10-24-139",
   "description": "Native widgets used in the NativeScript framework.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,19 +23,21 @@
       "android": "2.0.0"
     }
   },
-  "_id": "tns-core-modules-widgets@2.3.0",
-  "_shasum": "19d902b6c77e0ef47687b9098b595a6b527db447",
-  "_resolved": "https://registry.npmjs.org/tns-core-modules-widgets/-/tns-core-modules-widgets-2.3.0.tgz",
-  "_from": "tns-core-modules-widgets@2.3.0",
-  "_npmVersion": "3.10.3",
-  "_nodeVersion": "6.4.0",
+  "publishConfig": {
+    "tag": "next"
+  },
+  "_id": "tns-core-modules-widgets@2.5.0-2016-10-24-139",
+  "_shasum": "c047c443e7873b7b4f9b3775c0ec4ef2080d6f8d",
+  "_from": "tns-core-modules-widgets@next",
+  "_npmVersion": "3.8.6",
+  "_nodeVersion": "6.0.0",
   "_npmUser": {
-    "name": "hdeshev",
-    "email": "hristo@deshev.com"
+    "name": "erjangavalji",
+    "email": "erjan.gavalji@gmail.com"
   },
   "dist": {
-    "shasum": "19d902b6c77e0ef47687b9098b595a6b527db447",
-    "tarball": "https://registry.npmjs.org/tns-core-modules-widgets/-/tns-core-modules-widgets-2.3.0.tgz"
+    "shasum": "c047c443e7873b7b4f9b3775c0ec4ef2080d6f8d",
+    "tarball": "https://registry.npmjs.org/tns-core-modules-widgets/-/tns-core-modules-widgets-2.5.0-2016-10-24-139.tgz"
   },
   "maintainers": [
     {
@@ -84,8 +86,10 @@
     }
   ],
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/tns-core-modules-widgets-2.3.0.tgz_1473938921901_0.5202188568655401"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/tns-core-modules-widgets-2.5.0-2016-10-24-139.tgz_1477313041886_0.9626827174797654"
   },
-  "directories": {}
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/tns-core-modules-widgets/-/tns-core-modules-widgets-2.5.0-2016-10-24-139.tgz",
+  "readme": "ERROR: No README data found!"
 }

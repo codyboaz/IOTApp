@@ -150,6 +150,9 @@ function setPropertyValue(instance, instanceModule, exports, propertyName, prope
             instance.on(propertyName, handler);
         }
     }
+    else if (isKnownFunction(propertyName, instance) && types_1.isFunction(exports && exports[propertyValue])) {
+        instance[propertyName] = exports[propertyValue];
+    }
     else {
         var attrHandled = false;
         var specialSetter = special_properties_1.getSpecialPropertySetter(propertyName);
@@ -176,5 +179,11 @@ function isBinding(value) {
         isBinding = str.indexOf("{{") === 0 && str.lastIndexOf("}}") === str.length - 2;
     }
     return isBinding;
+}
+var KNOWN_FUNCTIONS = "knownFunctions";
+function isKnownFunction(name, instance) {
+    return instance.constructor
+        && KNOWN_FUNCTIONS in instance.constructor
+        && instance.constructor[KNOWN_FUNCTIONS].indexOf(name) !== -1;
 }
 //# sourceMappingURL=component-builder.js.map

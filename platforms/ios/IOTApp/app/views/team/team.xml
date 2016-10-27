@@ -5,9 +5,16 @@
             <NavigationButton text="Back"/>
         </StackLayout>
     </ActionBar>
-
+    <ScrollView>
     <StackLayout>
-        <Label text="Team Info" class="h1"/>
+      <Label text="{{teamName}}" class="h1 centerText"/>
+      <Image src="{{logoName}}" class="teamLogo"/>
+      <Label text="Project Description" class="h2 centerText"/>
+      <Label text="Team Members" class="h2 centerText"/>
+      <Label text="Nathaniel Davidson" class="h3 margin-bottom-left"/>
+      <Label text="Edwin Yantis" class="h3 margin-bottom-left"/>
+      <Label text="Cody Boaz" class="h3 margin-bottom-left"/>
 
     </StackLayout>
+  </ScrollView>
 </Page>

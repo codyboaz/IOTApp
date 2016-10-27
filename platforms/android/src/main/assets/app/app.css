@@ -1,5 +1,6 @@
 @import '~/css/core.light.css';
 
+
 .logoImg {
   margin: 20 0 0 0;
   height: 200;
@@ -11,10 +12,16 @@
   width: 320;
 }
 
-.csumbImg {
+.android .csumbImg {
+  margin: 15 0 15 0;
+  height: 100;
+  width: 100%;
+}
+
+.ios .csumbImg {
   margin: 15 0 15 0;
   height: 150;
-  width: 170;
+  width: 100%;
 }
 
 .action-label {
@@ -23,8 +30,12 @@
     font-weight: bold;
     vertical-align: center;
 }
+.android .buildingImg {
+  width:100%;
+  height: 150;
+}
 
-.buildingImg {
+.ios .buildingImg {
   width:100%;
   height: 200;
 }

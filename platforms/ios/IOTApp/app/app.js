@@ -1,4 +1,5 @@
 var application = require("application");
+var PlatformCss = require( "nativescript-platform-css" );
 application.mainModule = "views/credentials/credentials";
 application.cssFile = "./app.css";
 

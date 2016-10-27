@@ -1,7 +1,16 @@
 var frameModule = require("ui/frame");
+var observable = require("data/observable");
+var pageModule = require("ui/page");
 
+var viewModel = new observable.Observable();
 
 exports.pageLoaded = function(args) {
     var page = args.object;
-    page.bindingContext = {};
+    var getData=page.navigationContext;
+    console.log(getData.teamName);
+    console.log(getData.logoName);
+    viewModel.set("teamName", getData.teamName);
+    viewModel.set("logoName", getData.logoName);
+    page.bindingContext = viewModel;
+
 }

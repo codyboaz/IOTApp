@@ -1,0 +1,26 @@
+<Page loaded="pageLoaded">
+
+    <ActionBar>
+        <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
+            <Label text="Linkality" class="action-label"></Label>
+            <NavigationButton text="Back"/>
+        </StackLayout>
+    </ActionBar>
+
+    <StackLayout>
+        <Label text="{{Room}}" class="h1 centerText"/>
+        <Image src="{{imgName}}" class="bitLoby"/>
+        <Label text="Schedule" class="h2 centerText"/>
+        <ScrollView>
+          <StackLayout>
+            <Label text="12:00PM - 12:30PM" class="centerText margin-top"/>
+            <button text="Linkality" tap="toTeam" class="btnRooms btn-outline"/>
+            <Label text="12:30PM - 1:00PM" class="centerText margin-top"/>
+            <button text="TraceRoute Visualization" tap="toTeam" class="btnRooms btn-outline"/>
+            <Label text="1:00PM - 1:30PM" class="centerText margin-top"/>
+            <button text="STOQS MBARI" tap="toTeam" class="btnRooms btn-outline"/>
+            </StackLayout>
+        </ScrollView>
+
+    </StackLayout>
+</Page>

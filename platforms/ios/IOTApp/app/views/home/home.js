@@ -6,32 +6,47 @@ exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
 
-    var count = 0;
+     var count = 0;
 
-    var options = {
-        callback : function(beacons){
-          var items =[];
+     var options = {
+         callback : function(beacons){
+           var items =[];
 
-          for (var i = 0; i < beacons.length; i++) {
-             var beacon = beacons[i];
-             if (beacon.major > 0){
+           for (var i = 0; i < beacons.length; i++) {
+              var beacon = beacons[i];
+              if (beacon.major > 0){
 
-                if(beacon.major == 26418 && count < 1) {
-                  dialogs.alert("Beacon " + beacon.major + " was found").then(function() {
-                  console.log("Dialog closed!");
-                });
-                  count ++;
-                }
+                 if(beacon.major == 26418 && count < 1) {
+                   console.log("dark blue beacon found")
+                   dialogs.alert("Dark Blue Beacon " + beacon.major + " was found").then(function() {
+                   console.log("Dialog closed!");
+                 });
+                   count ++;
+                 }
+                 else if(beacon.major == 47570 && count < 1) {
+                   dialogs.alert("Green Beacon " + beacon.major + " was found").then(function() {
+                   console.log("Dialog closed!");
+                 });
+                   count ++;
+                 }
 
-                if (beacon.proximity) {
-                  distance = beacon.proximity;
-                }
+                 else if(beacon.major == 2467 && count < 1) {
+                   dialogs.alert("Light Blue Beacon " + beacon.major + " was found").then(function() {
+                   console.log("Dialog closed!");
+                 });
+                   count ++;
+                 }
 
-             }
-          }
 
-        }
-    };
+                 if (beacon.proximity) {
+                   distance = beacon.proximity;
+                 }
+
+              }
+           }
+
+         }
+     };
 
     new Estimote(options).startRanging();
 }

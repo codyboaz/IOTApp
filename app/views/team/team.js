@@ -11,6 +11,9 @@ exports.pageLoaded = function(args) {
     console.log(getData.logoName);
     viewModel.set("teamName", getData.teamName);
     viewModel.set("logoName", getData.logoName);
+    viewModel.set("description", getData.description);
+    viewModel.set("team", getData.team);
+    viewModel.set("mentor", getData.mentor);
     page.bindingContext = viewModel;
 
 }

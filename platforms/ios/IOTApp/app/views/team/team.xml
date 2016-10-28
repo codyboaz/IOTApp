@@ -7,13 +7,15 @@
     </ActionBar>
     <ScrollView>
     <StackLayout>
-      <Label text="{{teamName}}" class="h1 centerText"/>
+      <Label text="{{teamName}}" class="h1 centerText" textWrap="true"/>
       <Image src="{{logoName}}" class="teamLogo"/>
       <Label text="Project Description" class="h2 centerText"/>
+      <Label text="{{description}}" class="margin-left-right" textWrap="true"/>
       <Label text="Team Members" class="h2 centerText"/>
-      <Label text="Nathaniel Davidson" class="h3 margin-bottom-left"/>
-      <Label text="Edwin Yantis" class="h3 margin-bottom-left"/>
-      <Label text="Cody Boaz" class="h3 margin-bottom-left"/>
+      <Label text="{{team}}" class="margin-left-right" textWrap="true"/>
+      <Label text="{{mentor}}" class="margin-left-right"/>
+      <Label text="" class="margin"/>
+
 
     </StackLayout>
   </ScrollView>

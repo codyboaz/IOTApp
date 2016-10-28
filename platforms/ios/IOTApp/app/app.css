@@ -1,12 +1,12 @@
 @import '~/css/core.light.css';
 
-.margin-bottom-left{
-  margin: 0 0 20 20;
+.margin-left-right{
+  margin: 0 20 0 20;
 }
 
 .socialImg{
-  width: 450;
-  height: 300;
+  width: 350;
+  height: 350;
 }
 
 .bitLoby {

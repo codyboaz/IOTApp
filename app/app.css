@@ -1,7 +1,7 @@
 @import '~/css/core.light.css';
 
-.margin-bottom-left{
-  margin: 0 0 20 20;
+.margin-left-right{
+  margin: 0 20 0 20;
 }
 
 .socialImg{

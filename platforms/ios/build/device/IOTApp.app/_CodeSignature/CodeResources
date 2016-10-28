@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		obRLnlOlyfSbaG5IvSSSzcryENk=
+		zcVEOUu7m9yGclC3aVYsIKsxUNU=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		uwsK0al7x2GQDEjyv2yiBx7XcRE=
+		662bH8pwz9CQ3jH4qZRPNuDeHt4=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
 		<data>
-		sez8yU1AMZn9fBCi3JfL/s1jlhg=
+		yo7aMXQ9MlGqPNdrQJ0dzfX5YqQ=
 		</data>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -869,7 +869,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		ajx/3rxGvaFLZVNFdYSzyY6IFhg=
+		Z6X3ORLpesq8YDn0GrSDI3PhE0c=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -877,7 +877,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Gh44vEn4KrGEgubHm12lQunBMKg=
+		WyEhzmXyBK5f2WBXekFcdThKNuA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -885,7 +885,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		uwWF4muwQXcFJrnTt3PUdVmH6xU=
+		QiOR3y/yV3RSkI4dqoOFihtnLPU=
 		</data>
 		<key>app/app.js</key>
 		<data>
@@ -2596,11 +2596,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			obRLnlOlyfSbaG5IvSSSzcryENk=
+			zcVEOUu7m9yGclC3aVYsIKsxUNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			iO6DvdtP7Gv/tm/dPMgEMMNwuv6aU7A5gpwNSSYpAEk=
+			Hn3eEiq/HAm+Ettj8eLpP2nX7wYVPgNTqvz96brbjxY=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -2618,11 +2618,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uwsK0al7x2GQDEjyv2yiBx7XcRE=
+			662bH8pwz9CQ3jH4qZRPNuDeHt4=
 			</data>
 			<key>hash2</key>
 			<data>
-			JF4V3dcTxiOqNkXCx2P+sENlRAZbCHUTfe2Ic6QjWrM=
+			5rnhbiIUBzp85glVsc5SnZ2Y3rIwFESES7ZExgeu878=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -2651,11 +2651,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sez8yU1AMZn9fBCi3JfL/s1jlhg=
+			yo7aMXQ9MlGqPNdrQJ0dzfX5YqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			X8CaIVM1g5lyuAWkAKk/8GODpn6z6SVaZUUUXI7Sy5Y=
+			yaNbm5wXs+qDHrOybytCEoGlmlZEO9J7LQhQOV7uVi4=
 			</data>
 		</dict>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
@@ -4244,11 +4244,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ajx/3rxGvaFLZVNFdYSzyY6IFhg=
+			Z6X3ORLpesq8YDn0GrSDI3PhE0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			MfXmAI050bkUfK5/Hp745cJ1R1q+mAG0ddcdNAIBnNw=
+			+1sgtcLSbuuIpo2vj6ajsnS2vHsp/i4ZWWC+BY81lT8=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -4266,22 +4266,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Gh44vEn4KrGEgubHm12lQunBMKg=
+			WyEhzmXyBK5f2WBXekFcdThKNuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			GpNaKTxsw2Ps9i4ni5Zv2fj28p79ZrdpyRBqsOdQ1Uc=
+			oxeOmTVsxxfTxdArXokH0L3io8TzpCwUB0BiPn8Ruk0=
 			</data>
 		</dict>
 		<key>app/app.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uwWF4muwQXcFJrnTt3PUdVmH6xU=
+			QiOR3y/yV3RSkI4dqoOFihtnLPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			oBnZCOX22VJL8xHeNX51EUU2P9KMA4o2LFsmUyji2k0=
+			REVlR/Bq4o50DqW8t1mu0YQrAcCPY/E1oJZ0YaS0xqw=
 			</data>
 		</dict>
 		<key>app/app.js</key>

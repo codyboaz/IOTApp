@@ -1,26 +1,19 @@
 <Page loaded="pageLoaded">
     <ActionBar>
-      <NavigationButton visibility="collapsed"/>
+        <NavigationButton visibility="collapsed"/>
         <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
             <Label text="Linkality" class="action-label"></Label>
         </StackLayout>
     </ActionBar>
 
     <StackLayout>
-      <StackLayout class="margin">
-        <Label text="CSUMB" class="h2 text-center"/>
-        <Image src="~/views/images/csumb.png" class="csumbImg"/>
-        <Label text="Capstone Festival" class="h2 text-center"/>
-      </StackLayout>
-            <button text="Event Map" tap="eventMap" class="btn btn-primary"/>
-
-
-            <button text="Schedule" tap="schedule" class="btn btn-primary"/>
-
-
-            <button text="Social Zone" tap="socialZone" class="btn btn-primary"/>
-
-
+        <StackLayout class="margin">
+            <Label text="CSUMB" class="h1 text-center"/>
+            <Image src="~/views/images/csumb.png" class="csumbImg"/>
+            <Label text="Capstone Festival" class="h1 text-center"/>
+        </StackLayout>
+        <button text="Event Map" tap="eventMap" class="btnRooms btn-outline margin-btn"/>
+        <button text="Schedule" tap="schedule" class="btnRooms btn-outline margin-btn"/>
     </StackLayout>
 
 </Page>

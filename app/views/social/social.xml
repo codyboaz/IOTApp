@@ -1,4 +1,4 @@
-<Page loaded="pageLoaded">
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
     <ActionBar>
         <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
             <Label text="Linkality" class="action-label"></Label>
@@ -7,7 +7,9 @@
     </ActionBar>
 
     <StackLayout>
-        <Label text="Social Zone" class="h1"/>
+        <Label text="Social Zone" class="h1 centerText"/>
+        <Button text="Take Picture" tap="takePic"/>
+        <Image id="myImage" class="socialImg"/>
 
     </StackLayout>
 </Page>

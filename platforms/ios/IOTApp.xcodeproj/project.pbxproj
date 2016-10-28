@@ -423,6 +423,8 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../../lib/iOS/include/libEstimoteSDK",
+					"$(SRCROOT)/../../lib/iOS/include/libEstimoteSDK",
+					"$(SRCROOT)/../../lib/iOS/include/libEstimoteSDK",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/IOTApp/IOTApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -450,6 +452,8 @@
 				GCC_PREFIX_HEADER = "IOTApp/IOTApp-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../lib/iOS/include/libEstimoteSDK",
+					"$(SRCROOT)/../../lib/iOS/include/libEstimoteSDK",
 					"$(SRCROOT)/../../lib/iOS/include/libEstimoteSDK",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/IOTApp/IOTApp-Info.plist";

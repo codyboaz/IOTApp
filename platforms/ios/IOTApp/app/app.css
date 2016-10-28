@@ -4,6 +4,11 @@
   margin: 0 0 20 20;
 }
 
+.socialImg{
+  width: 450;
+  height: 300;
+}
+
 .bitLoby {
   margin: 20 0 0 0;
   height: 200;
@@ -33,6 +38,7 @@
     font-weight: bold;
     vertical-align: center;
 }
+
 .android .buildingImg {
   width:100%;
   height: 150;

@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		jpPKjPQDYNAoXtzP3NEZdjTynns=
+		obRLnlOlyfSbaG5IvSSSzcryENk=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		579i+84ErzkZbNQrEv/J40lIJYs=
+		uwsK0al7x2GQDEjyv2yiBx7XcRE=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
 		<data>
-		Z62UKmwBWNvxetFzmpeMFDb5NoQ=
+		sez8yU1AMZn9fBCi3JfL/s1jlhg=
 		</data>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -801,7 +801,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/PqT3nwy4KZL2ZoFW2QFweb9gO4=
+		ThbZuiNYx6QunPTCEOKcX2jw6sg=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -869,7 +869,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		9FEayFAJMu6WJGY8mBV30cBZb+0=
+		ajx/3rxGvaFLZVNFdYSzyY6IFhg=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -877,7 +877,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		ID01T0zxcE8oqSFp2xlqFjwJrv8=
+		Gh44vEn4KrGEgubHm12lQunBMKg=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -885,7 +885,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		3FQTT6L1F2mTfHywEWIpz7dayzM=
+		uwWF4muwQXcFJrnTt3PUdVmH6xU=
 		</data>
 		<key>app/app.js</key>
 		<data>
@@ -2273,7 +2273,7 @@
 		</data>
 		<key>app/views/home/home.js</key>
 		<data>
-		wjmPdSys7CK0cXl4rk6CroFsYLY=
+		12EvRvMCxZdy5CMy/Egd8pCV9QQ=
 		</data>
 		<key>app/views/home/home.xml</key>
 		<data>
@@ -2309,7 +2309,7 @@
 		</data>
 		<key>app/views/map/map.js</key>
 		<data>
-		941PALfPFeJGwlW7OZduicNsuvc=
+		qz51urRaR5NYaperR+X9B91x84I=
 		</data>
 		<key>app/views/map/map.xml</key>
 		<data>
@@ -2321,11 +2321,11 @@
 		</data>
 		<key>app/views/room/room.js</key>
 		<data>
-		la+fgt7y1zv6STE8PSsa8TI60aM=
+		NIburvXVp5vkpqzioQUAmhHfIHg=
 		</data>
 		<key>app/views/room/room.xml</key>
 		<data>
-		TVCjKVk3O4yGM5wa6Vpp9RqH/zE=
+		R1zZaFyC5TR0cOI8WvThApwquN8=
 		</data>
 		<key>app/views/schedule/schedule.css</key>
 		<data>
@@ -2333,11 +2333,11 @@
 		</data>
 		<key>app/views/schedule/schedule.js</key>
 		<data>
-		Z0/WIK6xE+a8rqXZ7C5JayRX6po=
+		pQfRvltJKaKR4qtW5MgP2RuU0Bk=
 		</data>
 		<key>app/views/schedule/schedule.xml</key>
 		<data>
-		VR3EfmJcKI+7m0EPF6XcGcDKOfQ=
+		WZcaeY4kZd9CQARADqCGUDDqyUQ=
 		</data>
 		<key>app/views/social/social.css</key>
 		<data>
@@ -2345,11 +2345,11 @@
 		</data>
 		<key>app/views/social/social.js</key>
 		<data>
-		Fj15jvF4WbS2sgZ7Z5EHrP91y/Y=
+		MslkjbS/6YSZ9AIn8QKNzG6zZEU=
 		</data>
 		<key>app/views/social/social.xml</key>
 		<data>
-		Q7yr+F0A0KxYLFLQIsTy5PICEes=
+		+tHafM7Fr0HyGrCt0tRrjpXlbNU=
 		</data>
 		<key>app/views/team/team.css</key>
 		<data>
@@ -2357,11 +2357,11 @@
 		</data>
 		<key>app/views/team/team.js</key>
 		<data>
-		1kJAYm785twlxodbAXBM3Y9IJqM=
+		Smw62kFmcwIdUTAxMfkz0dZvMdA=
 		</data>
 		<key>app/views/team/team.xml</key>
 		<data>
-		Y26CeLXzJRaDE4dHTHSv2OmfZgk=
+		0l3oIEhSJ+fSfWHhSVG+Jp7JEqg=
 		</data>
 		<key>build.xcconfig</key>
 		<data>
@@ -2596,11 +2596,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jpPKjPQDYNAoXtzP3NEZdjTynns=
+			obRLnlOlyfSbaG5IvSSSzcryENk=
 			</data>
 			<key>hash2</key>
 			<data>
-			YPgRZYtyCfEur7MLlziqozEQURbDrwvXagdC5hTsmMs=
+			iO6DvdtP7Gv/tm/dPMgEMMNwuv6aU7A5gpwNSSYpAEk=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -2618,11 +2618,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			579i+84ErzkZbNQrEv/J40lIJYs=
+			uwsK0al7x2GQDEjyv2yiBx7XcRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Sud69aDz0lJicl5iLZvbE4G5suQRBHg7mcr5AxvSEI=
+			JF4V3dcTxiOqNkXCx2P+sENlRAZbCHUTfe2Ic6QjWrM=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -2651,11 +2651,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z62UKmwBWNvxetFzmpeMFDb5NoQ=
+			sez8yU1AMZn9fBCi3JfL/s1jlhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			uAJUU/3K702HjUCM5MmtDgozFu9vncA0Agezt6qyi5I=
+			X8CaIVM1g5lyuAWkAKk/8GODpn6z6SVaZUUUXI7Sy5Y=
 			</data>
 		</dict>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
@@ -4244,11 +4244,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9FEayFAJMu6WJGY8mBV30cBZb+0=
+			ajx/3rxGvaFLZVNFdYSzyY6IFhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			fYl/fVuOs1Ko+KQ0iAvkBFxxGFqE4hSvnZGVLaFknZE=
+			MfXmAI050bkUfK5/Hp745cJ1R1q+mAG0ddcdNAIBnNw=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -4266,22 +4266,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ID01T0zxcE8oqSFp2xlqFjwJrv8=
+			Gh44vEn4KrGEgubHm12lQunBMKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			TtOF5J6EzJNoKcA5jjyksXLVTO3DurlOtPQDWbbqDrw=
+			GpNaKTxsw2Ps9i4ni5Zv2fj28p79ZrdpyRBqsOdQ1Uc=
 			</data>
 		</dict>
 		<key>app/app.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3FQTT6L1F2mTfHywEWIpz7dayzM=
+			uwWF4muwQXcFJrnTt3PUdVmH6xU=
 			</data>
 			<key>hash2</key>
 			<data>
-			r5w2QODQbJaweEdxDAUg1DkGW7ysDipEcnXyJArQcJU=
+			oBnZCOX22VJL8xHeNX51EUU2P9KMA4o2LFsmUyji2k0=
 			</data>
 		</dict>
 		<key>app/app.js</key>
@@ -8094,11 +8094,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wjmPdSys7CK0cXl4rk6CroFsYLY=
+			12EvRvMCxZdy5CMy/Egd8pCV9QQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			g9Wp2aRgcQGJmstaD1TGNYV8y4dtn1ljrPiKeIUdS84=
+			OjQkemU/AYhjLoI9BDZZLFjMhYv9VNo5Ns71eSFUzqo=
 			</data>
 		</dict>
 		<key>app/views/home/home.xml</key>
@@ -8193,11 +8193,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			941PALfPFeJGwlW7OZduicNsuvc=
+			qz51urRaR5NYaperR+X9B91x84I=
 			</data>
 			<key>hash2</key>
 			<data>
-			p3xg3B+cwKvJ+lng0P7j3li0FWQ6XuZoWA7uIpvbDzU=
+			Os4ZO9VksBv9msSVNfOX5gNq03rrmg+ByAEQVL/wYhE=
 			</data>
 		</dict>
 		<key>app/views/map/map.xml</key>
@@ -8226,22 +8226,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			la+fgt7y1zv6STE8PSsa8TI60aM=
+			NIburvXVp5vkpqzioQUAmhHfIHg=
 			</data>
 			<key>hash2</key>
 			<data>
-			CLACAfNAjj06fmQ8nB68jyuJCwwKFgWA+Ntx53WJbTw=
+			NcNCqvw0DBPI+P/hVTwfd5+6hcBNpiunk9x77byYB0E=
 			</data>
 		</dict>
 		<key>app/views/room/room.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TVCjKVk3O4yGM5wa6Vpp9RqH/zE=
+			R1zZaFyC5TR0cOI8WvThApwquN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			bZIVoe9YDYYfJ3mmacelHPooXt2AnQA2Sv0U+v8NTek=
+			DgBwan5Jee2dTynIorJp2n31S3C9YI3x1HiqtCxtYuE=
 			</data>
 		</dict>
 		<key>app/views/schedule/schedule.css</key>
@@ -8259,22 +8259,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z0/WIK6xE+a8rqXZ7C5JayRX6po=
+			pQfRvltJKaKR4qtW5MgP2RuU0Bk=
 			</data>
 			<key>hash2</key>
 			<data>
-			aG3oVJRU2Oir7VsPAeplhCBOholFH3f3sAU9hvHnvZI=
+			QYzwdW81YKK2qz872GrOsekZgrt8PrENe8uFJn+THdU=
 			</data>
 		</dict>
 		<key>app/views/schedule/schedule.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VR3EfmJcKI+7m0EPF6XcGcDKOfQ=
+			WZcaeY4kZd9CQARADqCGUDDqyUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			SqjMgHsdxy/2ZjlDjfWX2BbwL0gbED43cMT1k6csqrc=
+			0Lt6GdwWMyEOaPqPvLpsZ6lF2nJN3tdZnAEscU+V458=
 			</data>
 		</dict>
 		<key>app/views/social/social.css</key>
@@ -8292,22 +8292,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fj15jvF4WbS2sgZ7Z5EHrP91y/Y=
+			MslkjbS/6YSZ9AIn8QKNzG6zZEU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BXS7btY7x80TUEZxuJTyR7m2aCn0cbd29sH9DGdx+wY=
+			GZrSw+YOed2KV4U106t7Ma8ovKxZ15TfcONzmp78KGs=
 			</data>
 		</dict>
 		<key>app/views/social/social.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q7yr+F0A0KxYLFLQIsTy5PICEes=
+			+tHafM7Fr0HyGrCt0tRrjpXlbNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			1JMSlfw0SvbstVtyfoS6F9VdSN8q0+WQGrf2h9QWFPg=
+			7Kcx4yWqbeY3iRFm4UW5t1bakY0fG7iwtFcIPDeWm/0=
 			</data>
 		</dict>
 		<key>app/views/team/team.css</key>
@@ -8325,22 +8325,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1kJAYm785twlxodbAXBM3Y9IJqM=
+			Smw62kFmcwIdUTAxMfkz0dZvMdA=
 			</data>
 			<key>hash2</key>
 			<data>
-			IEoJfrS+PP6NfUPTLjQLtI0AjLDwvMipjb/vKt2gE50=
+			YBFzKZUViF+FbAm81MGhRviU2AUcIBJxg9Y8B73M7M0=
 			</data>
 		</dict>
 		<key>app/views/team/team.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y26CeLXzJRaDE4dHTHSv2OmfZgk=
+			0l3oIEhSJ+fSfWHhSVG+Jp7JEqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			LEUBR3GmFGVYCeqMMg28ri1ArnCFLPOS1ywUiKfxEAQ=
+			hkYF+C4KRubzc4mLUW/nGvMQw/VGFeZ35I0l28uRhPY=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>

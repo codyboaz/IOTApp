@@ -1,15 +1,23 @@
 @import '~/css/core.light.css';
 
-
-.logoImg {
-  margin: 20 0 0 0;
-  height: 200;
-  width: 320;
+.margin-bottom-left{
+  margin: 0 0 20 20;
 }
+
+.socialImg{
+  width: 450;
+  height: 300;
+}
+
 .bitLoby {
   margin: 20 0 0 0;
   height: 200;
-  width: 320;
+  width: 100%;
+}
+
+.teamLogo {
+  height: 200;
+  width: 100%;
 }
 
 .android .csumbImg {
@@ -30,6 +38,7 @@
     font-weight: bold;
     vertical-align: center;
 }
+
 .android .buildingImg {
   width:100%;
   height: 150;
@@ -64,7 +73,7 @@
 }
 
 .centerText{
-  margin: 20 0 0 0;
+  margin: 20 0 20 0;
   text-align: center;
 }
 

@@ -5,15 +5,17 @@
             <Label text="Linkality" class="action-label"></Label>
         </StackLayout>
     </ActionBar>
-
-    <StackLayout>
-        <StackLayout class="margin">
-            <Label text="CSUMB" class="h1 text-center"/>
-            <Image src="~/views/images/csumb.png" class="csumbImg"/>
-            <Label text="Capstone Festival" class="h1 text-center"/>
+    <ScrollView>
+        <StackLayout>
+            <StackLayout class="margin">
+                <Label text="CSUMB" class="h1 text-center"/>
+                <Image src="~/views/images/csumb.png" class="csumbImg"/>
+                <Label text="Capstone Festival" class="h1 text-center"/>
+            </StackLayout>
+            <button text="Event Map" tap="eventMap" class="btnRooms btn-outline margin-btn"/>
+            <button text="Schedule" tap="schedule" class="btnRooms btn-outline margin-btn"/>
+            <Label text="" class="margin"/>
         </StackLayout>
-        <button text="Event Map" tap="eventMap" class="btnRooms btn-outline margin-btn"/>
-        <button text="Schedule" tap="schedule" class="btnRooms btn-outline margin-btn"/>
-    </StackLayout>
+    </ScrollView>
 
 </Page>

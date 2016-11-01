@@ -5,18 +5,17 @@
             <NavigationButton text="Back"/>
         </StackLayout>
     </ActionBar>
+    
     <ScrollView>
-    <StackLayout>
-      <Label text="{{teamName}}" class="h1 centerText" textWrap="true"/>
-      <Image src="{{logoName}}" class="teamLogo"/>
-      <Label text="Project Description" class="h2 centerText"/>
-      <Label text="{{description}}" class="margin-left-right" textWrap="true"/>
-      <Label text="Team Members" class="h2 centerText"/>
-      <Label text="{{team}}" class="margin-left-right" textWrap="true"/>
-      <Label text="{{mentor}}" class="margin-left-right"/>
-      <Label text="" class="margin"/>
-
-
-    </StackLayout>
-  </ScrollView>
+        <StackLayout>
+            <Label text="{{teamName}}" class="h1 centerText" textWrap="true"/>
+            <Image src="{{logoName}}" class="teamLogo"/>
+            <Label text="Project Description" class="h2 centerText"/>
+            <Label text="{{description}}" class="margin-left-right" textWrap="true"/>
+            <Label text="Team Members" class="h2 centerText"/>
+            <Label text="{{team}}" class="margin-left-right" textWrap="true"/>
+            <Label text="{{mentor}}" class="margin-left-right"/>
+            <Label text="" class="margin"/>
+        </StackLayout>
+    </ScrollView>
 </Page>

@@ -5,63 +5,54 @@ exports.pageLoaded = function(args) {
     page.bindingContext = {};
 }
 
-exports.toRooms = function() {
-    frameModule.topmost().navigate("views/room/room");
-}
-
-
-exports.toRoom104=function() {
+exports.toRoom104 = function() {
     // console.log("Navigating");
-    var navigationOptions={
-        moduleName:'views/room/room',
-        context:{
+    var navigationOptions = {
+        moduleName: 'views/room/room',
+        context: {
             roomName: "Room 104",
-            imgName: "~/views/images/room104.png"
-
-        }
+            imgName: "~/views/images/room104.png",
+            id: "104"
+          }
     }
-
     frameModule.topmost().navigate(navigationOptions);
 }
 
-exports.toRoomPoster=function() {
+exports.toRoomPoster = function() {
     // console.log("Navigating");
-    var navigationOptions={
-        moduleName:'views/room/room',
-        context:{
+    var navigationOptions = {
+        moduleName: 'views/room/room',
+        context: {
             roomName: "Main Lobby",
-            imgName: "~/views/images/bitLoby.png"
-
-        }
+            imgName: "~/views/images/bitLoby.png",
+            id: "lobby"
+          }
     }
-
     frameModule.topmost().navigate(navigationOptions);
 }
 
-exports.toRoom110=function() {
+exports.toRoom110 = function() {
     // console.log("Navigating");
-    var navigationOptions={
-        moduleName:'views/room/room',
-        context:{
+    var navigationOptions = {
+        moduleName: 'views/room/room',
+        context: {
             roomName: "Room 110",
-            imgName: "~/views/images/room110.png"
-
-        }
+            imgName: "~/views/images/room110.png",
+            id: "110"
+          }
     }
-
     frameModule.topmost().navigate(navigationOptions);
 }
 
-exports.toRoom105=function() {
+exports.toRoom105 = function() {
     // console.log("Navigating");
-    var navigationOptions={
-        moduleName:'views/room/room',
-        context:{
+    var navigationOptions = {
+        moduleName: 'views/room/room',
+        context: {
             roomName: "Room 105",
-            imgName: "~/views/images/room110.png"
-
-        }
+            imgName: "~/views/images/room110.png",
+            id: "105"
+          }
     }
-
     frameModule.topmost().navigate(navigationOptions);
 }

@@ -5,17 +5,14 @@
             <NavigationButton text="Back"/>
         </StackLayout>
     </ActionBar>
-
-    <StackLayout>
-        <Label text="Rooms" class="h1 centerText"/>
-        <ScrollView>
-          <StackLayout>
+    <ScrollView>
+        <StackLayout>
+            <Label text="Rooms" class="h1 centerText"/>
             <Button class="btnRooms btn-outline margin-btn" text="Main Loby" tap="toRoomPoster"></Button>
             <Button class="btnRooms btn-outline margin-btn" text="Room 104" tap="toRoom104"></Button>
             <Button class="btnRooms btn-outline margin-btn" text="Room 105" tap="toRoom105"></Button>
             <Button class="btnRooms btn-outline margin-btn" text="Room 110" tap="toRoom110"></Button>
-
-          </StackLayout>
-      </ScrollView>
-    </StackLayout>
+            <Label text="" class="margin"/>
+        </StackLayout>
+    </ScrollView>
 </Page>

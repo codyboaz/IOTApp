@@ -6,15 +6,10 @@ exports.pageLoaded = function(args) {
     page.bindingContext = {};
 }
 
-
 exports.eventMap = function() {
     frameModule.topmost().navigate("views/map/map");
 }
 
 exports.schedule = function() {
     frameModule.topmost().navigate("views/schedule/schedule");
-}
-
-exports.socialZone = function() {
-    frameModule.topmost().navigate("views/social/social");
 }

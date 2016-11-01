@@ -6,7 +6,6 @@ exports.pageLoaded = function(args) {
     page.bindingContext = {};
 }
 
-
 exports.eventMap = function() {
     frameModule.topmost().navigate("views/map/map");
 }

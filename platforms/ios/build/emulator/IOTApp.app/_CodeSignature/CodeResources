@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		R1/k/O5DRWdRBcUvDef7N0q/dvA=
+		hJEb18nFYLcjiYHIAt0a8SMp0PQ=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -801,7 +801,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		B0boedqo0F7pCQrnzvyg8T4PtFs=
+		01zONBzrI8oKGx+xNIBwVv7v+bA=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -869,7 +869,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		0MSSOZoe/SJc7lzoDkp7tT7cPDc=
+		QnLa3Cg3loIfWeRDeGnlzWhNCTM=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -877,7 +877,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		cJZpYgZ/0vUJOkMliWxejdtHHKg=
+		D+/0rhKmEbpl7wVp4tYnbddzWbE=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1183,18 +1183,6 @@
 		<data>
 		cqrCPaHXtsiUrA6HpqPmJaaZXvc=
 		</data>
-		<key>app/tns_modules/nativescript-estimote-sdk/README.md</key>
-		<data>
-		zs4W505AJXW0urXH0E7CTFBxiaQ=
-		</data>
-		<key>app/tns_modules/nativescript-estimote-sdk/estimote.js</key>
-		<data>
-		MTq+uQhgQAYIXuVZreJ2OVYSjog=
-		</data>
-		<key>app/tns_modules/nativescript-estimote-sdk/package.json</key>
-		<data>
-		0jsctbEUR7JrE4zed8BClQQhDOU=
-		</data>
 		<key>app/tns_modules/nativescript-globalevents/LICENSE</key>
 		<data>
 		7rkd0q4rYK3SlRUt7yGK7k1g+ZU=
@@ -1334,22 +1322,6 @@
 		<key>app/tns_modules/nativescript-platform/package.json</key>
 		<data>
 		jK0EoYAVEKxMddpV0jvbwh5BREA=
-		</data>
-		<key>app/tns_modules/nativescript-screen-orientation/LICENSE</key>
-		<data>
-		xTPfsxnLxdx2H6wdq1GJ9NdtW8o=
-		</data>
-		<key>app/tns_modules/nativescript-screen-orientation/README.md</key>
-		<data>
-		jLlIOEy/FDRwPkIku9vaMbKQunw=
-		</data>
-		<key>app/tns_modules/nativescript-screen-orientation/package.json</key>
-		<data>
-		GwAcEhm5eb+vMlYzFH6nrGSBtSg=
-		</data>
-		<key>app/tns_modules/nativescript-screen-orientation/screen-orientation.js</key>
-		<data>
-		vSy9r+26984waizvBlw9EDXiLZg=
 		</data>
 		<key>app/tns_modules/nativescript-theme-core/_bootstrap-map.scss</key>
 		<data>
@@ -2281,7 +2253,7 @@
 		</data>
 		<key>app/views/credentials/credentials.xml</key>
 		<data>
-		zPRPMAIDHRLg3635pKGX6n3btF4=
+		kDWUyupQQITAQhisbCuPM40LYLo=
 		</data>
 		<key>app/views/home/home.css</key>
 		<data>
@@ -2293,7 +2265,7 @@
 		</data>
 		<key>app/views/home/home.xml</key>
 		<data>
-		cKVIE5ed7VJCa4zkn0NJX+YF318=
+		f3946tCG+6vE09ShJoO2Slettnw=
 		</data>
 		<key>app/views/images/3rdLaw.png</key>
 		<data>
@@ -2353,11 +2325,11 @@
 		</data>
 		<key>app/views/room/room.js</key>
 		<data>
-		W+795oH0ckCRRCQ3Hfn6yNVJaUU=
+		kvOZObCA+YzrYSNxInlD4kGFaqo=
 		</data>
 		<key>app/views/room/room.xml</key>
 		<data>
-		DqgiKX8ptoJ6f8DUEPagscIPiiM=
+		1N0cDqLrXeZe6xtEUER389TdNEA=
 		</data>
 		<key>app/views/schedule/schedule.css</key>
 		<data>
@@ -2369,7 +2341,7 @@
 		</data>
 		<key>app/views/schedule/schedule.xml</key>
 		<data>
-		neRTna6F49R7RS4sAzie38YhTHw=
+		CopdZ256GWYE0NXECujIlAydaqs=
 		</data>
 		<key>app/views/team/team.css</key>
 		<data>
@@ -2612,11 +2584,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R1/k/O5DRWdRBcUvDef7N0q/dvA=
+			hJEb18nFYLcjiYHIAt0a8SMp0PQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			55oAvWGeVa8DLP1KmDvr5zi2CG8AUZrcWekqyp3TUo8=
+			BRA+fwG5G+ozH+58wUGAR/Oy5vbi1uMfXl4Ky+9oMcA=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -4260,11 +4232,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0MSSOZoe/SJc7lzoDkp7tT7cPDc=
+			QnLa3Cg3loIfWeRDeGnlzWhNCTM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BzjDbnmS3NtlURGrPiZu7DkTTxxgpfQlzdnMZVLVDXE=
+			g298XpyiPW7922hYlDypuvnGxb40Pm1oGQUay/PqxvM=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -4282,11 +4254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cJZpYgZ/0vUJOkMliWxejdtHHKg=
+			D+/0rhKmEbpl7wVp4tYnbddzWbE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6p3MeJeIOkwf1G2+e6/6hRd/8k+W6JchIr3WWV7YUlA=
+			+EygafPRKoTmZkRGGVhxpc7evzNpJXopu3ABN2dXV28=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -5114,39 +5086,6 @@
 			fbgmwRafRglDxVmQ2T8/puD0vAKQAKoWTrJgePnmBBY=
 			</data>
 		</dict>
-		<key>app/tns_modules/nativescript-estimote-sdk/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zs4W505AJXW0urXH0E7CTFBxiaQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			8enU+L+WNj3bbqsAXzvDYe13VtjXUpStOACUqUsrkpI=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-estimote-sdk/estimote.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MTq+uQhgQAYIXuVZreJ2OVYSjog=
-			</data>
-			<key>hash2</key>
-			<data>
-			p9nBdXAV9peHLa+s9gVoTwCr/CFAwfB+zS6/4hqneEQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-estimote-sdk/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0jsctbEUR7JrE4zed8BClQQhDOU=
-			</data>
-			<key>hash2</key>
-			<data>
-			/DpEn0Q1ZuSaL1AUZliMkVSroQji6PHehGToIrQOXA8=
-			</data>
-		</dict>
 		<key>app/tns_modules/nativescript-globalevents/LICENSE</key>
 		<dict>
 			<key>hash</key>
@@ -5530,50 +5469,6 @@
 			<key>hash2</key>
 			<data>
 			YmQn0amN6X6cYgqYDn8LF09fZeE0IP5TXp4pILEkqiA=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-screen-orientation/LICENSE</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xTPfsxnLxdx2H6wdq1GJ9NdtW8o=
-			</data>
-			<key>hash2</key>
-			<data>
-			m5GDxonKlYzuWUM1aauNwAjDz0kW3xm3Y9Us70Zt1CU=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-screen-orientation/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jLlIOEy/FDRwPkIku9vaMbKQunw=
-			</data>
-			<key>hash2</key>
-			<data>
-			cqEvq62CGokxOdaAXPIN4t0ErrDOfs961OsjZCMHDbI=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-screen-orientation/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GwAcEhm5eb+vMlYzFH6nrGSBtSg=
-			</data>
-			<key>hash2</key>
-			<data>
-			KW0jolSgdWHASKbM/8qJt6s7YhF2yKTreJZWUKKA+fA=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-screen-orientation/screen-orientation.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vSy9r+26984waizvBlw9EDXiLZg=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZVGH6EjlhPgH9qRLSbxGyrR4TSpn6m2ZjpIOh0SOZyY=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-theme-core/_bootstrap-map.scss</key>
@@ -8132,11 +8027,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zPRPMAIDHRLg3635pKGX6n3btF4=
+			kDWUyupQQITAQhisbCuPM40LYLo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Oz7f/vMJBtHrdZLF6Srxgejg0RMXb8PQfVrRDOqJpzk=
+			h+e9QmbHvViT9WHO1VAIPoik5r5BNhZdz/8Ov/W6IkI=
 			</data>
 		</dict>
 		<key>app/views/home/home.css</key>
@@ -8165,11 +8060,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cKVIE5ed7VJCa4zkn0NJX+YF318=
+			f3946tCG+6vE09ShJoO2Slettnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ghj4EqMUVyh2rMVBnSO/uWbTjdHapuZTx8Nb8NJw3NE=
+			PwBVdMztNfG9CcSKSlLs47Z5QYvJFIB9+p7lrMTv48E=
 			</data>
 		</dict>
 		<key>app/views/images/3rdLaw.png</key>
@@ -8330,22 +8225,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W+795oH0ckCRRCQ3Hfn6yNVJaUU=
+			kvOZObCA+YzrYSNxInlD4kGFaqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qVWqvLLotc/GhFvU0dN5Yynx9+oRubur3PzMooY6K0k=
+			wMGMrbJlqdxnp4tMltFPmtZGTi0uDgroPU98/XyyQwQ=
 			</data>
 		</dict>
 		<key>app/views/room/room.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DqgiKX8ptoJ6f8DUEPagscIPiiM=
+			1N0cDqLrXeZe6xtEUER389TdNEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			KjBi7Ja3juIIeDacY4aNnDcnEXHagFQPMJPAIKUC8y0=
+			QJI6Zn9cOtzrvMLYZpMvhkbZEBgApv1iThPNV4PiP/w=
 			</data>
 		</dict>
 		<key>app/views/schedule/schedule.css</key>
@@ -8374,11 +8269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			neRTna6F49R7RS4sAzie38YhTHw=
+			CopdZ256GWYE0NXECujIlAydaqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			awiiohzqhuFLaDHRu9QkWA8zvY6d61hqqNCS8YJh9og=
+			7jozQoLFGm/ewUcu4fy/2vI/rWylj3B0SQieXVB9UPg=
 			</data>
 		</dict>
 		<key>app/views/team/team.css</key>

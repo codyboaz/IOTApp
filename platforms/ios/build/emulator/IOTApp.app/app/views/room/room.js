@@ -9,28 +9,34 @@ exports.pageLoaded = function(args) {
     var getData = page.navigationContext;
     console.log(getData.roomName);
     console.log(getData.imgName);
-    viewModel.set("Room", getData.roomName);
-    viewModel.set("imgName", getData.imgName);
     if (getData.id == "104") {
         viewModel.set("104", "visible");
         viewModel.set("105", "hidden");
         viewModel.set("110", "hidden");
         viewModel.set("lobby", "hidden");
+        viewModel.set("Room", getData.roomName);
+        viewModel.set("imgName", getData.imgName);
     } else if (getData.id == "105") {
         viewModel.set("104", "hidden");
         viewModel.set("105", "visible");
         viewModel.set("110", "hidden");
         viewModel.set("lobby", "hidden");
+        viewModel.set("Room", getData.roomName);
+        viewModel.set("imgName", getData.imgName);
     } else if (getData.id == "110") {
         viewModel.set("104", "hidden");
         viewModel.set("105", "hidden");
         viewModel.set("110", "visible");
         viewModel.set("lobby", "hidden");
+        viewModel.set("Room", getData.roomName);
+        viewModel.set("imgName", getData.imgName);
     } else if (getData.id == "lobby") {
         viewModel.set("104", "hidden");
         viewModel.set("105", "hidden");
         viewModel.set("110", "hidden");
         viewModel.set("lobby", "visible");
+        viewModel.set("Room", getData.roomName);
+        viewModel.set("imgName", getData.imgName);
     }
     page.bindingContext = viewModel;
 

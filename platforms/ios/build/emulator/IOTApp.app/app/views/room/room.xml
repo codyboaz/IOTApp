@@ -8,10 +8,10 @@
     </ActionBar>
 
     <StackLayout>
-        <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
-        <Image src="{{imgName}}" class="bitLoby"/>
         <ScrollView class="{{104}}">
             <StackLayout>
+                <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
+                <Image src="{{imgName}}" class="bitLoby"/>
                 <Label text="Presentation Schedule" class="h2 centerText-smBtmPad"/>
                 <Label text="10:00AM - 10:30AM" class="centerText-smBtmPad" textWrap="true"/>
                 <button text="Linkality" tap="toLinkality" class="btnRooms btn-outline" textWrap="true"/>
@@ -37,6 +37,8 @@
         </ScrollView>
         <ScrollView class="{{105}}">
             <StackLayout>
+                <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
+                <Image src="{{imgName}}" class="bitLoby"/>
                 <Label text="Poster Session" class="h2 centerText-smBtmPad" textWrap="true"/>
                 <Label text="3:00PM - 5:00PM" class="centerText-smBtmPad" textWrap="true"/>
                 <button text="Linkality" tap="toLinkality" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
@@ -50,6 +52,8 @@
 
         <ScrollView class="{{110}}">
             <StackLayout>
+                <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
+                <Image src="{{imgName}}" class="bitLoby"/>
                 <Label text="Poster Session" class="h2 centerText-smBtmPad" textWrap="true"/>
                 <Label text="3:00PM - 5:00PM" class="centerText-smBtmPad" textWrap="true"/>
                 <button text="Data Analytics and Visualization with Tableau" tap="toTableau" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
@@ -62,11 +66,14 @@
 
         <ScrollView class="{{lobby}}">
             <StackLayout>
+                <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
+                <Image src="{{imgName}}" class="bitLoby"/>
                 <Label text="" class="margin"/>
                 <Label
                     text="If you need to take a phone call or a break from the action the main lobby is the best place to do so. We will be serving food and beverages throughout the day. We hope you have enjoyed your time at the 2016 Fall Computer Science Capstone Festival."
                     class="h2 margin-left-right"
                     textWrap="true"/>
+                <Label text="" class="margin"/>
             </StackLayout>
         </ScrollView>
     </StackLayout>

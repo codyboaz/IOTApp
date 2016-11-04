@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-base-9.8.0_d1a295f10f77e86602a89f14bfa7046b9f7486e2.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-media-compat-24.2.1_51699129b0055bd546763b76e268a589c6881b58.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-24.2.1_252137e2fd9a98641d6e953cc59543926746da44.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-ui-24.2.1_80b43c958e8fe92d54a3ea92186d8aec59af524e.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-maps-9.8.0_204f8f16a7365411cfb44c4a127f951bc75c7856.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-utils-24.2.1_f6a070820739d9e3a7c12e482d797c73e2a8b216.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-fragment-24.2.1_9ae26a8dd6f0f278774618df90f4037b3022ad4a.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-24.2.1_82b69d37e1ea101c14216da53f7952f9121a0150.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_67bbf243a68ac2e624c46d76ffceb9ed8c099eff.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/IOTApp/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="4290aba11bda501dbadc2dd5c4b08282c0bbfeb8">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/binding-generator_fdcebd3c90bfea38b9e1e12d2519697bd90200e0.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-basement-9.8.0_0947cd4a1d9ecd615a3231141e4955cc07e0c22c.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-compat-24.2.1_03e0cf1d05ab8d79ddd831fd4b2c908a981eab21.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_0318c8fbbce1ed9976af5dddca13b7bb8a581a89.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_2bd66bf17816ee4b5fa33e3f279540bedb6be4c8.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="2883719b9f5606d613871b7eb3f442952d2013cc">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_fd6404da0a2b6fc913b2d2508b6fe29920937106.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-tasks-9.8.0_740d77a8e316065bae00358d4d99152df2164cca.jar" />
+    </item>
+    <item
+        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-24.2.1_58bfa4702b67d037eb624d7d70ef1931915cb2a8.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/IOTApp/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9909ad5fcc13fcc60529cfa340ee7e0abc79af38">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/IOTApp-runtime-unspecified_ebbb523506f2a2005f982cb9244b56547144d57b.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-24.2.1_d43e246501415800d3bc6f9aea2b78382412ea79.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_e7153a20e7bbc525a323174fa83adfc6c677b69e.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-24.2.1_46a5aed5f4217152f07876378712427a6b1421c2.jar" />
+    </item>
+    <item
+        jar="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_019a6a456a838423b0a8fff0a736d700ae790041.jar" />
+    </item>
+
+</items>

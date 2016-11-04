@@ -8,19 +8,73 @@
     </ActionBar>
 
     <StackLayout>
-        <Label text="{{Room}}" class="h1 centerText"/>
-        <Image src="{{imgName}}" class="bitLoby"/>
-        <Label text="Schedule" class="h2 centerText"/>
-        <ScrollView>
-          <StackLayout>
-            <Label text="12:00PM - 12:30PM" class="centerText margin-top"/>
-            <button text="Linkality" tap="toLinkality" class="btnRooms btn-outline"/>
-            <Label text="12:30PM - 1:00PM" class="centerText margin-top"/>
-            <button text="TraceRoute Visualization" tap="toTeam" class="btnRooms btn-outline"/>
-            <Label text="1:00PM - 1:30PM" class="centerText margin-top"/>
-            <button text="STOQS MBARI" tap="toTeam" class="btnRooms btn-outline"/>
+        <ScrollView class="{{104}}">
+            <StackLayout>
+                <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
+                <Image src="{{imgName}}" class="bitLoby"/>
+                <Label text="Presentation Schedule" class="h2 centerText-smBtmPad"/>
+                <Label text="10:00AM - 10:30AM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="Linkality" tap="toLinkality" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="10:30AM - 11:00AM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="2D Game Engine Framework: Render Programming" tap="toRender" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="11:00AM - 11:30AM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="STOQS MBARI" tap="toMBARI" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="11:30AM - 12:00PM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="CIG's Android Mobile App Reboot" tap="toCIGMobile" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="12:00PM - 12:30PM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="Game Engine Framework: Animations and Controls" tap="toAnimAndCont" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="12:30PM - 1:00PM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="Data Analytics and Visualization with Tableau" tap="toTableau" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="1:00PM - 1:30PM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="Store Inventory Scanning App" tap="toStoreApp" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="1:30PM - 2:00PM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="Audio Transcription Web App" tap="toAudioApp" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="2:00PM - 2:30PM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="The Third Law" tap="toThirdLaw" class="btnRooms btn-outline" textWrap="true"/>
+                <Label text="" class="margin"/>
+            </StackLayout>
+
+        </ScrollView>
+        <ScrollView class="{{105}}">
+            <StackLayout>
+                <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
+                <Image src="{{imgName}}" class="bitLoby"/>
+                <Label text="Poster Session" class="h2 centerText-smBtmPad" textWrap="true"/>
+                <Label text="3:00PM - 5:00PM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="Linkality" tap="toLinkality" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <button text="2D Game Engine Framework: Render Programming" tap="toRender" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <button text="STOQS MBARI" tap="toMBARI" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <button text="CIG's Android Mobile App Reboot" tap="toCIGMobile" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <button text="Game Engine Framework: Animations and Controls" tap="toAnimAndCont" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <Label text="" class="margin"/>
             </StackLayout>
         </ScrollView>
 
+        <ScrollView class="{{110}}">
+            <StackLayout>
+                <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
+                <Image src="{{imgName}}" class="bitLoby"/>
+                <Label text="Poster Session" class="h2 centerText-smBtmPad" textWrap="true"/>
+                <Label text="3:00PM - 5:00PM" class="centerText-smBtmPad" textWrap="true"/>
+                <button text="Data Analytics and Visualization with Tableau" tap="toTableau" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <button text="Store Inventory Scanning App" tap="toStoreApp" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <button text="Audio Transcription Web App" tap="toAudioApp" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <button text="The Third Law" tap="toThirdLaw" class="btnRooms btn-outline button-top-btm" textWrap="true"/>
+                <Label text="" class="margin"/>
+            </StackLayout>
+        </ScrollView>
+
+        <ScrollView class="{{lobby}}">
+            <StackLayout>
+                <Label text="{{Room}}" class="h1 centerText-noPad" textWrap="true"/>
+                <Image src="{{imgName}}" class="bitLoby"/>
+                <Label text="" class="margin"/>
+                <Label
+                    text="If you need to take a phone call or a break from the action the main lobby is the best place to do so. We will be serving food and beverages throughout the day. We hope you have enjoyed your time at the 2016 Fall Computer Science Capstone Festival."
+                    class="h2 margin-left-right"
+                    textWrap="true"/>
+                <Label text="" class="margin"/>
+            </StackLayout>
+        </ScrollView>
     </StackLayout>
 </Page>

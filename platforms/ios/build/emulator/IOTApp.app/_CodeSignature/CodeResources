@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		hJEb18nFYLcjiYHIAt0a8SMp0PQ=
+		CB/exIw4Y5BeRCtxKuAjjJz9xg0=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -869,7 +869,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		QnLa3Cg3loIfWeRDeGnlzWhNCTM=
+		mvCMp6Slnv5L00/Scx1Qebw6HwU=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -877,7 +877,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		D+/0rhKmEbpl7wVp4tYnbddzWbE=
+		63wBaEaSomD9IYJUf22jHxrSUF0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -2269,43 +2269,43 @@
 		</data>
 		<key>app/views/images/3rdLaw.png</key>
 		<data>
-		xvZ9LMctKOTErScOCwYfQ7fsIY0=
+		B93KWy/GKnz4YiE9NmCwJ7NvNa8=
 		</data>
 		<key>app/views/images/CIG.png</key>
 		<data>
-		+f8epF+L9GaiQF/ugrO3M+6/SII=
+		XMD0rfJXqYnfVaKfghQbm/HLCbg=
 		</data>
 		<key>app/views/images/bitBuilding.png</key>
 		<data>
-		jdIUw8Z4G7gGxmEAOf5/CBU67Ew=
+		q+aDhGaD+ho0+I8tW+TWScU71wM=
 		</data>
 		<key>app/views/images/bitLoby.png</key>
 		<data>
-		TEMe+VxgKc6dDUxdzxa4G/olpfk=
+		eYY9ohp54eZIBKUOe0lcOaAwpfs=
 		</data>
 		<key>app/views/images/csumb.png</key>
 		<data>
-		EdZvpTzi+lMeayDfL5O1gYGUaVw=
+		qwGZGfVeogtJ3EAdSgmedp+mkbA=
 		</data>
 		<key>app/views/images/linkality.png</key>
 		<data>
-		9gYK7ZSU7QQ12tf0ZEfWKWezHlQ=
+		gFPE3QVx9ndir8JIwNoYFOX29kU=
 		</data>
 		<key>app/views/images/mbari.png</key>
 		<data>
-		mSXDlZaxtdWx2haABV4uhMXuENk=
+		vBR6LaUH7lJcJ/EnlXNZaxu1IAY=
 		</data>
 		<key>app/views/images/room104.png</key>
 		<data>
-		9UXTTDVWBCwd8sBKau2CELKgzW0=
+		iPcWCB0UlxuY66wwRMIUbkhFDuM=
 		</data>
 		<key>app/views/images/room110.png</key>
 		<data>
-		ueYLzxrjkI3/rUlXcV3/HrJfi+U=
+		xNYRolWJdf/YfePEKuZfuaS72SE=
 		</data>
 		<key>app/views/images/sscs.png</key>
 		<data>
-		L8y7YfxE94IvyvR704g36CGOxOU=
+		gctcBfsUx64l3l9HPzAMz2wL6qQ=
 		</data>
 		<key>app/views/map/map.css</key>
 		<data>
@@ -2584,11 +2584,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hJEb18nFYLcjiYHIAt0a8SMp0PQ=
+			CB/exIw4Y5BeRCtxKuAjjJz9xg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BRA+fwG5G+ozH+58wUGAR/Oy5vbi1uMfXl4Ky+9oMcA=
+			saUkvbYPVHmGCwrHw8AC9FHsKJdRT/DxdHSpStUL/w4=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -4232,11 +4232,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QnLa3Cg3loIfWeRDeGnlzWhNCTM=
+			mvCMp6Slnv5L00/Scx1Qebw6HwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			g298XpyiPW7922hYlDypuvnGxb40Pm1oGQUay/PqxvM=
+			WUZLle8gzP1N9uQTmTu+U76dgX0ThV87n0GPfcdHQk8=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -4254,11 +4254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D+/0rhKmEbpl7wVp4tYnbddzWbE=
+			63wBaEaSomD9IYJUf22jHxrSUF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+EygafPRKoTmZkRGGVhxpc7evzNpJXopu3ABN2dXV28=
+			6SmOF6LEL8tTKOffdSgOCcZS49pxalhcLhqd8SVTIzQ=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -8071,110 +8071,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xvZ9LMctKOTErScOCwYfQ7fsIY0=
+			B93KWy/GKnz4YiE9NmCwJ7NvNa8=
 			</data>
 			<key>hash2</key>
 			<data>
-			zjFJFbOBDTWzQ2RUSbiopROHqnl+F9zU/4HcKollO+c=
+			7ftUH6zU3Ga/7yXUYAPz6Tjx/6QX/q+CZ8mZPdfbnyM=
 			</data>
 		</dict>
 		<key>app/views/images/CIG.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+f8epF+L9GaiQF/ugrO3M+6/SII=
+			XMD0rfJXqYnfVaKfghQbm/HLCbg=
 			</data>
 			<key>hash2</key>
 			<data>
-			0A+1lm/LNyD15wPP4BtqbO3DKymAVF3QVxq36g8pD8Y=
+			jnuDKAvQHB6KgbYL91n36l7Rm5oeDYTQvCoQTg3XsHM=
 			</data>
 		</dict>
 		<key>app/views/images/bitBuilding.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jdIUw8Z4G7gGxmEAOf5/CBU67Ew=
+			q+aDhGaD+ho0+I8tW+TWScU71wM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FkzHgALOypDhJ0fmjrXg5gcbuv3dRPdccKiQmdyN2ow=
+			oQ6WeIGT7p+knp3C19eTWUFLGQ3zacRiPlkakHvYfHM=
 			</data>
 		</dict>
 		<key>app/views/images/bitLoby.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TEMe+VxgKc6dDUxdzxa4G/olpfk=
+			eYY9ohp54eZIBKUOe0lcOaAwpfs=
 			</data>
 			<key>hash2</key>
 			<data>
-			arTbPeSVoiIagS5ngq0RnknOUNzOkTTHPsf6MvNY2ds=
+			wFQ74oXONiyNUJcPzaLjY88SeP7dflylAJltRwBzQ1Q=
 			</data>
 		</dict>
 		<key>app/views/images/csumb.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EdZvpTzi+lMeayDfL5O1gYGUaVw=
+			qwGZGfVeogtJ3EAdSgmedp+mkbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6OUTFbpDt+so539aX+pMB+F5tlL6QvNlLPmoyUY8y5w=
+			lKFdH+RfRzBjoHYNoC3V3iWIv+XCi5XZbZFVLMhnJoM=
 			</data>
 		</dict>
 		<key>app/views/images/linkality.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9gYK7ZSU7QQ12tf0ZEfWKWezHlQ=
+			gFPE3QVx9ndir8JIwNoYFOX29kU=
 			</data>
 			<key>hash2</key>
 			<data>
-			9soXyufPQPqZFv5c/TAyXbHNyT/cLX2QZyT+4ytXPRs=
+			kfObTG5iNlEvgvivCCjdPfeNO8wNOUtmK6Ky3euA9cM=
 			</data>
 		</dict>
 		<key>app/views/images/mbari.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mSXDlZaxtdWx2haABV4uhMXuENk=
+			vBR6LaUH7lJcJ/EnlXNZaxu1IAY=
 			</data>
 			<key>hash2</key>
 			<data>
-			GVE3ydHt8dOk2LIqYJHMvi7O7SMzWJtDuK5phv6/TkY=
+			sfFpLkN9nEdDHsrhggI8/DBOcbaRR3FPZ3zcsuOwFzA=
 			</data>
 		</dict>
 		<key>app/views/images/room104.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9UXTTDVWBCwd8sBKau2CELKgzW0=
+			iPcWCB0UlxuY66wwRMIUbkhFDuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Fo2GYp3wlSCk0dBbBVbrjURoo1STrXhDNrSwksGHMo=
+			2VV+bEys4kPNnkT56THLhZXGiH8XM8PVMwF5O/DuFyk=
 			</data>
 		</dict>
 		<key>app/views/images/room110.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ueYLzxrjkI3/rUlXcV3/HrJfi+U=
+			xNYRolWJdf/YfePEKuZfuaS72SE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PRs3+R601Is2vAxz1ZUKNadvScPI7IT7xdbh6DN0m6E=
+			Z0ZKCsMjGe9ytjfrVZIHPjUd+6/ArM5ij+yXbq/U6CQ=
 			</data>
 		</dict>
 		<key>app/views/images/sscs.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			L8y7YfxE94IvyvR704g36CGOxOU=
+			gctcBfsUx64l3l9HPzAMz2wL6qQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			llOo217GaBpty0lhllfOykiw0VDV/zDp9YZ1CgnW7Kw=
+			UyNSrgl5RbQNZRqzX3NzunRUvjCi8fVUgQh37XN4tV4=
 			</data>
 		</dict>
 		<key>app/views/map/map.css</key>

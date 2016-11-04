@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		zcVEOUu7m9yGclC3aVYsIKsxUNU=
+		GrHuY1bI+If5kk41M8w6fFNHhxU=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		662bH8pwz9CQ3jH4qZRPNuDeHt4=
+		osqt4AI2RwRxUa4H3YnDLVDi4NY=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
 		<data>
-		yo7aMXQ9MlGqPNdrQJ0dzfX5YqQ=
+		Ri7EnhfAkieu3ewvii4QIXNmzKY=
 		</data>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Frameworks/TNSWidgets.framework/TNSWidgets</key>
 		<data>
-		0EslV/GgoBk9uT6CQmTwSaeGy4E=
+		4hLiH3uSZcJSmuqSZK/xMeN7pTc=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -801,7 +801,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ThbZuiNYx6QunPTCEOKcX2jw6sg=
+		cV9vNW38KeMcKbjEzg4/wRYwPRE=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -869,7 +869,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		Z6X3ORLpesq8YDn0GrSDI3PhE0c=
+		gY8DQs9TQxo/snTKpJvETP7KPJk=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -877,7 +877,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		WyEhzmXyBK5f2WBXekFcdThKNuA=
+		8v+lHsZvcBYboHI83c/qwiKRhvQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -885,7 +885,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		QiOR3y/yV3RSkI4dqoOFihtnLPU=
+		LzdP1/OIhE0pyC9a3JFlDjvclUA=
 		</data>
 		<key>app/app.js</key>
 		<data>
@@ -1182,18 +1182,6 @@
 		<key>app/tns_modules/location/package.json</key>
 		<data>
 		cqrCPaHXtsiUrA6HpqPmJaaZXvc=
-		</data>
-		<key>app/tns_modules/nativescript-estimote-sdk/README.md</key>
-		<data>
-		zs4W505AJXW0urXH0E7CTFBxiaQ=
-		</data>
-		<key>app/tns_modules/nativescript-estimote-sdk/estimote.js</key>
-		<data>
-		MTq+uQhgQAYIXuVZreJ2OVYSjog=
-		</data>
-		<key>app/tns_modules/nativescript-estimote-sdk/package.json</key>
-		<data>
-		0jsctbEUR7JrE4zed8BClQQhDOU=
 		</data>
 		<key>app/tns_modules/nativescript-globalevents/LICENSE</key>
 		<data>
@@ -2257,15 +2245,15 @@
 		</data>
 		<key>app/views/credentials/credentials.css</key>
 		<data>
-		ExG/y5W20miq8D6vKaEbfxMAm6U=
+		rcg7GeeTSRscbqD9i0bNnzLlkvw=
 		</data>
 		<key>app/views/credentials/credentials.js</key>
 		<data>
-		oJjQL5Jnse+J+CvWL5bhwbtZG4E=
+		F5V1SQWiVfCcHxfaomvwAqYkWvU=
 		</data>
 		<key>app/views/credentials/credentials.xml</key>
 		<data>
-		qYZQoRA9UaU2LyisIqQqW3jFc8A=
+		kDWUyupQQITAQhisbCuPM40LYLo=
 		</data>
 		<key>app/views/home/home.css</key>
 		<data>
@@ -2273,11 +2261,19 @@
 		</data>
 		<key>app/views/home/home.js</key>
 		<data>
-		12EvRvMCxZdy5CMy/Egd8pCV9QQ=
+		41Jq1DVhsHGEPytHC0ZXGximAZM=
 		</data>
 		<key>app/views/home/home.xml</key>
 		<data>
-		3611dPquRDLNrR5uMMAYtOiFVT8=
+		f3946tCG+6vE09ShJoO2Slettnw=
+		</data>
+		<key>app/views/images/3rdLaw.png</key>
+		<data>
+		xvZ9LMctKOTErScOCwYfQ7fsIY0=
+		</data>
+		<key>app/views/images/CIG.png</key>
+		<data>
+		+f8epF+L9GaiQF/ugrO3M+6/SII=
 		</data>
 		<key>app/views/images/bitBuilding.png</key>
 		<data>
@@ -2291,17 +2287,25 @@
 		<data>
 		EdZvpTzi+lMeayDfL5O1gYGUaVw=
 		</data>
-		<key>app/views/images/logo.png</key>
+		<key>app/views/images/linkality.png</key>
 		<data>
 		9gYK7ZSU7QQ12tf0ZEfWKWezHlQ=
 		</data>
+		<key>app/views/images/mbari.png</key>
+		<data>
+		mSXDlZaxtdWx2haABV4uhMXuENk=
+		</data>
 		<key>app/views/images/room104.png</key>
 		<data>
-		QyCzvXD7pf3j1xPSYQNsvmwMKuI=
+		9UXTTDVWBCwd8sBKau2CELKgzW0=
 		</data>
 		<key>app/views/images/room110.png</key>
 		<data>
-		Zf9yRlq1ED2g2twFOQt+kff3DVI=
+		ueYLzxrjkI3/rUlXcV3/HrJfi+U=
+		</data>
+		<key>app/views/images/sscs.png</key>
+		<data>
+		L8y7YfxE94IvyvR704g36CGOxOU=
 		</data>
 		<key>app/views/map/map.css</key>
 		<data>
@@ -2309,11 +2313,11 @@
 		</data>
 		<key>app/views/map/map.js</key>
 		<data>
-		qz51urRaR5NYaperR+X9B91x84I=
+		rVH4c6tKsitP4iAniHd1fi4DMWs=
 		</data>
 		<key>app/views/map/map.xml</key>
 		<data>
-		HiK6X+D3hBXmvHhpcKI49cLK5yo=
+		1bBTLFuby1S2YlTm/wUu8MlbzdY=
 		</data>
 		<key>app/views/room/room.css</key>
 		<data>
@@ -2321,11 +2325,11 @@
 		</data>
 		<key>app/views/room/room.js</key>
 		<data>
-		NIburvXVp5vkpqzioQUAmhHfIHg=
+		kvOZObCA+YzrYSNxInlD4kGFaqo=
 		</data>
 		<key>app/views/room/room.xml</key>
 		<data>
-		R1zZaFyC5TR0cOI8WvThApwquN8=
+		1N0cDqLrXeZe6xtEUER389TdNEA=
 		</data>
 		<key>app/views/schedule/schedule.css</key>
 		<data>
@@ -2333,23 +2337,11 @@
 		</data>
 		<key>app/views/schedule/schedule.js</key>
 		<data>
-		pQfRvltJKaKR4qtW5MgP2RuU0Bk=
+		XpIqTPrUb/rbya07/Jh3PxpTDn0=
 		</data>
 		<key>app/views/schedule/schedule.xml</key>
 		<data>
-		WZcaeY4kZd9CQARADqCGUDDqyUQ=
-		</data>
-		<key>app/views/social/social.css</key>
-		<data>
-		rcg7GeeTSRscbqD9i0bNnzLlkvw=
-		</data>
-		<key>app/views/social/social.js</key>
-		<data>
-		MslkjbS/6YSZ9AIn8QKNzG6zZEU=
-		</data>
-		<key>app/views/social/social.xml</key>
-		<data>
-		+tHafM7Fr0HyGrCt0tRrjpXlbNU=
+		CopdZ256GWYE0NXECujIlAydaqs=
 		</data>
 		<key>app/views/team/team.css</key>
 		<data>
@@ -2357,11 +2349,11 @@
 		</data>
 		<key>app/views/team/team.js</key>
 		<data>
-		Smw62kFmcwIdUTAxMfkz0dZvMdA=
+		h+TQ/1Gpj+N38rYzWQb8QKx+TYY=
 		</data>
 		<key>app/views/team/team.xml</key>
 		<data>
-		0l3oIEhSJ+fSfWHhSVG+Jp7JEqg=
+		9Vc488duF5kxeRoJNJJpTiTsyBw=
 		</data>
 		<key>build.xcconfig</key>
 		<data>
@@ -2596,11 +2588,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zcVEOUu7m9yGclC3aVYsIKsxUNU=
+			GrHuY1bI+If5kk41M8w6fFNHhxU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hn3eEiq/HAm+Ettj8eLpP2nX7wYVPgNTqvz96brbjxY=
+			nTnsHC8/IsaqmyCQOdhAnM5zf3Ljdig7ocKpUersFZ8=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -2618,11 +2610,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			662bH8pwz9CQ3jH4qZRPNuDeHt4=
+			osqt4AI2RwRxUa4H3YnDLVDi4NY=
 			</data>
 			<key>hash2</key>
 			<data>
-			5rnhbiIUBzp85glVsc5SnZ2Y3rIwFESES7ZExgeu878=
+			bOIalGHBtnZ392obbPEITnZa19xZvclS03R78clTrOI=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -2651,11 +2643,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yo7aMXQ9MlGqPNdrQJ0dzfX5YqQ=
+			Ri7EnhfAkieu3ewvii4QIXNmzKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			yaNbm5wXs+qDHrOybytCEoGlmlZEO9J7LQhQOV7uVi4=
+			sWRHNHewGPzesWJ6OCJCiK7TDiZcBhm824i7P+BST94=
 			</data>
 		</dict>
 		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
@@ -2684,11 +2676,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0EslV/GgoBk9uT6CQmTwSaeGy4E=
+			4hLiH3uSZcJSmuqSZK/xMeN7pTc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Loe+GHca84fQK2lX9bV72+LVpfQ91z0H/gTgrDX01YA=
+			uppW5DLaDufguTSVIZz3qb4P2ztm4gTe4fYHkUm/G2g=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
@@ -4244,11 +4236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z6X3ORLpesq8YDn0GrSDI3PhE0c=
+			gY8DQs9TQxo/snTKpJvETP7KPJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+1sgtcLSbuuIpo2vj6ajsnS2vHsp/i4ZWWC+BY81lT8=
+			u7Nhb//LDwjgv8ig/RwFy3anuaLG/kRARted84XD2+0=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -4266,22 +4258,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WyEhzmXyBK5f2WBXekFcdThKNuA=
+			8v+lHsZvcBYboHI83c/qwiKRhvQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			oxeOmTVsxxfTxdArXokH0L3io8TzpCwUB0BiPn8Ruk0=
+			aOaiEKXX4AKcO0PX4/xZ7SIPcx9t7zODianbrUlElcw=
 			</data>
 		</dict>
 		<key>app/app.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QiOR3y/yV3RSkI4dqoOFihtnLPU=
+			LzdP1/OIhE0pyC9a3JFlDjvclUA=
 			</data>
 			<key>hash2</key>
 			<data>
-			REVlR/Bq4o50DqW8t1mu0YQrAcCPY/E1oJZ0YaS0xqw=
+			0OXpXEXRu79wOUgEgyBqT1kr0jOEOE2bjrOzJ1JSR8M=
 			</data>
 		</dict>
 		<key>app/app.js</key>
@@ -5096,39 +5088,6 @@
 			<key>hash2</key>
 			<data>
 			fbgmwRafRglDxVmQ2T8/puD0vAKQAKoWTrJgePnmBBY=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-estimote-sdk/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zs4W505AJXW0urXH0E7CTFBxiaQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			8enU+L+WNj3bbqsAXzvDYe13VtjXUpStOACUqUsrkpI=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-estimote-sdk/estimote.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MTq+uQhgQAYIXuVZreJ2OVYSjog=
-			</data>
-			<key>hash2</key>
-			<data>
-			p9nBdXAV9peHLa+s9gVoTwCr/CFAwfB+zS6/4hqneEQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-estimote-sdk/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0jsctbEUR7JrE4zed8BClQQhDOU=
-			</data>
-			<key>hash2</key>
-			<data>
-			/DpEn0Q1ZuSaL1AUZliMkVSroQji6PHehGToIrQOXA8=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-globalevents/LICENSE</key>
@@ -8050,33 +8009,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ExG/y5W20miq8D6vKaEbfxMAm6U=
+			rcg7GeeTSRscbqD9i0bNnzLlkvw=
 			</data>
 			<key>hash2</key>
 			<data>
-			VhmWw4PjFN9wejSgshGop/0REPszgLw+VzVMhVwSKWU=
+			AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=
 			</data>
 		</dict>
 		<key>app/views/credentials/credentials.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oJjQL5Jnse+J+CvWL5bhwbtZG4E=
+			F5V1SQWiVfCcHxfaomvwAqYkWvU=
 			</data>
 			<key>hash2</key>
 			<data>
-			dEdWJ95iqlmak5Odpl1eATKrOIBSlN5HGfxKWgabG2Y=
+			JsaNj3kCCT0lI8bZJ1fO6xXXtStMbCrYPa8GzYJ3aK0=
 			</data>
 		</dict>
 		<key>app/views/credentials/credentials.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qYZQoRA9UaU2LyisIqQqW3jFc8A=
+			kDWUyupQQITAQhisbCuPM40LYLo=
 			</data>
 			<key>hash2</key>
 			<data>
-			2K3Tipfq0VniXNF82RcRC8latxXkG1/zw8PZdNNx84A=
+			h+e9QmbHvViT9WHO1VAIPoik5r5BNhZdz/8Ov/W6IkI=
 			</data>
 		</dict>
 		<key>app/views/home/home.css</key>
@@ -8094,22 +8053,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			12EvRvMCxZdy5CMy/Egd8pCV9QQ=
+			41Jq1DVhsHGEPytHC0ZXGximAZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			OjQkemU/AYhjLoI9BDZZLFjMhYv9VNo5Ns71eSFUzqo=
+			cjZfHTZLhqQ1fynaFFMVQDhhzpLoEy1D5JgWVmB9950=
 			</data>
 		</dict>
 		<key>app/views/home/home.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3611dPquRDLNrR5uMMAYtOiFVT8=
+			f3946tCG+6vE09ShJoO2Slettnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			rrr3ZImPxbn29wXktke+56U6Kvg6Q+a492mKTTPDX0g=
+			PwBVdMztNfG9CcSKSlLs47Z5QYvJFIB9+p7lrMTv48E=
+			</data>
+		</dict>
+		<key>app/views/images/3rdLaw.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xvZ9LMctKOTErScOCwYfQ7fsIY0=
+			</data>
+			<key>hash2</key>
+			<data>
+			zjFJFbOBDTWzQ2RUSbiopROHqnl+F9zU/4HcKollO+c=
+			</data>
+		</dict>
+		<key>app/views/images/CIG.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+f8epF+L9GaiQF/ugrO3M+6/SII=
+			</data>
+			<key>hash2</key>
+			<data>
+			0A+1lm/LNyD15wPP4BtqbO3DKymAVF3QVxq36g8pD8Y=
 			</data>
 		</dict>
 		<key>app/views/images/bitBuilding.png</key>
@@ -8145,7 +8126,7 @@
 			6OUTFbpDt+so539aX+pMB+F5tlL6QvNlLPmoyUY8y5w=
 			</data>
 		</dict>
-		<key>app/views/images/logo.png</key>
+		<key>app/views/images/linkality.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -8156,26 +8137,48 @@
 			9soXyufPQPqZFv5c/TAyXbHNyT/cLX2QZyT+4ytXPRs=
 			</data>
 		</dict>
+		<key>app/views/images/mbari.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mSXDlZaxtdWx2haABV4uhMXuENk=
+			</data>
+			<key>hash2</key>
+			<data>
+			GVE3ydHt8dOk2LIqYJHMvi7O7SMzWJtDuK5phv6/TkY=
+			</data>
+		</dict>
 		<key>app/views/images/room104.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QyCzvXD7pf3j1xPSYQNsvmwMKuI=
+			9UXTTDVWBCwd8sBKau2CELKgzW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qd1j/kkrKwiugXuvZEfzIukWDbaDiPwS9uECkyIkA1U=
+			8Fo2GYp3wlSCk0dBbBVbrjURoo1STrXhDNrSwksGHMo=
 			</data>
 		</dict>
 		<key>app/views/images/room110.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zf9yRlq1ED2g2twFOQt+kff3DVI=
+			ueYLzxrjkI3/rUlXcV3/HrJfi+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			0PTgcbJCdOQhwKTZCNNDTHXYSJ4xm79RsOtAEMNz1KE=
+			PRs3+R601Is2vAxz1ZUKNadvScPI7IT7xdbh6DN0m6E=
+			</data>
+		</dict>
+		<key>app/views/images/sscs.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			L8y7YfxE94IvyvR704g36CGOxOU=
+			</data>
+			<key>hash2</key>
+			<data>
+			llOo217GaBpty0lhllfOykiw0VDV/zDp9YZ1CgnW7Kw=
 			</data>
 		</dict>
 		<key>app/views/map/map.css</key>
@@ -8193,22 +8196,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qz51urRaR5NYaperR+X9B91x84I=
+			rVH4c6tKsitP4iAniHd1fi4DMWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Os4ZO9VksBv9msSVNfOX5gNq03rrmg+ByAEQVL/wYhE=
+			6xWG9aYOGzOch9f0GBbzfRimZ+to8tMbN5mgogWYhAo=
 			</data>
 		</dict>
 		<key>app/views/map/map.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HiK6X+D3hBXmvHhpcKI49cLK5yo=
+			1bBTLFuby1S2YlTm/wUu8MlbzdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			CMX5/T0hjIJmKZhdkQ4Fh3CCuwcuI7CpABvrBF68y+c=
+			p5WGkmbMWzhmdSfIx7piYVtmfQw1lLEG5sgU88Kn2Rg=
 			</data>
 		</dict>
 		<key>app/views/room/room.css</key>
@@ -8226,22 +8229,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NIburvXVp5vkpqzioQUAmhHfIHg=
+			kvOZObCA+YzrYSNxInlD4kGFaqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			NcNCqvw0DBPI+P/hVTwfd5+6hcBNpiunk9x77byYB0E=
+			wMGMrbJlqdxnp4tMltFPmtZGTi0uDgroPU98/XyyQwQ=
 			</data>
 		</dict>
 		<key>app/views/room/room.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R1zZaFyC5TR0cOI8WvThApwquN8=
+			1N0cDqLrXeZe6xtEUER389TdNEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DgBwan5Jee2dTynIorJp2n31S3C9YI3x1HiqtCxtYuE=
+			QJI6Zn9cOtzrvMLYZpMvhkbZEBgApv1iThPNV4PiP/w=
 			</data>
 		</dict>
 		<key>app/views/schedule/schedule.css</key>
@@ -8259,55 +8262,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pQfRvltJKaKR4qtW5MgP2RuU0Bk=
+			XpIqTPrUb/rbya07/Jh3PxpTDn0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QYzwdW81YKK2qz872GrOsekZgrt8PrENe8uFJn+THdU=
+			PI0oO3zha07PHZem29HxeEDLsj2KLRB+QjpMxlyJ5U4=
 			</data>
 		</dict>
 		<key>app/views/schedule/schedule.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WZcaeY4kZd9CQARADqCGUDDqyUQ=
+			CopdZ256GWYE0NXECujIlAydaqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			0Lt6GdwWMyEOaPqPvLpsZ6lF2nJN3tdZnAEscU+V458=
-			</data>
-		</dict>
-		<key>app/views/social/social.css</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rcg7GeeTSRscbqD9i0bNnzLlkvw=
-			</data>
-			<key>hash2</key>
-			<data>
-			AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=
-			</data>
-		</dict>
-		<key>app/views/social/social.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MslkjbS/6YSZ9AIn8QKNzG6zZEU=
-			</data>
-			<key>hash2</key>
-			<data>
-			GZrSw+YOed2KV4U106t7Ma8ovKxZ15TfcONzmp78KGs=
-			</data>
-		</dict>
-		<key>app/views/social/social.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+tHafM7Fr0HyGrCt0tRrjpXlbNU=
-			</data>
-			<key>hash2</key>
-			<data>
-			7Kcx4yWqbeY3iRFm4UW5t1bakY0fG7iwtFcIPDeWm/0=
+			7jozQoLFGm/ewUcu4fy/2vI/rWylj3B0SQieXVB9UPg=
 			</data>
 		</dict>
 		<key>app/views/team/team.css</key>
@@ -8325,22 +8295,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Smw62kFmcwIdUTAxMfkz0dZvMdA=
+			h+TQ/1Gpj+N38rYzWQb8QKx+TYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YBFzKZUViF+FbAm81MGhRviU2AUcIBJxg9Y8B73M7M0=
+			wCCdwWmoTcrw11uOZXqDzl4Mfr/pjoYLgEFaxznKNFk=
 			</data>
 		</dict>
 		<key>app/views/team/team.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0l3oIEhSJ+fSfWHhSVG+Jp7JEqg=
+			9Vc488duF5kxeRoJNJJpTiTsyBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			hkYF+C4KRubzc4mLUW/nGvMQw/VGFeZ35I0l28uRhPY=
+			olsmsrjegLt9x5XE68eHBylv304WjzVL48vQyMqFpaY=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>

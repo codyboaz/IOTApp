@@ -1,5 +1,6 @@
 var frameModule = require("ui/frame");
 var mapsModule = require("nativescript-google-maps-sdk");
+var SocketIO = require('nativescript-socket.io');
 
 exports.pageLoaded = function(args) {
     var page = args.object;
@@ -9,10 +10,26 @@ exports.pageLoaded = function(args) {
 function onMapReady(args) {
     var mapView = args.object;
 
+    var socket = SocketIO.connect('ws://linkality.com/socket.io/');
+    
+    socket.on('connect', function(){
+        console.log('SENDING DATA ');
+        socket.emit('app_room_list');
+    });
+
+    socket.on('error', function(e){
+        console.log(e);
+    });
+
+    socket.on('room_list', function(data){
+        for(var i = 0; i < 4; i++){
+            console.log(data.rooms[i].name);
+        }
+
     console.log("Setting a marker...");
     var marker104 = new mapsModule.Marker();
-    marker104.position = mapsModule.Position.positionFromLatLng(36.652527, -121.797167);
-    marker104.title = "Room 104";
+    marker104.position = mapsModule.Position.positionFromLatLng(data.rooms[0].lat, data.rooms[0].lng);
+    marker104.title = data.rooms[0].name;
     marker104.snippet = "Click For Info";
     mapView.addMarker(marker104);
 
@@ -33,6 +50,7 @@ function onMapReady(args) {
     marker105.title = "Room 105";
     marker105.snippet = "Click For Info";
     mapView.addMarker(marker105);
+});
 }
 
 

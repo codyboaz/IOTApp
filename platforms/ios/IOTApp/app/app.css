@@ -3,6 +3,16 @@
     margin: 0 20 0 20;
 }
 
+.input-hieght {
+    height: 40;
+}
+
+.lobby-text {
+    font-size: 20;
+    text-align: center;
+    margin: 0 35 0 35;
+}
+
 .margin-btn {
     margin: 10 0 10 0;
 }

@@ -13,3 +13,7 @@ exports.eventMap = function() {
 exports.schedule = function() {
     frameModule.topmost().navigate("views/schedule/schedule");
 }
+
+exports.findFriends = function() {
+    frameModule.topmost().navigate("views/findFriends/findFriends");
+}

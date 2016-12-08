@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '30738899B80EE783F416436DBC27E03C'
+               BlueprintIdentifier = '8A2E24087A7EB2A5962A40BF70F301ED'
                BlueprintName = 'Pods-IOTApp'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-IOTApp.framework'>

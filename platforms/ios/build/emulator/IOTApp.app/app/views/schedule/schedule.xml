@@ -8,7 +8,7 @@
     <ScrollView>
         <StackLayout>
             <Label text="Rooms" class="h1 centerText"/>
-            <Button class="btnRooms btn-outline margin-btn" text="Main Loby" tap="toRoomPoster"></Button>
+            <Button class="btnRooms btn-outline margin-btn" text="Main Lobby" tap="toRoomPoster"></Button>
             <Button class="btnRooms btn-outline margin-btn" text="Room 104" tap="toRoom104"></Button>
             <Button class="btnRooms btn-outline margin-btn" text="Room 105" tap="toRoom105"></Button>
             <Button class="btnRooms btn-outline margin-btn" text="Room 110" tap="toRoom110"></Button>

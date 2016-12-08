@@ -1,0 +1,15 @@
+<Page loaded="pageLoaded">
+    <ActionBar>
+        <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
+            <Label text="Linkality" class="action-label"></Label>
+        </StackLayout>
+    </ActionBar>
+    <ScrollView>
+        <StackLayout>
+            <Label text="Your Friend was last seen at" class="h1 margin" textWrap="true"/>
+            <Label text="{{}}" class="h2 margin" textWrap="true"/>
+           
+            <Label text="" class="margin"/>
+        </StackLayout>
+    </ScrollView>
+</Page>

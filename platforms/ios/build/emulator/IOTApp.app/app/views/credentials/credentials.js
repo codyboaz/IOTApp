@@ -2,6 +2,21 @@ var frameModule = require("ui/frame");
 var textFieldModule = require("ui/text-field");
 var dialogs = require("ui/dialogs");
 
+var SocketIO = require('nativescript-socket.io');
+
+SocketIO.enableDebug(); // optionnal
+
+// or use your own debug function
+// SocketIO.enableDebug(myCustomDebugFunction);
+
+
+var socket = SocketIO.connect('http://linkality.com');
+
+socket.on('connect', function(){
+  console.log('connect');
+});
+
+
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};

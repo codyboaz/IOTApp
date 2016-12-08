@@ -71,7 +71,7 @@
                 <Label text="" class="margin"/>
                 <Label
                     text="If you need to take a phone call or a break from the action the main lobby is the best place to do so. We will be serving food and beverages throughout the day. We hope you have enjoyed your time at the 2016 Fall Computer Science Capstone Festival."
-                    class="h2 margin-left-right"
+                    class="lobby-text"
                     textWrap="true"/>
                 <Label text="" class="margin"/>
             </StackLayout>

@@ -14,6 +14,7 @@
             </StackLayout>
             <button text="Event Map" tap="eventMap" class="btnRooms btn-outline margin-btn"/>
             <button text="Schedule" tap="schedule" class="btnRooms btn-outline margin-btn"/>
+            <button text="Find Your Friends" tap="findFriends" class="btnRooms btn-outline margin-btn"/>
             <Label text="" class="margin"/>
         </StackLayout>
     </ScrollView>

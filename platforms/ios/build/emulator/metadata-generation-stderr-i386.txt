@@ -3,20 +3,21 @@ Target: i386-apple-darwin16.1.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "clang-tool" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk" "-iquote" "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers" "-isystem" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator/include" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/internal" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator" "-F/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Base/Frameworks" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Maps/Frameworks" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/internal/" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS" "-F../../lib/iOS" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/Cody/Desktop/IOTApp/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk" "-iquote" "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/PocketSocket/PocketSocket.framework/Headers" "-isystem" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator/include" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/internal" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator" "-F/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/PocketSocket" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Base/Frameworks" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Maps/Frameworks" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/internal/" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS" "-F../../lib/iOS" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/Cody/Desktop/IOTApp/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator/include"
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public"
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps"
-ignoring nonexistent directory "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift"
+ignoring nonexistent directory "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/PocketSocket"
 ignoring nonexistent directory "../../lib/iOS"
-ignoring nonexistent directory "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers"
+ignoring nonexistent directory "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/PocketSocket/PocketSocket.framework/Headers"
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public"
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/local/include"
 #include "..." search starts here:
 #include <...> search starts here:
  /Users/Cody/Desktop/IOTApp/platforms/ios/internal
+ /Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK
  /Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator (framework directory)
  /Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Base/Frameworks (framework directory)
  /Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Maps/Frameworks (framework directory)
@@ -32,21 +33,22 @@ Target: i386-apple-darwin16.1.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "objc-metadata-generator" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk" "-iquote" "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers" "-isystem" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator/include" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/internal" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator" "-F/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Base/Frameworks" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Maps/Frameworks" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/internal/" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS" "-F../../lib/iOS" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/Cody/Desktop/IOTApp/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "objc-metadata-generator" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk" "-iquote" "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/PocketSocket/PocketSocket.framework/Headers" "-isystem" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator/include" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/internal" "-I" "/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator" "-F/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/PocketSocket" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Base/Frameworks" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Maps/Frameworks" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/internal/" "-F/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS" "-F../../lib/iOS" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/Cody/Desktop/IOTApp/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
 clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin16.1.0
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator/include"
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public"
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps"
-ignoring nonexistent directory "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift"
+ignoring nonexistent directory "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/PocketSocket"
 ignoring nonexistent directory "../../lib/iOS"
-ignoring nonexistent directory "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers"
+ignoring nonexistent directory "/Users/Cody/Library/Developer/Xcode/DerivedData/IOTApp-csrhmatwooqlhjapxxberuvoelzk/Build/Products/Debug-iphonesimulator/PocketSocket/PocketSocket.framework/Headers"
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public"
 ignoring nonexistent directory "/Users/Cody/Desktop/IOTApp/platforms/ios/Pods/Headers/Public/GoogleMaps"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/local/include"
 #include "..." search starts here:
 #include <...> search starts here:
  /Users/Cody/Desktop/IOTApp/platforms/ios/internal
+ /Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK
  /Users/Cody/Desktop/IOTApp/platforms/ios/build/emulator (framework directory)
  /Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Base/Frameworks (framework directory)
  /Users/Cody/Desktop/IOTApp/platforms/ios/Pods/GoogleMaps/Maps/Frameworks (framework directory)
@@ -57,8 +59,82 @@ ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platf
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/System/Library/Frameworks (framework directory)
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/Library/Frameworks (framework directory)
 End of search list.
-In file included from umbrella.h:774:
+In file included from umbrella.h:773:
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/include/os/log.h:35:2: error: using os/log.h requires Xcode 8 or later
 #error using os/log.h requires Xcode 8 or later
  ^
-1 error generated.
+In file included from umbrella.h:798:
+In file included from /Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconConnection.h:17:
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:41:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable city;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:41:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:42:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable country;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:42:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:43:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable formattedAddress;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:43:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:44:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable stateName;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:44:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:45:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable stateCode;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:45:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:46:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable streetName;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:46:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:47:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable streetNumber;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:47:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:48:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable zipCode;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:48:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:50:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable indoorLocationIdentifier;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:50:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:51:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString * _Nullable indoorLocationName;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTBeaconVO.h:51:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:813:
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTDateRule.h:51:43: error: expected ';' after method prototype
++ (instancetype)hourBetween:(int)firstHour and:(int)secondHour;
+                                          ^
+                                          ;
+In file included from umbrella.h:839:
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTNearableVO.h:26:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString *hardware;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTNearableVO.h:26:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTNearableVO.h:27:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString *firmware;
+^
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTNearableVO.h:27:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:867:
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTTemperatureRule.h:27:52: error: expected ';' after method prototype
++ (instancetype)temperatureBetween:(double)minValue and:(double)maxValue forNearableIdentifier:(NSString *)identifier;
+                                                   ^
+                                                   ;
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/include/libEstimoteSDK/ESTTemperatureRule.h:31:52: error: expected ';' after method prototype
++ (instancetype)temperatureBetween:(double)minValue and:(double)maxValue forNearableType:(ESTNearableType)type;
+                                                   ^
+                                                   ;
+In file included from umbrella.h:884:
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/LocalNotificationsPlugin.framework/Headers/LocalNotificationsPlugin.h:11:9: error: 'Notification.h' file not found with <angled> include; use "quotes" instead
+#import <Notification.h>
+        ^~~~~~~~~~~~~~~~
+        "Notification.h"
+/Users/Cody/Desktop/IOTApp/platforms/ios/../../lib/iOS/LocalNotificationsPlugin.framework/Headers/LocalNotificationsPlugin.h:12:9: error: 'NotificationManager.h' file not found with <angled> include; use "quotes" instead
+#import <NotificationManager.h>
+        ^~~~~~~~~~~~~~~~~~~~~~~
+        "NotificationManager.h"
+24 warnings and 6 errors generated.

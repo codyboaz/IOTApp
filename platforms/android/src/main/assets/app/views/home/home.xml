@@ -1,6 +1,5 @@
 <Page loaded="pageLoaded">
     <ActionBar>
-        <NavigationButton visibility="collapsed"/>
         <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
             <Label text="Linkality" class="action-label"></Label>
         </StackLayout>
@@ -14,6 +13,7 @@
             </StackLayout>
             <button text="Event Map" tap="eventMap" class="btnRooms btn-outline margin-btn"/>
             <button text="Schedule" tap="schedule" class="btnRooms btn-outline margin-btn"/>
+            <button text="Find Your Friends" tap="findFriends" class="btnRooms btn-outline margin-btn"/>
             <Label text="" class="margin"/>
         </StackLayout>
     </ScrollView>

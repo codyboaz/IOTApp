@@ -1,9 +1,13 @@
 var frameModule = require("ui/frame");
 var mapsModule = require("nativescript-google-maps-sdk");
+var dialogs = require("ui/dialogs");
+var estimote = require("../../lib/read-estimotes");
+
 
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
+    estimote();
 }
 
 function onMapReady(args) {
@@ -11,7 +15,7 @@ function onMapReady(args) {
 
     console.log("Setting a marker...");
     var marker104 = new mapsModule.Marker();
-    marker104.position = mapsModule.Position.positionFromLatLng(36.652527, -121.797167);
+    marker104.position = mapsModule.Position.positionFromLatLng(36.652520, -121.797167);
     marker104.title = "Room 104";
     marker104.snippet = "Click For Info";
     mapView.addMarker(marker104);
@@ -33,6 +37,7 @@ function onMapReady(args) {
     marker105.title = "Room 105";
     marker105.snippet = "Click For Info";
     mapView.addMarker(marker105);
+
 }
 
 
@@ -45,7 +50,7 @@ function onMarkerSelect(args) {
                 roomName: "Room 104",
                 imgName: "~/views/images/room104.png",
                 id: "104"
-              }
+            }
         }
 
         frameModule.topmost().navigate(navigationOptions);
@@ -56,7 +61,7 @@ function onMarkerSelect(args) {
                 roomName: "Poster Room",
                 imgName: "~/views/images/bitLoby.png",
                 id: "lobby"
-              }
+            }
         }
 
         frameModule.topmost().navigate(navigationOptions);
@@ -67,7 +72,7 @@ function onMarkerSelect(args) {
                 roomName: "Room 110",
                 imgName: "~/views/images/room110.png",
                 id: "110"
-              }
+            }
         }
 
         frameModule.topmost().navigate(navigationOptions);
@@ -76,9 +81,9 @@ function onMarkerSelect(args) {
             moduleName: 'views/room/room',
             context: {
                 roomName: "Room 105",
-                imgName: "~/views/images/room110.png",
+                imgName: "~/views/images/room105.png",
                 id: "105"
-              }
+            }
         }
 
         frameModule.topmost().navigate(navigationOptions);

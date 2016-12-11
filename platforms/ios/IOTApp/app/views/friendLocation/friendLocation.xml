@@ -1,15 +1,14 @@
-<Page loaded="pageLoaded">
+<Page xmlns="http://www.nativescript.org/tns.xsd" xmlns:maps="nativescript-google-maps-sdk" loaded="pageLoaded">
+
     <ActionBar>
         <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
             <Label text="Linkality" class="action-label"></Label>
+            <NavigationButton text="Back"/>
         </StackLayout>
     </ActionBar>
-    <ScrollView>
-        <StackLayout>
-            <Label text="Your Friend was last seen at" class="h1 margin" textWrap="true"/>
-            <Label text="{{}}" class="h2 margin" textWrap="true"/>
-           
-            <Label text="" class="margin"/>
-        </StackLayout>
-    </ScrollView>
+
+    <GridLayout>
+        <maps:mapView latitude="36.652254" longitude="-121.797239" markerSelect="onMarkerSelect" zoom="19.15" mapReady="onMapReady" markerSelect="onMarkerSelect"/>
+    </GridLayout>
+
 </Page>

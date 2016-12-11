@@ -1,6 +1,5 @@
 <Page loaded="pageLoaded">
     <ActionBar>
-        <NavigationButton visibility="collapsed"/>
         <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
             <Label text="Linkality" class="action-label"></Label>
         </StackLayout>

@@ -1,8 +1,12 @@
 var frameModule = require("ui/frame");
 
+var dialogs = require("ui/dialogs");
+var estimote = require("../../lib/read-estimotes");
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
+    estimote();
+    
 }
 
 exports.toRoom104 = function() {
@@ -13,7 +17,7 @@ exports.toRoom104 = function() {
             roomName: "Room 104",
             imgName: "~/views/images/room104.png",
             id: "104"
-          }
+        }
     }
     frameModule.topmost().navigate(navigationOptions);
 }
@@ -26,7 +30,7 @@ exports.toRoomPoster = function() {
             roomName: "Main Lobby",
             imgName: "~/views/images/bitLoby.png",
             id: "lobby"
-          }
+        }
     }
     frameModule.topmost().navigate(navigationOptions);
 }
@@ -39,7 +43,7 @@ exports.toRoom110 = function() {
             roomName: "Room 110",
             imgName: "~/views/images/room110.png",
             id: "110"
-          }
+        }
     }
     frameModule.topmost().navigate(navigationOptions);
 }
@@ -50,9 +54,9 @@ exports.toRoom105 = function() {
         moduleName: 'views/room/room',
         context: {
             roomName: "Room 105",
-            imgName: "~/views/images/room110.png",
+            imgName: "~/views/images/room105.png",
             id: "105"
-          }
+        }
     }
     frameModule.topmost().navigate(navigationOptions);
 }

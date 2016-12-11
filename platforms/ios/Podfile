@@ -4,9 +4,8 @@ target "IOTApp" do
 # Begin Podfile - /Users/Cody/Desktop/IOTApp/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
  pod 'GoogleMaps' 
  # End Podfile 
-# Begin Podfile - /Users/Cody/Desktop/IOTApp/node_modules/nativescript-socket.io/platforms/ios/Podfile 
- pod 'Socket.IO-Client-Swift', '~> 8.1.1'
- 
+# Begin Podfile - /Users/Cody/Desktop/IOTApp/node_modules/nativescript-websockets/platforms/ios/Podfile 
+ pod 'PocketSocket', :git => 'https://github.com/NathanaelA/PocketSocket' 
  # End Podfile 
 
 end

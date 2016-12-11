@@ -1,6 +1,7 @@
 var frameModule = require("ui/frame");
 var observable = require("data/observable");
 var pageModule = require("ui/page");
+var estimote = require("../../lib/read-estimotes");
 
 var viewModel = new observable.Observable();
 
@@ -9,6 +10,7 @@ exports.pageLoaded = function(args) {
     var getData = page.navigationContext;
     console.log(getData.roomName);
     console.log(getData.imgName);
+    estimote();
     if (getData.id == "104") {
         viewModel.set("104", "visible");
         viewModel.set("105", "hidden");
@@ -65,7 +67,7 @@ exports.toRender = function() {
         moduleName: 'views/team/team',
         context: {
             teamName: "2D Game Engine Framework: Render Programming",
-            logoName: "~/views/images/csumb.png",
+            logoName: "~/views/images/game.png",
             description: "Creating a framework dedicated to 2D games that is " +
                 "simple for inexperienced programmers. Writing an optimal method " +
                 "of loading and managing resources for the renderer.",
@@ -121,7 +123,7 @@ exports.toAnimAndCont = function() {
         moduleName: 'views/team/team',
         context: {
             teamName: "Game Engine Framework: Animations and Controls",
-            logoName: "~/views/images/csumb.png",
+            logoName: "~/views/images/game.png",
             description: "Creating a fully functional 2D Game Engine Framework. Our part is " +
                 "to create the animation and input control libraries for the game engine." +
                 " We will also be responsible for developing an intuitive interface for all" +
@@ -176,7 +178,7 @@ exports.toAudioApp = function() {
         moduleName: 'views/team/team',
         context: {
             teamName: "Audio Transcription Web App",
-            logoName: "~/views/images/csumb.png",
+            logoName: "~/views/images/audio.png",
             description: "We created a web application for the public to upload videos" +
                 " and return as text. The main goal of this project was to implement" +
                 " this service in a user friendly web app targeted towards students, in " +

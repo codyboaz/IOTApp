@@ -1,0 +1,62 @@
+{
+  "name": "nativescript-platform",
+  "version": "1.0.1",
+  "description": "A NativeScript plugin to easily deal with getting the platform running on",
+  "main": "nsplatform.js",
+  "nativescript": {
+    "platforms": {
+      "android": "1.0.0",
+      "ios": "1.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanaela/nativescript-platform.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "platform",
+    "android",
+    "ios",
+    "windows"
+  ],
+  "author": {
+    "name": "Nathanael Anderson",
+    "email": "nathan@master-technology.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/nathanaela/nativescript-platform/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanaela/nativescript-platform/issues"
+  },
+  "homepage": "https://github.com/nathanaela/nativescript-platform",
+  "gitHead": "8ee513adb26876275d427574c986fc34c313778d",
+  "_id": "nativescript-platform@1.0.1",
+  "scripts": {},
+  "_shasum": "0c1526c40cd995ab0add57b5d33ff0d54144e8a1",
+  "_from": "nativescript-platform@>=1.0.0 <2.0.0",
+  "_npmVersion": "3.7.4",
+  "_nodeVersion": "4.3.1",
+  "_npmUser": {
+    "name": "nathanaela",
+    "email": "nathan@master-technology.com"
+  },
+  "dist": {
+    "shasum": "0c1526c40cd995ab0add57b5d33ff0d54144e8a1",
+    "tarball": "https://registry.npmjs.org/nativescript-platform/-/nativescript-platform-1.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "nathanaela",
+      "email": "nathan@master-technology.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-platform-1.0.1.tgz_1467178432198_0.9696967138443142"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-platform/-/nativescript-platform-1.0.1.tgz"
+}

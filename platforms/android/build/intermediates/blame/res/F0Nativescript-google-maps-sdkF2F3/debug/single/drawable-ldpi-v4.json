@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/res/merged/F0Nativescript-google-maps-sdkF2F3/debug/drawable-ldpi-v4/background.png",
+        "source": "/Users/Cody/Desktop/IOTApp/platforms/android/src/main/res/drawable-ldpi/background.png"
+    },
+    {
+        "merged": "/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/res/merged/F0Nativescript-google-maps-sdkF2F3/debug/drawable-ldpi-v4/icon.png",
+        "source": "/Users/Cody/Desktop/IOTApp/platforms/android/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/Cody/Desktop/IOTApp/platforms/android/build/intermediates/res/merged/F0Nativescript-google-maps-sdkF2F3/debug/drawable-ldpi-v4/logo.png",
+        "source": "/Users/Cody/Desktop/IOTApp/platforms/android/src/main/res/drawable-ldpi/logo.png"
+    }
+]

@@ -3,7 +3,6 @@ var textFieldModule = require("ui/text-field");
 var dialogs = require("ui/dialogs");
 var WS = require('nativescript-websockets');
 var mapsModule = require("nativescript-google-maps-sdk");
-var estimote = require("../../lib/read-estimotes");
 
 var lat;
 var lng;
@@ -20,7 +19,6 @@ exports.pageLoaded = function(args) {
     var page = args.object;
     var getData = page.navigationContext;
     var location;
-    estimote();
     var jsonDoc = JSON.stringify({"simple":getData.secret_name});
     if (socket) {
         console.log("socket status: " + socket.connected);

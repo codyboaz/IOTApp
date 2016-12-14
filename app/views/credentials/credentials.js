@@ -2,25 +2,27 @@ var frameModule = require("ui/frame");
 var textFieldModule = require("ui/text-field");
 var dialogs = require("ui/dialogs");
 var permissions = require( "nativescript-permissions" );
-        
+var platform = require("platform");
 console.log("loading splash");
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
-    permissions.requestPermission(android.Manifest.permission.ACCESS_COARSE_LOCATION, "Need permission for beacon locations")
-        .then(function() {
-            console.log("Access granted");
-        })
-        .catch(function() {
-            console.log("Access denied");
-        });
-    permissions.requestPermission(android.Manifest.permission.ACCESS_FINE_LOCATION, "Need permission for beacon locations")
-        .then(function() {
-            console.log("Access granted");
-        })
-        .catch(function() {
-            console.log("Access denied");
-        });
+    if(platform.device.os === platform.platformNames.android) {
+	    permissions.requestPermission(android.Manifest.permission.ACCESS_COARSE_LOCATION, "Need permission for beacon locations")
+	        .then(function() {
+	            console.log("Access granted");
+	        })
+	        .catch(function() {
+	            console.log("Access denied");
+	        });
+	    permissions.requestPermission(android.Manifest.permission.ACCESS_FINE_LOCATION, "Need permission for beacon locations")
+	        .then(function() {
+	            console.log("Access granted");
+	        })
+	        .catch(function() {
+	            console.log("Access denied");
+	        });
+    }
     global.estimoteMaster.running.startRanging();
 	
 }

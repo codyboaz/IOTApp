@@ -6,6 +6,7 @@ console.log("home started");
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
+    console.dump(global.estimoteMaster);
 
 }
 

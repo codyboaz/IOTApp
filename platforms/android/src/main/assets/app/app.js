@@ -18,10 +18,9 @@ if(platform.device.os === platform.platformNames.android) {
 
     application.onLaunch = function(intent) {
     	console.log("onLaunch");
-
+        global.estimoteMaster.create();
         // hook the onActivityCreated callback upon application launching
         application.android.onActivityCreated = function(activity) {
-            global.estimoteMaster.create();
             // apply the default theme once the Activity is created
             console.log("1");
             

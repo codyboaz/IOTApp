@@ -1,13 +1,11 @@
 var frameModule = require("ui/frame");
 var textFieldModule = require("ui/text-field");
 var dialogs = require("ui/dialogs");
-var estimote = require("../../lib/read-estimotes");
 
 
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
-    estimote();
 
 }
 

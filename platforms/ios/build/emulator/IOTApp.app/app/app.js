@@ -21,7 +21,7 @@ if(platform.device.os === platform.platformNames.android) {
 
         // hook the onActivityCreated callback upon application launching
         application.android.onActivityCreated = function(activity) {
-            global.estimoteMaster.create();
+            
             // apply the default theme once the Activity is created
             console.log("1");
             
@@ -79,6 +79,7 @@ if (application.android) {
     });
 }
 application.on(application.launchEvent, function (args) {
+    global.estimoteMaster.create();
     if (args.android) {
         // For Android applications, args.android is an android.content.Intent class.
         console.log("Launched Android application with the following intent: " + args.android + ".");

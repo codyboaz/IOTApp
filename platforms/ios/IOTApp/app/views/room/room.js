@@ -1,7 +1,6 @@
 var frameModule = require("ui/frame");
 var observable = require("data/observable");
 var pageModule = require("ui/page");
-var estimote = require("../../lib/read-estimotes");
 
 var viewModel = new observable.Observable();
 
@@ -10,7 +9,7 @@ exports.pageLoaded = function(args) {
     var getData = page.navigationContext;
     console.log(getData.roomName);
     console.log(getData.imgName);
-    estimote();
+    console.dump(global.estimoteMaster);
     if (getData.id == "104") {
         viewModel.set("104", "visible");
         viewModel.set("105", "hidden");

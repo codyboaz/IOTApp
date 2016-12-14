@@ -1,0 +1,12 @@
+{
+    "nativescript-estimote-sdk": true,
+    "nativescript-google-maps-sdk": true,
+    "nativescript-permissions": true,
+    "nativescript-platform-css": true,
+    "nativescript-globalevents": true,
+    "nativescript-platform": true,
+    "nativescript-theme-core": true,
+    "nativescript-websockets": true,
+    "tns-core-modules": true,
+    "tns-core-modules-widgets": true
+}

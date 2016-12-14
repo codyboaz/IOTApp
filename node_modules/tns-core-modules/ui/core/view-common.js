@@ -752,8 +752,7 @@ var View = (function (_super) {
         }
     };
     View.prototype.onUnloaded = function () {
-        this._onCssStateChange(this._cssState, null);
-        this._cssState = null;
+        this._setCssState(null);
         this._unloadEachChildView();
         this._isLoaded = false;
         this._emit("unloaded");
@@ -1351,8 +1350,10 @@ var View = (function (_super) {
     View.prototype.notifyPseudoClassChanged = function (pseudoClass) {
         this.notify({ eventName: ":" + pseudoClass, object: this });
     };
-    View.prototype._onCssStateChange = function (previous, next) {
+    View.prototype._setCssState = function (next) {
         var _this = this;
+        var previous = this._cssState;
+        this._cssState = next;
         if (!this._invalidateCssHandler) {
             this._invalidateCssHandler = function () {
                 if (_this._invalidateCssHandlerSuspended) {

@@ -1,6 +1,5 @@
 "use strict";
 var view_1 = require("ui/core/view");
-var builder = require("ui/builder");
 var dependency_observable_1 = require("ui/core/dependency-observable");
 var MAP_VIEW = "MapView";
 function onMapPropertyChanged(data) {
@@ -77,29 +76,6 @@ var MapView = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    MapView.prototype._getMarkerInfoWindowContent = function (marker) {
-        var view;
-        if (marker && marker._infoWindowView) {
-            view = marker._infoWindowView;
-            marker._infoWindowView = null;
-            return view;
-        }
-        if (marker && marker.infoWindowTemplate) {
-            view = builder.parse(marker.infoWindowTemplate, this);
-        }
-        if (!view)
-            return null;
-        marker._infoWindowView = view;
-        view.bindingContext = marker;
-        view.on("loaded", function () {
-            setTimeout(function () {
-                if (marker.isInfoWindowShown())
-                    marker.showInfoWindow();
-            }, 0);
-        });
-        this._addView(view);
-        return view;
-    };
     MapView.prototype._transformPadding = function (value) {
         if (!Array.isArray(value)) {
             value = String(value).split(',').map(function (v) {
@@ -217,6 +193,28 @@ var Polyline = (function (_super) {
         _super.apply(this, arguments);
         this.shape = 'polyline';
     }
+    Polyline.prototype.addPoint = function (point) {
+        this._points.push(point);
+        this.reloadPoints();
+    };
+    Polyline.prototype.addPoints = function (points) {
+        this._points = this._points.concat(points);
+        this.reloadPoints();
+    };
+    Polyline.prototype.removePoint = function (point) {
+        var index = this._points.indexOf(point);
+        if (index > -1) {
+            this._points.splice(index, 1);
+            this.reloadPoints();
+        }
+    };
+    Polyline.prototype.removeAllPoints = function () {
+        this._points.length = 0;
+        this.reloadPoints();
+    };
+    Polyline.prototype.getPoints = function () {
+        return this._points.slice();
+    };
     return Polyline;
 }(Shape));
 exports.Polyline = Polyline;
@@ -226,6 +224,28 @@ var Polygon = (function (_super) {
         _super.apply(this, arguments);
         this.shape = 'polygon';
     }
+    Polygon.prototype.addPoint = function (point) {
+        this._points.push(point);
+        this.reloadPoints();
+    };
+    Polygon.prototype.addPoints = function (points) {
+        this._points = this._points.concat(points);
+        this.reloadPoints();
+    };
+    Polygon.prototype.removePoint = function (point) {
+        var index = this._points.indexOf(point);
+        if (index > -1) {
+            this._points.splice(index, 1);
+            this.reloadPoints();
+        }
+    };
+    Polygon.prototype.removeAllPoints = function () {
+        this._points.length = 0;
+        this.reloadPoints();
+    };
+    Polygon.prototype.getPoints = function () {
+        return this._points.slice();
+    };
     return Polygon;
 }(Shape));
 exports.Polygon = Polygon;

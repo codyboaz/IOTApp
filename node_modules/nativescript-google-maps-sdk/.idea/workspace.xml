@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06a7c3ea-4f03-4312-86db-6a1f072ed267" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map-view-common.ts" afterPath="$PROJECT_DIR$/map-view-common.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map-view.d.ts" afterPath="$PROJECT_DIR$/map-view.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map-view.ios.ts" afterPath="$PROJECT_DIR$/map-view.ios.ts" />
     </list>
     <ignored path="nativescript-google-maps-sdk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,278 +32,262 @@
     <favorites_list name="nativescript-google-maps-sdk" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="map-view-common.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map-view-common.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#239#0" expanded="true" />
-                <marker date="1475637167000" expanded="true" signature="3648:3655" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="7172:7175" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-view.ios.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map-view.ios.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4905">
-              <caret line="327" column="9" lean-forward="false" selection-start-line="327" selection-start-column="9" selection-end-line="327" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-view.ios.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map-view.ios.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" column="38" lean-forward="false" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#250#0" expanded="true" />
-                <marker date="1475637167000" expanded="true" signature="618:3885" ph="..." />
-                <marker date="1475637167000" expanded="true" signature="618:5459" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="795:928" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="1031:2804" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="1091:2798" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="1258:1427" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="1496:1667" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="1725:1885" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="1937:2091" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2151:2313" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2346:2737" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2422:2721" ph="{&quot;latitude&quot;: cameraPosition.target.latitude...}" />
-                <marker date="1475637167000" expanded="true" signature="2906:3178" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2966:3172" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3286:3561" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3346:3555" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3643:3862" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3703:3856" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3947:4202" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4007:4196" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4123:4186" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4293:4519" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4353:4513" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4609:4833" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4669:4827" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4916:5133" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4976:5127" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="5227:5458" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="5287:5452" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="9986:10004" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="9986:11023" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/app/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/app/main-page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding>
-                <marker date="1475637167000" expanded="true" signature="5185:5194" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-view.android.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map-view.android.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2823">
-              <caret line="817" column="10" lean-forward="false" selection-start-line="817" selection-start-column="10" selection-end-line="817" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/platforms/android/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/app/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding>
-                <marker date="1475637167000" expanded="true" signature="7:74" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-view.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map-view.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="115" column="30" lean-forward="false" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-              <folding>
-                <marker date="1475637170000" expanded="true" signature="59:272" ph="..." />
-                <marker date="1475637170000" expanded="true" signature="298:462" ph="{...}" />
-                <marker date="1475637170000" expanded="true" signature="502:747" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-page.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/app/main-page.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-view.android.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map-view.android.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4635">
-              <caret line="309" column="30" lean-forward="false" selection-start-line="309" selection-start-column="30" selection-end-line="309" selection-end-column="30" />
-              <folding>
-                <element signature="e#93#316#0" expanded="true" />
-                <marker date="1475637167000" expanded="true" signature="654:12884" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="830:909" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="926:1434" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="1461:1975" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2013:2736" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2193:2338" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2374:2457" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2490:2567" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2600:2677" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2757:3161" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="2880:2956" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3183:3363" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3383:3420" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3437:3471" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3501:3574" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3606:3711" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3746:3850" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="3875:4001" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4152:4283" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4316:4332" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4316:4446" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4611:4711" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4735:4857" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4775:4822" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="4871:4960" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="5110:5218" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="5584:5694" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="5720:12884" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="6211:12884" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="6252:12884" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="6417:6478" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="6584:6850" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="6637:6832" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="6967:7239" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="7024:7221" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="7354:7678" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="7411:7660" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="7801:8132" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="7863:8114" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="8247:8629" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="8304:8611" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="8464:8551" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="8748:9136" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="8809:9118" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="8971:9058" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="9253:9638" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="9312:9620" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="9473:9560" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="9751:10585" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="9807:10015" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="10074:10289" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="10350:10567" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="10702:12863" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="10765:12845" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="10968:11173" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="11254:11461" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="11531:11727" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="11791:11981" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="12045:12235" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="12280:12759" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="12368:12731" ph="{&quot;latitude&quot;: cameraPosition.target.latitude...}" />
-                <marker date="1475637167000" expanded="true" signature="15718:15724" ph="{...}" />
-                <marker date="1475637167000" expanded="true" signature="15718:17821" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/Android/app.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6816038">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="map-view-common.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/map-view-common.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="119" column="20" lean-forward="false" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#266#0" expanded="true" />
+                    <marker date="1478748766000" expanded="true" signature="3719:3726" ph="{...}" />
+                    <marker date="1478748766000" expanded="true" signature="7362:7365" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dependency-observable.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/node_modules/tns-core-modules/ui/core/dependency-observable.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="133">
+                  <caret line="211" column="8" lean-forward="false" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tns-core-modules.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/tns-core-modules.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="module.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/module.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tns-core-modules.base.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/tns-core-modules.base.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/node_modules/tns-core-modules/application/application.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/tns-platform-declarations/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="map-view.ios.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/map-view.ios.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#181#0" expanded="true" />
+                    <marker date="1478748002000" expanded="true" signature="10040:10058" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/app/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main-page.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/app/main-page.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1170">
+                  <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+                  <folding>
+                    <marker date="1478744225000" expanded="true" signature="5391:5400" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="map-view.android.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/node_modules/nativescript-google-maps-sdk/map-view.android.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1905">
+                  <caret line="127" column="48" lean-forward="false" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="48" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="map-view.android.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/map-view.android.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="8640">
+                  <caret line="576" column="6" lean-forward="false" selection-start-line="576" selection-start-column="6" selection-end-line="576" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/app/app.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+                  <folding>
+                    <marker date="1475637167000" expanded="true" signature="7:74" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="map-view.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/map-view.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="73" />
+                  <folding>
+                    <element signature="e#132#168#0" expanded="true" />
+                    <marker date="1478748628000" expanded="true" signature="582:827" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main-page.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/app/main-page.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="map-view.android.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/map-view.android.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#93#333#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="525">
+                  <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/app/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/Android/app.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tsconfig.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setSty</find>
+      <find>setS</find>
+      <find>addPoints</find>
+      <find>addPoi</find>
+      <find>addPoint</find>
+      <find>addPoin</find>
+      <find>removePoint</find>
+      <find>JSON</find>
+      <find>point</find>
+      <find>style</find>
+      <find>PositionEventData</find>
+      <find>android</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -350,26 +335,26 @@
         <option value="$PROJECT_DIR$/demo/app/infowindow-template.xml" />
         <option value="$PROJECT_DIR$/demo/package.json" />
         <option value="$PROJECT_DIR$/demo/app/main-page.xml" />
-        <option value="$PROJECT_DIR$/map-view.d.ts" />
-        <option value="$PROJECT_DIR$/map-view.android.ts" />
-        <option value="$PROJECT_DIR$/map-view.ios.ts" />
         <option value="$PROJECT_DIR$/demo/app/app.css" />
         <option value="$PROJECT_DIR$/demo/app/info-window.xml" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/demo/app/info-window.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/map-view-common.js" />
-        <option value="$PROJECT_DIR$/map-view-common.ts" />
-        <option value="$PROJECT_DIR$/demo/app/main-page.js" />
         <option value="$PROJECT_DIR$/map-view.android.js" />
+        <option value="$PROJECT_DIR$/demo/app/main-page.js" />
+        <option value="$PROJECT_DIR$/map-view.android.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/tns-platform-declarations/tns-core-modules/android17.d.ts" />
+        <option value="$PROJECT_DIR$/references.d.ts" />
+        <option value="$PROJECT_DIR$/map-view.ios.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/map-view.d.ts" />
+        <option value="$PROJECT_DIR$/map-view-common.ts" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/demo/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -386,9 +371,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="x" value="59" />
+    <option name="y" value="63" />
+    <option name="width" value="1248" />
+    <option name="height" value="795" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -434,7 +420,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -463,7 +448,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -490,346 +474,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map-view.ios.ts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map-view.android.ts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TNSWidgets.framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App_Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nativescript-google-maps-sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App_Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -876,17 +524,17 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -894,7 +542,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -919,7 +571,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -1089,6 +745,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
@@ -1141,6 +798,12 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -1270,6 +933,30 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -1318,52 +1005,61 @@
       <workItem from="1474420770915" duration="2055000" />
       <workItem from="1474595061357" duration="3587000" />
       <workItem from="1475197471561" duration="659000" />
-      <workItem from="1475199052093" duration="5081000" />
+      <workItem from="1475199052093" duration="5436000" />
+      <workItem from="1475891543150" duration="3572000" />
+      <workItem from="1478056318254" duration="4814000" />
+      <workItem from="1478224574519" duration="711000" />
+      <workItem from="1478744308899" duration="2543000" />
+      <workItem from="1478747220237" duration="1531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277919000" />
+    <option name="totallyTimeSpent" value="291445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="59" y="63" width="1248" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3178808" sideWeight="0.26466382" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3677991" sideWeight="0.2106136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18097281" sideWeight="0.5099715" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4450331" sideWeight="0.48569384" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3178808" sideWeight="0.7353362" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.46566522" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3677991" sideWeight="0.7893864" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3004292" sideWeight="0.4900285" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44460857" sideWeight="0.47263682" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42097488" sideWeight="0.8167496" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2968491" sideWeight="0.4815534" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838038" sideWeight="0.44890234" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3004292" sideWeight="0.5184466" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4754829" sideWeight="0.49129447" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47415066" sideWeight="0.48839137" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1395,6 +1091,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/map-view.android.js" />
+        <option value="$PROJECT_DIR$/map-view.ios.js" />
+        <option value="$PROJECT_DIR$/map-view-common.js" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -1417,107 +1123,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/Android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/app/main-view-model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/Android/values/nativescript_google_maps_api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="91" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/iOS/Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/include.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.npmignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/xml/xml.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="10" lean-forward="false" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="100" column="23" lean-forward="false" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/image-source/image-source.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/Android/drawable-nodpi/splashscreen.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/node_modules/tns-core-modules/ui/list-view/list-view-common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="113" column="35" lean-forward="false" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/app/infowindow-template.xml" />
-    <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/ui/core/proxy.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/platforms/android/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/Android/drawable-hdpi/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/app/xml-declaration/info-window.xml" />
     <entry file="file://$PROJECT_DIR$/demo/node_modules/tns-core-modules/file-system/file-system.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1553,20 +1158,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/platforms/ios/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/platforms/ios/Pods/GoogleMaps/CHANGELOG">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/platforms/ios/Podfile" />
+    <entry file="file://$PROJECT_DIR$/demo/platforms/ios/Pods/GoogleMaps/CHANGELOG" />
     <entry file="file://$PROJECT_DIR$/demo/app/info-window.xml" />
     <entry file="file://$PROJECT_DIR$/demo/node_modules/nativescript-google-maps-sdk/map-view.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1601,86 +1194,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="103" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map-view-common.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#239#0" expanded="true" />
-            <marker date="1475637167000" expanded="true" signature="3648:3655" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="7172:7175" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="db://[MYSQL Local] TABLE - mysql.columns_priv" />
+    <entry file="db://[MYSQL Local] TABLE - mysql.time_zone_transition_type" />
+    <entry file="db://[MYSQL Local] TABLE - mysql.user" />
+    <entry file="db://[MYSQL Local] CONSOLE - MYSQL Local" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
     <entry file="file://$PROJECT_DIR$/map-view.ios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4905">
-          <caret line="327" column="9" lean-forward="false" selection-start-line="327" selection-start-column="9" selection-end-line="327" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map-view.ios.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="38" lean-forward="false" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#250#0" expanded="true" />
-            <marker date="1475637167000" expanded="true" signature="618:3885" ph="..." />
-            <marker date="1475637167000" expanded="true" signature="618:5459" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="795:928" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="1031:2804" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="1091:2798" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="1258:1427" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="1496:1667" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="1725:1885" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="1937:2091" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2151:2313" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2346:2737" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2422:2721" ph="{&quot;latitude&quot;: cameraPosition.target.latitude...}" />
-            <marker date="1475637167000" expanded="true" signature="2906:3178" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2966:3172" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3286:3561" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3346:3555" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3643:3862" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3703:3856" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3947:4202" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4007:4196" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4123:4186" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4293:4519" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4353:4513" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4609:4833" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4669:4827" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4916:5133" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4976:5127" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="5227:5458" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="5287:5452" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="9986:10004" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="9986:11023" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/app/main-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <marker date="1475637167000" expanded="true" signature="5185:5194" ph="{...}" />
-          </folding>
+        <state relative-caret-position="4845">
+          <caret line="323" column="9" lean-forward="false" selection-start-line="323" selection-start-column="9" selection-end-line="323" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1688,6 +1213,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/iOS/Default-Landscape.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/iOS/Default-667h@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/iOS/Default.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/iOS/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/app/App_Resources/Android/drawable-ldpi/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/node_modules/nativescript-google-maps-sdk/map-view.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="520" column="26" lean-forward="false" selection-start-line="520" selection-start-column="26" selection-end-line="520" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tns-platform-declarations/tns-core-modules/android17.d.ts" />
+    <entry file="file://$PROJECT_DIR$/references.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/ui/image/image.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/module.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/tns-core-modules.base.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/node_modules/tns-core-modules/application/application.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tns-platform-declarations/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/app/main-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+          <folding>
+            <marker date="1478744225000" expanded="true" signature="5391:5400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/node_modules/nativescript-google-maps-sdk/map-view.android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" column="48" lean-forward="false" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-view.android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8640">
+          <caret line="576" column="6" lean-forward="false" selection-start-line="576" selection-start-column="6" selection-end-line="576" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1702,18 +1346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map-view.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="115" column="30" lean-forward="false" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-          <folding>
-            <marker date="1475637170000" expanded="true" signature="59:272" ph="..." />
-            <marker date="1475637170000" expanded="true" signature="298:462" ph="{...}" />
-            <marker date="1475637170000" expanded="true" signature="502:747" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/app/main-page.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1724,74 +1356,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/map-view.android.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4635">
-          <caret line="309" column="30" lean-forward="false" selection-start-line="309" selection-start-column="30" selection-end-line="309" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
           <folding>
-            <element signature="e#93#316#0" expanded="true" />
-            <marker date="1475637167000" expanded="true" signature="654:12884" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="830:909" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="926:1434" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="1461:1975" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2013:2736" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2193:2338" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2374:2457" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2490:2567" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2600:2677" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2757:3161" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="2880:2956" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3183:3363" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3383:3420" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3437:3471" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3501:3574" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3606:3711" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3746:3850" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="3875:4001" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4152:4283" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4316:4332" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4316:4446" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4611:4711" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4735:4857" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4775:4822" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="4871:4960" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="5110:5218" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="5584:5694" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="5720:12884" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="6211:12884" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="6252:12884" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="6417:6478" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="6584:6850" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="6637:6832" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="6967:7239" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="7024:7221" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="7354:7678" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="7411:7660" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="7801:8132" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="7863:8114" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="8247:8629" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="8304:8611" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="8464:8551" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="8748:9136" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="8809:9118" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="8971:9058" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="9253:9638" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="9312:9620" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="9473:9560" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="9751:10585" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="9807:10015" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="10074:10289" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="10350:10567" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="10702:12863" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="10765:12845" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="10968:11173" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="11254:11461" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="11531:11727" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="11791:11981" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="12045:12235" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="12280:12759" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="12368:12731" ph="{&quot;latitude&quot;: cameraPosition.target.latitude...}" />
-            <marker date="1475637167000" expanded="true" signature="15718:15724" ph="{...}" />
-            <marker date="1475637167000" expanded="true" signature="15718:17821" ph="{...}" />
+            <element signature="e#93#333#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1811,139 +1388,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="db://[MYSQL Local] TABLE - mysql.columns_priv">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="Host" position="0" visible="true" />
-            <column name="Db" position="1" visible="true" />
-            <column name="User" position="2" visible="true" />
-            <column name="Table_name" position="3" visible="true" />
-            <column name="Column_name" position="4" visible="true" />
-            <column name="Timestamp" position="5" visible="true" />
-            <column name="Column_priv" position="6" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[MYSQL Local] TABLE - mysql.time_zone_transition_type">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="Time_zone_id" position="0" visible="true" />
-            <column name="Transition_type_id" position="1" visible="true" />
-            <column name="Offset" position="2" visible="true" />
-            <column name="Is_DST" position="3" visible="true" />
-            <column name="Abbreviation" position="4" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[MYSQL Local] TABLE - mysql.user">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="2" readonly="false">
-          <columns>
-            <column name="Host" position="0" visible="true" />
-            <column name="User" position="1" visible="true" />
-            <column name="Select_priv" position="2" visible="true" />
-            <column name="Insert_priv" position="3" visible="true" />
-            <column name="Update_priv" position="4" visible="true" />
-            <column name="Delete_priv" position="5" visible="true" />
-            <column name="Create_priv" position="6" visible="true" />
-            <column name="Drop_priv" position="7" visible="true" />
-            <column name="Reload_priv" position="8" visible="true" />
-            <column name="Shutdown_priv" position="9" visible="true" />
-            <column name="Process_priv" position="10" visible="true" />
-            <column name="File_priv" position="11" visible="true" />
-            <column name="Grant_priv" position="12" visible="true" />
-            <column name="References_priv" position="13" visible="true" />
-            <column name="Index_priv" position="14" visible="true" />
-            <column name="Alter_priv" position="15" visible="true" />
-            <column name="Show_db_priv" position="16" visible="true" />
-            <column name="Super_priv" position="17" visible="true" />
-            <column name="Create_tmp_table_priv" position="18" visible="true" />
-            <column name="Lock_tables_priv" position="19" visible="true" />
-            <column name="Execute_priv" position="20" visible="true" />
-            <column name="Repl_slave_priv" position="21" visible="true" />
-            <column name="Repl_client_priv" position="22" visible="true" />
-            <column name="Create_view_priv" position="23" visible="true" />
-            <column name="Show_view_priv" position="24" visible="true" />
-            <column name="Create_routine_priv" position="25" visible="true" />
-            <column name="Alter_routine_priv" position="26" visible="true" />
-            <column name="Create_user_priv" position="27" visible="true" />
-            <column name="Event_priv" position="28" visible="true" />
-            <column name="Trigger_priv" position="29" visible="true" />
-            <column name="Create_tablespace_priv" position="30" visible="true" />
-            <column name="ssl_type" position="31" visible="true" />
-            <column name="ssl_cipher" position="32" visible="true" />
-            <column name="x509_issuer" position="33" visible="true" />
-            <column name="x509_subject" position="34" visible="true" />
-            <column name="max_questions" position="35" visible="true" />
-            <column name="max_updates" position="36" visible="true" />
-            <column name="max_connections" position="37" visible="true" />
-            <column name="max_user_connections" position="38" visible="true" />
-            <column name="plugin" position="39" visible="true" />
-            <column name="authentication_string" position="40" visible="true" />
-            <column name="password_expired" position="41" visible="true" />
-            <column name="password_last_changed" position="42" visible="true" />
-            <column name="password_lifetime" position="43" visible="true" />
-            <column name="account_locked" position="44" visible="true" />
-          </columns>
-          <sorting>
-            <column name="Host" index="1" direction="DESCENDING" />
-          </sorting>
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[MYSQL Local] CONSOLE - MYSQL Local">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" current-schema="">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map-view.android.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2823">
-          <caret line="817" column="10" lean-forward="false" selection-start-line="817" selection-start-column="10" selection-end-line="817" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/package.json">
+    <entry file="file://$PROJECT_DIR$/map-view.ios.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#181#0" expanded="true" />
+            <marker date="1478748002000" expanded="true" signature="10040:10058" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tns-core-modules/tns-core-modules.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/app/package.json">
+    <entry file="file://$PROJECT_DIR$/demo/node_modules/tns-core-modules/ui/core/dependency-observable.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="133">
+          <caret line="211" column="8" lean-forward="false" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-view.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="73" />
+          <folding>
+            <element signature="e#132#168#0" expanded="true" />
+            <marker date="1478748628000" expanded="true" signature="582:827" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-view-common.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="119" column="20" lean-forward="false" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#266#0" expanded="true" />
+            <marker date="1478748766000" expanded="true" signature="3719:3726" ph="{...}" />
+            <marker date="1478748766000" expanded="true" signature="7362:7365" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

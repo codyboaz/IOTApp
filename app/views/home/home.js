@@ -1,15 +1,11 @@
 var frameModule = require("ui/frame");
 var dialogs = require("ui/dialogs");
 var WS = require('nativescript-websockets');
-var estimote = require("../../lib/read-estimotes");
-
+console.log("home started");
 
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
-    console.log("OPENNING SOCKET");
-
-    estimote();
 
 }
 
@@ -21,6 +17,7 @@ exports.eventMap = function() {
             fromHome: true,
         }
     }
+    console.log("loading map");
     frameModule.topmost().navigate(navigationOptions);
 }
 
@@ -31,6 +28,7 @@ exports.schedule = function() {
             fromHome: true,
         }
     }
+    console.log("loading schedule");
     frameModule.topmost().navigate(navigationOptions);
 }
 

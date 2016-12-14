@@ -6,7 +6,6 @@ var typedExports = exports;
 function initLifecycleCallbacks() {
     var lifecycleCallbacks = new android.app.Application.ActivityLifecycleCallbacks({
         onActivityCreated: function (activity, bundle) {
-            console.log("------> onActivityCreated: " + activity + " activity.isNativeScriptActivity: " + activity.isNativeScriptActivity);
             var activityInfo = activity.getPackageManager().getActivityInfo(activity.getComponentName(), android.content.pm.PackageManager.GET_META_DATA);
             if (activityInfo.metaData) {
                 var setThemeOnLaunch = activityInfo.metaData.getInt("SET_THEME_ON_LAUNCH", -1);
@@ -23,6 +22,9 @@ function initLifecycleCallbacks() {
             }
         },
         onActivityDestroyed: function (activity) {
+            if (activity === androidApp.foregroundActivity) {
+                androidApp.foregroundActivity = undefined;
+            }
             if (activity === androidApp.startActivity) {
                 androidApp.startActivity = undefined;
             }
@@ -33,9 +35,6 @@ function initLifecycleCallbacks() {
             gc();
         },
         onActivityPaused: function (activity) {
-            if (activity === androidApp.foregroundActivity) {
-                androidApp.foregroundActivity = undefined;
-            }
             if (activity.isNativeScriptActivity) {
                 androidApp.paused = true;
                 if (typedExports.onSuspend) {

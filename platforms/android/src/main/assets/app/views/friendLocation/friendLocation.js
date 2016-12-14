@@ -3,7 +3,6 @@ var textFieldModule = require("ui/text-field");
 var dialogs = require("ui/dialogs");
 var WS = require('nativescript-websockets');
 var mapsModule = require("nativescript-google-maps-sdk");
-var estimote = require("../../lib/read-estimotes");
 
 var lat;
 var lng;
@@ -12,7 +11,7 @@ var name;
 
 var mySocket;
 var socket;
-
+console.log("loading location");
 var isMapReady = false;
 var dataStored = null;
 var mapArgs = null;
@@ -20,7 +19,7 @@ exports.pageLoaded = function(args) {
     var page = args.object;
     var getData = page.navigationContext;
     var location;
-    estimote();
+
     var jsonDoc = JSON.stringify({"simple":getData.secret_name});
     if (socket) {
         console.log("socket status: " + socket.connected);
@@ -29,12 +28,15 @@ exports.pageLoaded = function(args) {
             return; // if its already connected and active, break this function here
         }
     }
-    mySocket = new WS("ws://10.11.156.201:8080/socket.io/?transport=websocket", {});
+    mySocket = new WS("ws://linkality.com/socket.io/?transport=websocket", {});
 
     mySocket.open();
 
+    console.log(mySocket);
+
     mySocket.on('open', function(iSocket) {
         socket = iSocket;
+        console.log("socket opened");
     });
 
     mySocket.on('message', function(iSocket, message) {
@@ -58,8 +60,9 @@ exports.pageLoaded = function(args) {
         }
     });
     page.bindingContext = {};
+         
 }
-
+console.log("still 1 loading location");
 function renderMap(data, args) {
     if(data.hasOwnProperty('location')){
         isMapReady = false;
@@ -91,7 +94,7 @@ function renderMap(data, args) {
         });
     }
 }
-
+console.log("still 2 loading location");
 function onMapReady(args) {
     console.log("set is map ready to true: " + isMapReady);
     isMapReady = true;
@@ -103,11 +106,13 @@ function onMapReady(args) {
         dataStored = null;
     }
 }
-
+console.log("still 3 loading location");
 function onCameraChanged(args) {
     console.log("Camera changed: " + JSON.stringify(args.camera));
 }
 
-
+console.log("still 4 loading location");
 exports.onMapReady = onMapReady;
+console.log("still 5 loading location");
 exports.onCameraChanged = onCameraChanged;
+console.log("still 6 loading location");

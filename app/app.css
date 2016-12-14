@@ -21,6 +21,7 @@
 .margin-btn {
     margin: 10 0 10 0;
 }
+}
 
 .socialImg {
     width: 350;
@@ -57,7 +58,7 @@
     vertical-align: center;
 }
 
-.android .buildingImg {
+.buildingImg {
     width: 100%;
     height: 150;
 }

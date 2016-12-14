@@ -110,7 +110,8 @@ var MainScreen = (function () {
     Object.defineProperty(MainScreen.prototype, "metrics", {
         get: function () {
             if (!this._metrics) {
-                this._metrics = utils.ad.getApplicationContext().getResources().getDisplayMetrics();
+                this._metrics = new android.util.DisplayMetrics();
+                utils.ad.getApplicationContext().getSystemService(android.content.Context.WINDOW_SERVICE).getDefaultDisplay().getRealMetrics(this._metrics);
             }
             return this._metrics;
         },

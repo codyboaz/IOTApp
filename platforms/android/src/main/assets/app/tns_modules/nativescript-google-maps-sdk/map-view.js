@@ -59,7 +59,7 @@ var MapView = (function (_super) {
     };
     MapView.prototype.updatePadding = function () {
         if (this.padding && this.gMap) {
-            this.gMap.setPadding(this.padding[0] || 0, this.padding[1] || 0, this.padding[2] || 0, this.padding[3] || 0);
+            this.gMap.setPadding(this.padding[2] || 0, this.padding[0] || 0, this.padding[3] || 0, this.padding[1] || 0);
         }
     };
     Object.defineProperty(MapView.prototype, "android", {
@@ -124,6 +124,10 @@ var MapView = (function (_super) {
         this._markers = [];
         this._shapes = [];
         this.gMap.clear();
+    };
+    MapView.prototype.setStyle = function (style) {
+        var styleOptions = new com.google.android.gms.maps.model.MapStyleOptions(JSON.stringify(style));
+        return this.gMap.setMapStyle(styleOptions);
     };
     MapView.prototype.findShape = function (callback) {
         return this._shapes.find(callback);
@@ -268,16 +272,6 @@ var MapView = (function (_super) {
                         owner._processingCameraEvent = false;
                     }
                 }));
-                gMap.setInfoWindowAdapter(new com.google.android.gms.maps.GoogleMap.InfoWindowAdapter({
-                    getInfoWindow: function (gmsMarker) {
-                        return null;
-                    },
-                    getInfoContents: function (gmsMarker) {
-                        var marker = owner.findMarker(function (marker) { return marker.android.getId() === gmsMarker.getId(); });
-                        var content = owner._getMarkerInfoWindowContent(marker);
-                        return (content) ? content.android : null;
-                    }
-                }));
                 owner.notifyMapReady();
             }
         });
@@ -414,9 +408,6 @@ var Marker = (function (_super) {
         if (this._isMarker) {
             this.android.showInfoWindow();
         }
-    };
-    Marker.prototype.isInfoWindowShown = function () {
-        return (this._isMarker) ? this.android.showInfoWindow() : false;
     };
     Object.defineProperty(Marker.prototype, "icon", {
         get: function () {
@@ -583,21 +574,6 @@ var Polyline = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Polyline.prototype.addPoint = function (point) {
-        this._points.push(point);
-        this.reloadPoints();
-    };
-    Polyline.prototype.removePoint = function (point, reload) {
-        var index = this._points.indexOf(point);
-        if (index > -1) {
-            this._points.splice(index, 1);
-            this.reloadPoints();
-        }
-    };
-    Polyline.prototype.removeAllPoints = function () {
-        this._points.length = 0;
-        this.reloadPoints();
-    };
     Polyline.prototype.loadPoints = function () {
         if (!this._isReal) {
             this._points.forEach(function (point) {
@@ -613,9 +589,6 @@ var Polyline = (function (_super) {
             }.bind(this));
             this._android.setPoints(points);
         }
-    };
-    Polyline.prototype.getPoints = function () {
-        return this._points.slice();
     };
     Object.defineProperty(Polyline.prototype, "width", {
         get: function () {
@@ -731,21 +704,6 @@ var Polygon = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Polygon.prototype.addPoint = function (point) {
-        this._points.push(point);
-        this.reloadPoints();
-    };
-    Polygon.prototype.removePoint = function (point, reload) {
-        var index = this._points.indexOf(point);
-        if (index > -1) {
-            this._points.splice(index, 1);
-            this.reloadPoints();
-        }
-    };
-    Polygon.prototype.removeAllPoints = function () {
-        this._points.length = 0;
-        this.reloadPoints();
-    };
     Polygon.prototype.loadPoints = function () {
         if (!this._isReal) {
             this._points.forEach(function (point) {
@@ -761,9 +719,6 @@ var Polygon = (function (_super) {
             }.bind(this));
             this._android.setPoints(points);
         }
-    };
-    Polygon.prototype.getPoints = function () {
-        return this._points.slice();
     };
     Object.defineProperty(Polygon.prototype, "strokeWidth", {
         get: function () {

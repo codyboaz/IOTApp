@@ -1,6 +1,6 @@
 {
   "name": "nativescript-google-maps-sdk",
-  "version": "1.3.14",
+  "version": "1.4.1",
   "description": "Google Maps SDK plugin for Nativescript",
   "main": "map-view.js",
   "typings": "map-view.d.ts",
@@ -37,21 +37,21 @@
   "dependencies": {},
   "devDependencies": {
     "tns-core-modules": "^1.5.1",
-    "typescript": "^1.7.5"
+    "typescript": "^1.8.0"
   },
-  "gitHead": "6261109b999afd40c628a216fdbe94ed5d06cb23",
-  "_id": "nativescript-google-maps-sdk@1.3.14",
-  "_shasum": "fcbe0b04cd6a21db08acdbc1e24363218be40265",
-  "_from": "nativescript-google-maps-sdk@>=1.3.14 <2.0.0",
-  "_npmVersion": "3.10.3",
-  "_nodeVersion": "6.5.0",
+  "gitHead": "f3af3d181f6086bd407c8a2f9af97ce303509cbb",
+  "_id": "nativescript-google-maps-sdk@1.4.1",
+  "_shasum": "a63bacbfe90acfdaa63d9a911b4510c62a668161",
+  "_from": "nativescript-google-maps-sdk@latest",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
   "_npmUser": {
     "name": "dprietti",
     "email": "npm@prietti.com"
   },
   "dist": {
-    "shasum": "fcbe0b04cd6a21db08acdbc1e24363218be40265",
-    "tarball": "https://registry.npmjs.org/nativescript-google-maps-sdk/-/nativescript-google-maps-sdk-1.3.14.tgz"
+    "shasum": "a63bacbfe90acfdaa63d9a911b4510c62a668161",
+    "tarball": "https://registry.npmjs.org/nativescript-google-maps-sdk/-/nativescript-google-maps-sdk-1.4.1.tgz"
   },
   "maintainers": [
     {
@@ -60,10 +60,10 @@
     }
   ],
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/nativescript-google-maps-sdk-1.3.14.tgz_1475637286114_0.17605259572155774"
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-google-maps-sdk-1.4.1.tgz_1478748987559_0.07431727135553956"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/nativescript-google-maps-sdk/-/nativescript-google-maps-sdk-1.3.14.tgz",
+  "_resolved": "https://registry.npmjs.org/nativescript-google-maps-sdk/-/nativescript-google-maps-sdk-1.4.1.tgz",
   "readme": "ERROR: No README data found!"
 }

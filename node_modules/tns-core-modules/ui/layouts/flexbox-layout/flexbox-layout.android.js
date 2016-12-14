@@ -13,31 +13,26 @@ function setLayoutParamsProperty(view, setter) {
         }
     }
 }
-function onNativeOrderPropertyChanged(_a) {
-    var object = _a.object, newValue = _a.newValue;
-    setLayoutParamsProperty(object, function (lp) { return lp.order = newValue; });
+function _onNativeOrderPropertyChanged(view, newValue) {
+    setLayoutParamsProperty(view, function (lp) { return lp.order = newValue; });
 }
-function onNativeFlexGrowPropertyChanged(_a) {
-    var object = _a.object, newValue = _a.newValue;
-    setLayoutParamsProperty(object, function (lp) { return lp.flexGrow = newValue; });
+exports._onNativeOrderPropertyChanged = _onNativeOrderPropertyChanged;
+function _onNativeFlexGrowPropertyChanged(view, newValue) {
+    setLayoutParamsProperty(view, function (lp) { return lp.flexGrow = newValue; });
 }
-function onNativeFlexShrinkPropertyChanged(_a) {
-    var object = _a.object, newValue = _a.newValue;
-    setLayoutParamsProperty(object, function (lp) { return lp.flexShrink = newValue; });
+exports._onNativeFlexGrowPropertyChanged = _onNativeFlexGrowPropertyChanged;
+function _onNativeFlexShrinkPropertyChanged(view, newValue) {
+    setLayoutParamsProperty(view, function (lp) { return lp.flexShrink = newValue; });
 }
-function onNativeAlignSelfPropertyChanged(_a) {
-    var object = _a.object, newValue = _a.newValue;
-    setLayoutParamsProperty(object, function (lp) { return lp.alignSelf = alignSelfMap[newValue]; });
+exports._onNativeFlexShrinkPropertyChanged = _onNativeFlexShrinkPropertyChanged;
+function _onNativeAlignSelfPropertyChanged(view, newValue) {
+    setLayoutParamsProperty(view, function (lp) { return lp.alignSelf = alignSelfMap[newValue]; });
 }
-function onNativeFlexWrapBeforePropertyChanged(_a) {
-    var object = _a.object, newValue = _a.newValue;
-    setLayoutParamsProperty(object, function (lp) { return lp.wrapBefore = newValue; });
+exports._onNativeAlignSelfPropertyChanged = _onNativeAlignSelfPropertyChanged;
+function _onNativeFlexWrapBeforePropertyChanged(view, newValue) {
+    setLayoutParamsProperty(view, function (lp) { return lp.wrapBefore = newValue; });
 }
-flexbox_layout_common_1.FlexboxLayoutBase.orderProperty.metadata.onSetNativeValue = onNativeOrderPropertyChanged;
-flexbox_layout_common_1.FlexboxLayoutBase.flexGrowProperty.metadata.onSetNativeValue = onNativeFlexGrowPropertyChanged;
-flexbox_layout_common_1.FlexboxLayoutBase.flexShrinkProperty.metadata.onSetNativeValue = onNativeFlexShrinkPropertyChanged;
-flexbox_layout_common_1.FlexboxLayoutBase.alignSelfProperty.metadata.onSetNativeValue = onNativeAlignSelfPropertyChanged;
-flexbox_layout_common_1.FlexboxLayoutBase.flexWrapBeforeProperty.metadata.onSetNativeValue = onNativeFlexWrapBeforePropertyChanged;
+exports._onNativeFlexWrapBeforePropertyChanged = _onNativeFlexWrapBeforePropertyChanged;
 __export(require("./flexbox-layout-common"));
 var FlexboxLayoutWidget = org.nativescript.widgets.FlexboxLayout;
 var flexDirectionMap = (_a = {},
@@ -105,23 +100,21 @@ var FlexboxLayout = (function (_super) {
     FlexboxLayout.prototype._createUI = function () {
         this._layout = new org.nativescript.widgets.FlexboxLayout(this._context);
     };
-    FlexboxLayout.prototype.setNativeFlexDirection = function (flexDirection) {
+    FlexboxLayout.prototype._setNativeFlexDirection = function (flexDirection) {
         var value = flexDirectionMap[flexDirection];
         this.android.setFlexDirection(value);
     };
-    FlexboxLayout.prototype.setNativeFlexWrap = function (flexWrap) {
+    FlexboxLayout.prototype._setNativeFlexWrap = function (flexWrap) {
         this.android.setFlexWrap(flexWrapMap[flexWrap]);
     };
-    FlexboxLayout.prototype.setNativeJustifyContent = function (justifyContent) {
+    FlexboxLayout.prototype._setNativeJustifyContent = function (justifyContent) {
         this.android.setJustifyContent(justifyContentMap[justifyContent]);
     };
-    FlexboxLayout.prototype.setNativeAlignItems = function (alignItems) {
+    FlexboxLayout.prototype._setNativeAlignItems = function (alignItems) {
         this.android.setAlignItems(alignItemsMap[alignItems]);
     };
-    FlexboxLayout.prototype.setNativeAlignContent = function (alignContent) {
+    FlexboxLayout.prototype._setNativeAlignContent = function (alignContent) {
         this.android.setAlignContent(alignContentMap[alignContent]);
-    };
-    FlexboxLayout.prototype.invalidate = function () {
     };
     return FlexboxLayout;
 }(flexbox_layout_common_1.FlexboxLayoutBase));

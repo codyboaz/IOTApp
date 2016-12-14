@@ -19,6 +19,7 @@ var MODULES = {
 };
 var CODEFILE = "codeFile";
 var CSSFILE = "cssFile";
+var IMPORT = "import";
 var platform;
 function ensurePlatform() {
     if (!platform) {
@@ -60,6 +61,14 @@ function getComponentModule(elementName, namespace, attributes, exports) {
         throw new debug.ScopeError(ex, "Module '" + moduleId + "' not found for element '" + (namespace ? namespace + ":" : "") + elementName + "'.");
     }
     if (attributes) {
+        if (attributes[IMPORT]) {
+            var importPath = attributes[IMPORT].trim();
+            if (importPath.indexOf("~/") === 0) {
+                importPath = file_system_1.path.join(file_system_1.knownFolders.currentApp().path, importPath.replace("~/", ""));
+            }
+            exports = global.loadModule(importPath);
+            instance.exports = exports;
+        }
         if (attributes[CODEFILE]) {
             if (instance instanceof page_1.Page) {
                 var codeFilePath = attributes[CODEFILE].trim();

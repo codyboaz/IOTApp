@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		g+40Hl2J3wBezNtAvnTttf55lng=
+		tM0zZ5eDsEMqGdMNg6+majH5L9w=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/PocketSocket.framework/PocketSocket</key>
 		<data>
-		5oxdLgjNy0SaLIVIhXIg5ijT7o0=
+		yfdMNTx2TvEwh8wQ6YHf+O2epiY=
 		</data>
 		<key>Frameworks/PocketSocket.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -881,7 +881,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		9+Mm2iuHDLq535wymdddtcYR7vI=
+		nyRuIVdPLMAUQ8c3AEZ1ZDnQePA=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -889,7 +889,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		MKN8Tg4ranhEXKjMeuDfrZo2dEQ=
+		WXyBbxSN7GahHJcBszvSqvIw0so=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -901,7 +901,7 @@
 		</data>
 		<key>app/app.js</key>
 		<data>
-		jDWEuKqthiQBKIrAnakuypLTq7g=
+		ExQARnnHPhqsm8qdewwZIrPFatQ=
 		</data>
 		<key>app/css/core.dark.css</key>
 		<data>
@@ -913,7 +913,7 @@
 		</data>
 		<key>app/lib/read-estimotes.js</key>
 		<data>
-		4mDmb/QZIN5rx7/kWUTG9Wtav7M=
+		b2i/RMJs+xPYSczLHqmJHer7bWo=
 		</data>
 		<key>app/main-view-model.js</key>
 		<data>
@@ -2297,7 +2297,7 @@
 		</data>
 		<key>app/views/credentials/credentials.js</key>
 		<data>
-		9dzCDFLXAlTXsK4xW+q70QaqCYw=
+		L5qCRpAGukYfKSbT9ZHezVLqsnY=
 		</data>
 		<key>app/views/credentials/credentials.xml</key>
 		<data>
@@ -2672,11 +2672,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g+40Hl2J3wBezNtAvnTttf55lng=
+			tM0zZ5eDsEMqGdMNg6+majH5L9w=
 			</data>
 			<key>hash2</key>
 			<data>
-			qBe+saVJ3XLzYN20bN0MRYWeDVF3cETCNE/iX6QLKoM=
+			yjYeAQfpxV+s9ORdiPxYLhKe8YwA2F290TPYReqO34M=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -2727,11 +2727,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5oxdLgjNy0SaLIVIhXIg5ijT7o0=
+			yfdMNTx2TvEwh8wQ6YHf+O2epiY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZltLsrmtJRrshUg2y9zq9gFHrgkcUkmzb5b8Ij3N/6o=
+			sd/A7U9dEfH6mZPli/tZ3ljWv9F8+wx1qxQTpvRvFvg=
 			</data>
 		</dict>
 		<key>Frameworks/PocketSocket.framework/_CodeSignature/CodeResources</key>
@@ -4353,11 +4353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9+Mm2iuHDLq535wymdddtcYR7vI=
+			nyRuIVdPLMAUQ8c3AEZ1ZDnQePA=
 			</data>
 			<key>hash2</key>
 			<data>
-			8kSSO6KNZNYFcF6wnXpCNMOVj05BYlnG8Pw6doft5y8=
+			BQCF1rCZHfkvbjf3qZ9ZgccQ3tFYxbYAK3m8H5SqZHk=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -4375,11 +4375,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MKN8Tg4ranhEXKjMeuDfrZo2dEQ=
+			WXyBbxSN7GahHJcBszvSqvIw0so=
 			</data>
 			<key>hash2</key>
 			<data>
-			s41ON6H5MXEVjwJvriTYRPv35kLJVOaOFinbX1x9joI=
+			zKrQOSUBJJEA3gLKjtimEn0GZaCDvJF9NE1EXV9IQzY=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -4397,11 +4397,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jDWEuKqthiQBKIrAnakuypLTq7g=
+			ExQARnnHPhqsm8qdewwZIrPFatQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			g8QQxDLdEq3vsHiRz6DYJEWvv+cwGrOlHTOA0SQq1R4=
+			yyNkzbdN5ZrXW33LO7bN+f+Yu94RsKhnaD2upv3966Y=
 			</data>
 		</dict>
 		<key>app/css/core.dark.css</key>
@@ -4430,11 +4430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4mDmb/QZIN5rx7/kWUTG9Wtav7M=
+			b2i/RMJs+xPYSczLHqmJHer7bWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			bfpO8QriZ+el45ZFUtgebn9TadSwsy3oMQemgYlHG7I=
+			0plGyKXD3JqvBfmWjlYSBiKxNZA8xyQb/OYwUucwOxo=
 			</data>
 		</dict>
 		<key>app/main-view-model.js</key>
@@ -8236,11 +8236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9dzCDFLXAlTXsK4xW+q70QaqCYw=
+			L5qCRpAGukYfKSbT9ZHezVLqsnY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ftBGwgBcCWpNvkb0fM0XrcszP2Ix1F88ORtuao9dHmI=
+			tj4WCstNZ0N2dgnp1T54Ma77eJgJjkEoKlCvmflspzU=
 			</data>
 		</dict>
 		<key>app/views/credentials/credentials.xml</key>

@@ -1,10 +1,10 @@
 use_frameworks!
 
 target "IOTApp" do
-# Begin Podfile - /Users/Cody/Desktop/IOTApp/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
+# Begin Podfile - /Users/Cody/Desktop/IOT/IOTApp/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
  pod 'GoogleMaps' 
  # End Podfile 
-# Begin Podfile - /Users/Cody/Desktop/IOTApp/node_modules/nativescript-websockets/platforms/ios/Podfile 
+# Begin Podfile - /Users/Cody/Desktop/IOT/IOTApp/node_modules/nativescript-websockets/platforms/ios/Podfile 
  pod 'PocketSocket', :git => 'https://github.com/NathanaelA/PocketSocket' 
  # End Podfile 
 

@@ -6,16 +6,16 @@
 	objectVersion = 46;
 	objects = {
 /* Begin PBXBuildFile section */
-		0105E428EB6045D1AA757E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E551B5AAAE3944B3BEFB051E /* Assets.xcassets */; };
-		0804305C24A44FAD8C92434A /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8F0B1EACFB45CCB69D6836 /* TNSWidgets.framework */; };
-		1BB9C419920D49BEAE00CF9A /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A19F75C6094269B2EFF9AB /* libEstimoteSDK.a */; };
-		5A8E533F580BB5285E9B3862 /* Pods_IOTApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158380A2BDC1325E46D1E527 /* Pods_IOTApp.framework */; };
-		5C0FBF516D56464DB0FDAD18 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8F0B1EACFB45CCB69D6836 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28A15CAEDD204CE089BBCFAE /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9D5894F280E542DC92050B93 /* build.xcconfig */; };
+		3869AEE85EAB4886BA2DE2AF /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA7C1B6A6E940E68EFA322B /* TNSWidgets.framework */; };
+		3C3C1090C466326794C16CEF /* Pods_IOTApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD909251FC309D48A877FAB /* Pods_IOTApp.framework */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		B1B4BBA7D8DF410F8468BFE1 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD54DD40D641AC81B0F956 /* libEstimoteSDK.a */; };
+		B866BB6B2B4349F1BE62C366 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA7C1B6A6E940E68EFA322B /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8B014327F5547E18FA042B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE692D80C3F74CBC812BBB71 /* LaunchScreen.storyboard */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		DC375F8C3E07494EA47FA9B5 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3104F40ED9F64F7399A3EBB8 /* build.xcconfig */; };
-		FB9EF8496C284570B1E4A7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C176808F6B644649DFB9E28 /* LaunchScreen.storyboard */; };
+		D6C6E2B3FB694852A1B5A8FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD94899AB6A94578A51D193B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5C0FBF516D56464DB0FDAD18 /* TNSWidgets.framework in Embed Frameworks */,
+				B866BB6B2B4349F1BE62C366 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,22 +33,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		158380A2BDC1325E46D1E527 /* Pods_IOTApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C176808F6B644649DFB9E28 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = IOTApp/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3104F40ED9F64F7399A3EBB8 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = IOTApp/Resources/build.xcconfig; sourceTree = "<group>"; };
-		57A19F75C6094269B2EFF9AB /* libEstimoteSDK.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = ../../lib/iOS/libEstimoteSDK.a; sourceTree = "<group>"; };
-		6C8F0B1EACFB45CCB69D6836 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = ../../lib/iOS/TNSWidgets.framework; sourceTree = "<group>"; };
+		7BA7C1B6A6E940E68EFA322B /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = ../../lib/iOS/TNSWidgets.framework; sourceTree = "<group>"; };
 		858B832E18CA111C00AB12DE /* IOTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* IOTApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOTApp-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* IOTApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOTApp-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* IOTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD909251FC309D48A877FAB /* Pods_IOTApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5894F280E542DC92050B93 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = IOTApp/Resources/build.xcconfig; sourceTree = "<group>"; };
+		A8FD54DD40D641AC81B0F956 /* libEstimoteSDK.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = ../../lib/iOS/libEstimoteSDK.a; sourceTree = "<group>"; };
+		AE692D80C3F74CBC812BBB71 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = IOTApp/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD94899AB6A94578A51D193B /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = IOTApp/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		E551B5AAAE3944B3BEFB051E /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = IOTApp/Resources/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB9C419920D49BEAE00CF9A /* libEstimoteSDK.a in Frameworks */,
-				0804305C24A44FAD8C92434A /* TNSWidgets.framework in Frameworks */,
-				5A8E533F580BB5285E9B3862 /* Pods_IOTApp.framework in Frameworks */,
+				B1B4BBA7D8DF410F8468BFE1 /* libEstimoteSDK.a in Frameworks */,
+				3869AEE85EAB4886BA2DE2AF /* TNSWidgets.framework in Frameworks */,
+				3C3C1090C466326794C16CEF /* Pods_IOTApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B817658F0E4A059BE381151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +79,7 @@
 				858B833718CA111C00AB12DE /* IOTApp */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
-				F8B0DB18F000B035DFA0E07A /* Pods */,
+				5B817658F0E4A059BE381151 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,9 +95,9 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				57A19F75C6094269B2EFF9AB /* libEstimoteSDK.a */,
-				6C8F0B1EACFB45CCB69D6836 /* TNSWidgets.framework */,
-				158380A2BDC1325E46D1E527 /* Pods_IOTApp.framework */,
+				A8FD54DD40D641AC81B0F956 /* libEstimoteSDK.a */,
+				7BA7C1B6A6E940E68EFA322B /* TNSWidgets.framework */,
+				8BD909251FC309D48A877FAB /* Pods_IOTApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,18 +128,11 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E551B5AAAE3944B3BEFB051E /* Assets.xcassets */,
-				2C176808F6B644649DFB9E28 /* LaunchScreen.storyboard */,
-				3104F40ED9F64F7399A3EBB8 /* build.xcconfig */,
+				BD94899AB6A94578A51D193B /* Assets.xcassets */,
+				AE692D80C3F74CBC812BBB71 /* LaunchScreen.storyboard */,
+				9D5894F280E542DC92050B93 /* build.xcconfig */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		F8B0DB18F000B035DFA0E07A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "IOTApp" */;
 			buildPhases = (
-				46953764E66D408CB4F74B29 /* [CP] Check Pods Manifest.lock */,
+				ED2BECC3852531C3AB14E13F /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -150,8 +150,8 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
-				1A9A4D11FA13E4F745E72A1F /* [CP] Embed Pods Frameworks */,
-				588DB1D8E812636DA2D5C828 /* [CP] Copy Pods Resources */,
+				05198E63D470C8D2E6FCA496 /* [CP] Embed Pods Frameworks */,
+				72FC1D5EBB06863A481152C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,12 +171,6 @@
 				CLASSPREFIX = TNS;
 				LastUpgradeCheck = 500;
 				ORGANIZATIONNAME = Telerik;
-				TargetAttributes = {
-					858B83EF18CA22B800AB12DE = {
-						DevelopmentTeam = 88UT3J2649;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "IOTApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -202,16 +196,16 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				0105E428EB6045D1AA757E1E /* Assets.xcassets in Resources */,
-				FB9EF8496C284570B1E4A7EB /* LaunchScreen.storyboard in Resources */,
-				DC375F8C3E07494EA47FA9B5 /* build.xcconfig in Resources */,
+				D6C6E2B3FB694852A1B5A8FE /* Assets.xcassets in Resources */,
+				C8B014327F5547E18FA042B3 /* LaunchScreen.storyboard in Resources */,
+				28A15CAEDD204CE089BBCFAE /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A9A4D11FA13E4F745E72A1F /* [CP] Embed Pods Frameworks */ = {
+		05198E63D470C8D2E6FCA496 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,22 +220,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOTApp/Pods-IOTApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		46953764E66D408CB4F74B29 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		588DB1D8E812636DA2D5C828 /* [CP] Copy Pods Resources */ = {
+		72FC1D5EBB06863A481152C8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,6 +280,21 @@
 			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
 			showEnvVarsInLog = 0;
 		};
+		ED2BECC3852531C3AB14E13F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -343,11 +337,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Cody Boaz (88UT3J2649)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cody Boaz (88UT3J2649)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 88UT3J2649;
-				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -360,7 +351,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "7aeee1a1-ebbd-48e4-8239-ebb21b743aad";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 arm64";
@@ -384,10 +374,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Cody Boaz (88UT3J2649)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cody Boaz (88UT3J2649)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 88UT3J2649;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -397,7 +385,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE = "7aeee1a1-ebbd-48e4-8239-ebb21b743aad";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -412,9 +399,6 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,8 +417,6 @@
 				INFOPLIST_FILE = "$(SRCROOT)/IOTApp/IOTApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = IOTApp;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,10 +429,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"../../lib/iOS\"",
@@ -464,8 +443,6 @@
 				INFOPLIST_FILE = "$(SRCROOT)/IOTApp/IOTApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = IOTApp;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
 			};

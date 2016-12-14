@@ -1,15 +1,12 @@
 var frameModule = require("ui/frame");
 var dialogs = require("ui/dialogs");
 var WS = require('nativescript-websockets');
-var estimote = require("../../lib/read-estimotes");
 
 
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
     console.log("OPENNING SOCKET");
-
-    estimote();
 
 }
 

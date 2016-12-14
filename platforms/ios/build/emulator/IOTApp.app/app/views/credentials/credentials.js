@@ -7,7 +7,9 @@ console.log("loading splash");
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
-    global.estimoteMaster.running.startRanging();
+	console.dump(global.estimoteMaster);
+	global.estimoteMaster.create();
+	global.estimoteMaster.running.startRanging();
 	
 }
 

@@ -17,7 +17,7 @@ var estimoteReader = function(){
                             console.log(beacon.major);
                             console.log(global.foundBeacon);
                             console.dump(beacon);
-                            if((beacon.major == 2467 || beacon.major == 47570 || beacon.major == 26418) && global.foundBeacon && beacon.rssi>-70){
+                            if((beacon.major == 2467 || beacon.major == 47570 || beacon.major == 26418) && global.foundBeacon && beacon.proximity == "Near"){
                                 if(global.currentBeacon!=beacon.major){
                                     global.foundBeacon=false;
                                     console.log("reset to 0");
@@ -28,7 +28,7 @@ var estimoteReader = function(){
                             console.log(beacon.proximity);
                             console.log(beacon.major);
 
-                            if (beacon.major == 26418 && !global.foundBeacon  && beacon.rssi>-70) {
+                            if (beacon.major == 26418 && !global.foundBeacon  && beacon.proximity == "Near") {
                                 global.foundBeacon=true;
                                 console.log("dark blue beacon found");
                                 console.log(beacon.proximity);
@@ -52,7 +52,7 @@ var estimoteReader = function(){
                                         frameModule.topmost().navigate(navigationOptions);
                                     }
                                 });
-                            } else if (beacon.major == 47570 && !global.foundBeacon  && beacon.rssi>-70) {
+                            } else if (beacon.major == 47570 && !global.foundBeacon  && beacon.proximity == "Near") {
                                 global.foundBeacon=true;
                                 console.log("green beacon found");
                                 console.log(beacon.proximity);
@@ -76,7 +76,7 @@ var estimoteReader = function(){
                                         frameModule.topmost().navigate(navigationOptions);
                                     }
                                 });
-                            }else if (beacon.major == 2467 && !global.foundBeacon  && beacon.rssi>-70) {
+                            }else if (beacon.major == 2467 && !global.foundBeacon  && beacon.proximity == "Near") {
                                 global.foundBeacon=true;
                                 console.log("light blue beacon found");
                                 console.log(beacon.proximity);

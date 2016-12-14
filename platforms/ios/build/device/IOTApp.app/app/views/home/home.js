@@ -7,8 +7,8 @@ exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
     console.log("OPENNING SOCKET");
-    console.dump(global.estimoteMaster);
-
+    global.estimoteMaster.create();
+    global.estimoteMaster.running.startRanging();
 }
 
 exports.eventMap = function() {

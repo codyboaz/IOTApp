@@ -18,6 +18,8 @@ var mapArgs = null;
 exports.pageLoaded = function(args) {
     var page = args.object;
     var getData = page.navigationContext;
+    global.estimoteMaster.create();
+    global.estimoteMaster.running.startRanging();
     var location;
     var jsonDoc = JSON.stringify({"simple":getData.secret_name});
     if (socket) {

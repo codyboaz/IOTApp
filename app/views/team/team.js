@@ -7,6 +7,8 @@ exports.pageLoaded = function(args) {
     
     var page = args.object;
     var getData = page.navigationContext;
+    global.estimoteMaster.create();
+    global.estimoteMaster.running.startRanging();
     console.log(getData.teamName);
     console.log(getData.logoName);
     viewModel.set("teamName", getData.teamName);

@@ -6,7 +6,8 @@ var dialogs = require("ui/dialogs");
 exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
-
+    global.estimoteMaster.create();
+    global.estimoteMaster.running.startRanging();
 }
 
 exports.friendLocation = function() {

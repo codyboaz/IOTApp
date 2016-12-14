@@ -7,8 +7,11 @@ var viewModel = new observable.Observable();
 exports.pageLoaded = function(args) {
     var page = args.object;
     var getData = page.navigationContext;
+    global.estimoteMaster.create();
+    global.estimoteMaster.running.startRanging();
     console.log(getData.roomName);
     console.log(getData.imgName);
+    console.dump(global.estimoteMaster);
     if (getData.id == "104") {
         viewModel.set("104", "visible");
         viewModel.set("105", "hidden");

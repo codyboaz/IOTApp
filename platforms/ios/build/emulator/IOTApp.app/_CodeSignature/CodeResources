@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		P3aK5yc/QjV2bL1qhZvAP9Cug1w=
+		CGbbOYMUw5KggTm9fKV9wnc73bc=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/PocketSocket.framework/PocketSocket</key>
 		<data>
-		jLVdiWJw4fUQfoUrLtDtSflDr4A=
+		pqNN7lQqb6q7WkBxyTTMnQHUvNI=
 		</data>
 		<key>Frameworks/PocketSocket.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -813,7 +813,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WR2prkJ9AJeU4YfrIdEkN36B7m0=
+		rAGTXnvTN7cCkATllnlDtB4zcxA=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -881,7 +881,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		okW8hQo7y+sJjceF8MMmdzU/OJI=
+		w/oBGsQT7jFYJ3ZT4mKqk7foq9M=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -889,7 +889,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		0eZIL4rYrXUh0GN+Js+kiJiY28U=
+		Fm3PctMCz2066Ebqsff7bs8XTEQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -913,7 +913,7 @@
 		</data>
 		<key>app/lib/read-estimotes.js</key>
 		<data>
-		b2i/RMJs+xPYSczLHqmJHer7bWo=
+		CXdZCpH1W4Ajc9HO7ElKIgCKI4E=
 		</data>
 		<key>app/main-view-model.js</key>
 		<data>
@@ -1205,7 +1205,7 @@
 		</data>
 		<key>app/tns_modules/nativescript-estimote-sdk/estimote.js</key>
 		<data>
-		MTq+uQhgQAYIXuVZreJ2OVYSjog=
+		hiwpZt2Jgu8v5q0Nzk2t/uH8IkY=
 		</data>
 		<key>app/tns_modules/nativescript-estimote-sdk/package.json</key>
 		<data>
@@ -2297,7 +2297,7 @@
 		</data>
 		<key>app/views/credentials/credentials.js</key>
 		<data>
-		L5qCRpAGukYfKSbT9ZHezVLqsnY=
+		sQAM0x1MUrxyfpNvNqTIMvnOJk4=
 		</data>
 		<key>app/views/credentials/credentials.xml</key>
 		<data>
@@ -2309,7 +2309,7 @@
 		</data>
 		<key>app/views/findFriends/findFriends.js</key>
 		<data>
-		LIGN8LtJCfWvwE8J18vTVTohb/Y=
+		BewiLvXTUrYKNU2nuaiPEpeFstc=
 		</data>
 		<key>app/views/findFriends/findFriends.xml</key>
 		<data>
@@ -2321,7 +2321,7 @@
 		</data>
 		<key>app/views/friendLocation/friendLocation.js</key>
 		<data>
-		YF0xdgYpLjr/cCADxhVHt6hLN/I=
+		ZxoiDJwnh3VNranWqWx4Jjg78oA=
 		</data>
 		<key>app/views/friendLocation/friendLocation.xml</key>
 		<data>
@@ -2333,7 +2333,7 @@
 		</data>
 		<key>app/views/home/home.js</key>
 		<data>
-		OcRs/BVv+/YSOZeXMtw76dUEhD0=
+		NtQZ29Kl4dtWMY2gxuMq5dMJ+HE=
 		</data>
 		<key>app/views/home/home.xml</key>
 		<data>
@@ -2401,7 +2401,7 @@
 		</data>
 		<key>app/views/map/map.js</key>
 		<data>
-		XSlVoNsFX/3/UZkd8dopSIvpGoE=
+		xmvxrUUQHcXenZiGMbPvRYiNzr0=
 		</data>
 		<key>app/views/map/map.xml</key>
 		<data>
@@ -2413,7 +2413,7 @@
 		</data>
 		<key>app/views/room/room.js</key>
 		<data>
-		E80hGHuAy3d/6HzrALFOZdMJFIY=
+		GsQb3zTgJeci1hFguym/oPVI4uk=
 		</data>
 		<key>app/views/room/room.xml</key>
 		<data>
@@ -2425,7 +2425,7 @@
 		</data>
 		<key>app/views/schedule/schedule.js</key>
 		<data>
-		csmTELhJmNutMuceIr5RTPP9lMg=
+		9q3ATJ2owQbWOkCtctDhYTC9zkg=
 		</data>
 		<key>app/views/schedule/schedule.xml</key>
 		<data>
@@ -2437,7 +2437,7 @@
 		</data>
 		<key>app/views/team/team.js</key>
 		<data>
-		/xu0ViiPnF7OYeJ6bY6SgwvzHo0=
+		DaFKzW+JyvuvdDT2xQ91DOusuXY=
 		</data>
 		<key>app/views/team/team.xml</key>
 		<data>
@@ -2672,11 +2672,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P3aK5yc/QjV2bL1qhZvAP9Cug1w=
+			CGbbOYMUw5KggTm9fKV9wnc73bc=
 			</data>
 			<key>hash2</key>
 			<data>
-			MCsybCQV3W+ZCu4uxcwxaiyo2lnRvkTS5nWjLKegRO0=
+			naP+nxS1pFfrJI8AAOtetm4FVEcfLizyocMoJOkB1fc=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -2727,11 +2727,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jLVdiWJw4fUQfoUrLtDtSflDr4A=
+			pqNN7lQqb6q7WkBxyTTMnQHUvNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			K5KE9haV15oj5h9gTq6oXicQMcB0zHtuJTgU1DPSD1k=
+			QHMNaQpG98/JQMNHveNxFiTVLxgvxFcwv2e0viibBEk=
 			</data>
 		</dict>
 		<key>Frameworks/PocketSocket.framework/_CodeSignature/CodeResources</key>
@@ -4353,11 +4353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			okW8hQo7y+sJjceF8MMmdzU/OJI=
+			w/oBGsQT7jFYJ3ZT4mKqk7foq9M=
 			</data>
 			<key>hash2</key>
 			<data>
-			H9UNVA4rVCEGPR47wETOu7fmUl9X40Zvl3Jsye0dgR0=
+			WEwrOtPYc6M+CT97pYE2PGPmoK9kswi8oXqtmI/IXPE=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -4375,11 +4375,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0eZIL4rYrXUh0GN+Js+kiJiY28U=
+			Fm3PctMCz2066Ebqsff7bs8XTEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			P7QWENnqkZPpLAOtxtSTEz93b/D5bqneP4h9sz3RVB8=
+			h2kT5H/lVscdV6ruB49UCBTblkBSuMplrerxOLDqkbw=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -4430,11 +4430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b2i/RMJs+xPYSczLHqmJHer7bWo=
+			CXdZCpH1W4Ajc9HO7ElKIgCKI4E=
 			</data>
 			<key>hash2</key>
 			<data>
-			0plGyKXD3JqvBfmWjlYSBiKxNZA8xyQb/OYwUucwOxo=
+			ImsxM5L5Eq1u6zjXxvaeoPAK1NnemuObHQZhckiFJCg=
 			</data>
 		</dict>
 		<key>app/main-view-model.js</key>
@@ -5233,11 +5233,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MTq+uQhgQAYIXuVZreJ2OVYSjog=
+			hiwpZt2Jgu8v5q0Nzk2t/uH8IkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			p9nBdXAV9peHLa+s9gVoTwCr/CFAwfB+zS6/4hqneEQ=
+			wJl3R+07XDAUUyAiCknr80ZuieIutDrideodoZngxwo=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-estimote-sdk/package.json</key>
@@ -8236,11 +8236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L5qCRpAGukYfKSbT9ZHezVLqsnY=
+			sQAM0x1MUrxyfpNvNqTIMvnOJk4=
 			</data>
 			<key>hash2</key>
 			<data>
-			tj4WCstNZ0N2dgnp1T54Ma77eJgJjkEoKlCvmflspzU=
+			4XWqwiXrUOMQEknB7u8O/BOcREfwEr+/W+j2VaE9C5Q=
 			</data>
 		</dict>
 		<key>app/views/credentials/credentials.xml</key>
@@ -8269,11 +8269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LIGN8LtJCfWvwE8J18vTVTohb/Y=
+			BewiLvXTUrYKNU2nuaiPEpeFstc=
 			</data>
 			<key>hash2</key>
 			<data>
-			gevP++8BTskCm/Pg604BZ+SOneWKExJJcGBG+SgmGCE=
+			yHwenFNk7EcazL0eHM5/jTPUFkqE8T9rgPBRFca+OwE=
 			</data>
 		</dict>
 		<key>app/views/findFriends/findFriends.xml</key>
@@ -8302,11 +8302,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YF0xdgYpLjr/cCADxhVHt6hLN/I=
+			ZxoiDJwnh3VNranWqWx4Jjg78oA=
 			</data>
 			<key>hash2</key>
 			<data>
-			yBzZkYjAr2LA5Nd8GywJDs/fDSw6PRGuKx+U9t3EECE=
+			7cklU0b5lcd/EEreljAOBmkmxER42nLXVftPRmm7AfY=
 			</data>
 		</dict>
 		<key>app/views/friendLocation/friendLocation.xml</key>
@@ -8335,11 +8335,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OcRs/BVv+/YSOZeXMtw76dUEhD0=
+			NtQZ29Kl4dtWMY2gxuMq5dMJ+HE=
 			</data>
 			<key>hash2</key>
 			<data>
-			RfNgPzl0LQWjR56EyA7hLPAbLBf5TLwi/YOygEqN6EE=
+			FoxTHidDqAgJ3kI2ewZMPMucBRWd0wkDIfZzE1bhUaA=
 			</data>
 		</dict>
 		<key>app/views/home/home.xml</key>
@@ -8522,11 +8522,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XSlVoNsFX/3/UZkd8dopSIvpGoE=
+			xmvxrUUQHcXenZiGMbPvRYiNzr0=
 			</data>
 			<key>hash2</key>
 			<data>
-			0+kOKcJ4aICg4mTztky4B2aLELsK/M9nF9eE8c7V3/A=
+			mb8JHVE8vE3ezv6mg+rh8DJVDL0RAdyPZZvF7klEYmE=
 			</data>
 		</dict>
 		<key>app/views/map/map.xml</key>
@@ -8555,11 +8555,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E80hGHuAy3d/6HzrALFOZdMJFIY=
+			GsQb3zTgJeci1hFguym/oPVI4uk=
 			</data>
 			<key>hash2</key>
 			<data>
-			4dMNr2sLJCdDVZohZs9//iItV5/f6KUp+T7SlZXK7f0=
+			SZ6spRxbNN9b60liUDfGy9shvlFLSmMOfyD2XJxahAM=
 			</data>
 		</dict>
 		<key>app/views/room/room.xml</key>
@@ -8588,11 +8588,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			csmTELhJmNutMuceIr5RTPP9lMg=
+			9q3ATJ2owQbWOkCtctDhYTC9zkg=
 			</data>
 			<key>hash2</key>
 			<data>
-			rU4SOFCuRBkCVx4vQNU1CmbdxxMRsLKoar5dNzUx8Gw=
+			mUYYlXP/jgtXtroB5GJI82QhjdZsW95LfA//e8npVwc=
 			</data>
 		</dict>
 		<key>app/views/schedule/schedule.xml</key>
@@ -8621,11 +8621,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/xu0ViiPnF7OYeJ6bY6SgwvzHo0=
+			DaFKzW+JyvuvdDT2xQ91DOusuXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xZ1gmsJjuMj0eDxXTwT1XaOdYZJ7yGHSQI3I36E1xIQ=
+			LmXLLkpRrHNrXfAFQboEKnKauuzb3UgT0Qh8Cy0v+Wc=
 			</data>
 		</dict>
 		<key>app/views/team/team.xml</key>

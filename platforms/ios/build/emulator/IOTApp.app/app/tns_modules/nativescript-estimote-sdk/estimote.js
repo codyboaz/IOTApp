@@ -49,7 +49,10 @@ var BeaconManagerDelegateImpl = (function (_super) {
                 _beacon : beacon
             });
         }
-
+        
+        if(typeof this._callback == 'undefined'){
+           this._callback=function(){};
+        }
         this._callback(beacons);
     };
     BeaconManagerDelegateImpl.ObjCProtocols = [ESTBeaconManagerDelegate];
@@ -69,6 +72,9 @@ var Estimote = (function(){
       this.beaconManager.avoidUnknownStateBeacons = true;
       this._region = CLBeaconRegion.alloc().initWithProximityUUIDIdentifier(ESTIMOTE_PROXIMITY_UUID, this._regionName);
       // delegate
+      if(typeof options.callback == 'undefined'){
+           options.callback=function(){};
+     }
       this.beaconManager.delegate = BeaconManagerDelegateImpl.new().initWithRegion(this._region, options.callback);
   }
 

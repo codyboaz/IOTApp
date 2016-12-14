@@ -7,6 +7,8 @@ exports.pageLoaded = function(args) {
     var page = args.object;
     page.bindingContext = {};
     console.dump(global.estimoteMaster);
+    global.estimoteMaster.create();
+    global.estimoteMaster.running.startRanging();
 }
 
 function onMapReady(args) {

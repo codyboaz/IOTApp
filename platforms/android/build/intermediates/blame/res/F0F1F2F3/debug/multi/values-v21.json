@@ -102,9 +102,28 @@
                     "startLine": 7,
                     "startColumn": 4,
                     "startOffset": 398,
-                    "endLine": 10,
+                    "endColumn": 100,
+                    "endOffset": 494
+                },
+                "from": {
+                    "file": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\values-v21\\nativescript_google_maps_api.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 100,
+                        "endOffset": 153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 499,
+                    "endLine": 11,
                     "endColumn": 12,
-                    "endOffset": 617
+                    "endOffset": 718
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
@@ -120,11 +139,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 622,
+                    "startOffset": 723,
                     "endColumn": 90,
-                    "endOffset": 708
+                    "endOffset": 809
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -139,11 +158,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 713,
+                    "startOffset": 814,
                     "endColumn": 102,
-                    "endOffset": 811
+                    "endOffset": 912
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -158,11 +177,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 816,
+                    "startOffset": 917,
                     "endColumn": 102,
-                    "endOffset": 914
+                    "endOffset": 1015
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -177,11 +196,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 919,
+                    "startOffset": 1020,
                     "endColumn": 104,
-                    "endOffset": 1019
+                    "endOffset": 1120
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -196,11 +215,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1024,
+                    "startOffset": 1125,
                     "endColumn": 106,
-                    "endOffset": 1126
+                    "endOffset": 1227
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -215,11 +234,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1131,
+                    "startOffset": 1232,
                     "endColumn": 108,
-                    "endOffset": 1235
+                    "endOffset": 1336
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -234,11 +253,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1240,
+                    "startOffset": 1341,
                     "endColumn": 108,
-                    "endOffset": 1344
+                    "endOffset": 1445
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -253,11 +272,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1349,
+                    "startOffset": 1450,
                     "endColumn": 108,
-                    "endOffset": 1453
+                    "endOffset": 1554
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -272,11 +291,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1458,
+                    "startOffset": 1559,
                     "endColumn": 108,
-                    "endOffset": 1562
+                    "endOffset": 1663
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -291,11 +310,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1567,
+                    "startOffset": 1668,
                     "endColumn": 108,
-                    "endOffset": 1671
+                    "endOffset": 1772
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -310,11 +329,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1676,
+                    "startOffset": 1777,
                     "endColumn": 106,
-                    "endOffset": 1778
+                    "endOffset": 1879
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -329,11 +348,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1783,
+                    "startOffset": 1884,
                     "endColumn": 102,
-                    "endOffset": 1881
+                    "endOffset": 1982
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -348,11 +367,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1886,
+                    "startOffset": 1987,
                     "endColumn": 118,
-                    "endOffset": 2000
+                    "endOffset": 2101
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -367,12 +386,12 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2005,
-                    "endLine": 25,
+                    "startOffset": 2106,
+                    "endLine": 26,
                     "endColumn": 12,
-                    "endOffset": 2155
+                    "endOffset": 2256
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -388,12 +407,12 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2160,
-                    "endLine": 27,
+                    "startOffset": 2261,
+                    "endLine": 28,
                     "endColumn": 12,
-                    "endOffset": 2310
+                    "endOffset": 2411
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -409,11 +428,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2315,
+                    "startOffset": 2416,
                     "endColumn": 104,
-                    "endOffset": 2415
+                    "endOffset": 2516
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -428,11 +447,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2420,
+                    "startOffset": 2521,
                     "endColumn": 120,
-                    "endOffset": 2536
+                    "endOffset": 2637
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -447,11 +466,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2541,
+                    "startOffset": 2642,
                     "endColumn": 100,
-                    "endOffset": 2637
+                    "endOffset": 2738
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -466,12 +485,12 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 2642,
-                    "endLine": 32,
+                    "startOffset": 2743,
+                    "endLine": 33,
                     "endColumn": 12,
-                    "endOffset": 2784
+                    "endOffset": 2885
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -487,12 +506,12 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 2789,
-                    "endLine": 34,
+                    "startOffset": 2890,
+                    "endLine": 35,
                     "endColumn": 12,
-                    "endOffset": 2925
+                    "endOffset": 3026
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -508,11 +527,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 2930,
+                    "startOffset": 3031,
                     "endColumn": 102,
-                    "endOffset": 3028
+                    "endOffset": 3129
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -527,11 +546,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3033,
+                    "startOffset": 3134,
                     "endColumn": 118,
-                    "endOffset": 3147
+                    "endOffset": 3248
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -546,11 +565,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 3152,
+                    "startOffset": 3253,
                     "endColumn": 106,
-                    "endOffset": 3254
+                    "endOffset": 3355
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -565,11 +584,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 3259,
+                    "startOffset": 3360,
                     "endColumn": 102,
-                    "endOffset": 3357
+                    "endOffset": 3458
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -584,12 +603,12 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 3362,
-                    "endLine": 40,
+                    "startOffset": 3463,
+                    "endLine": 41,
                     "endColumn": 12,
-                    "endOffset": 3512
+                    "endOffset": 3613
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -605,12 +624,12 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 3517,
-                    "endLine": 42,
+                    "startOffset": 3618,
+                    "endLine": 43,
                     "endColumn": 12,
-                    "endOffset": 3683
+                    "endOffset": 3784
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -626,12 +645,12 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3688,
-                    "endLine": 44,
+                    "startOffset": 3789,
+                    "endLine": 45,
                     "endColumn": 12,
-                    "endOffset": 3832
+                    "endOffset": 3933
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -647,12 +666,12 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 3837,
-                    "endLine": 46,
+                    "startOffset": 3938,
+                    "endLine": 47,
                     "endColumn": 12,
-                    "endOffset": 3997
+                    "endOffset": 4098
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -668,12 +687,12 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 4002,
-                    "endLine": 48,
+                    "startOffset": 4103,
+                    "endLine": 49,
                     "endColumn": 12,
-                    "endOffset": 4154
+                    "endOffset": 4255
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -689,12 +708,12 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 4159,
-                    "endLine": 50,
+                    "startOffset": 4260,
+                    "endLine": 51,
                     "endColumn": 12,
-                    "endOffset": 4305
+                    "endOffset": 4406
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -710,11 +729,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 4310,
+                    "startOffset": 4411,
                     "endColumn": 118,
-                    "endOffset": 4424
+                    "endOffset": 4525
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -729,12 +748,12 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 4429,
-                    "endLine": 56,
+                    "startOffset": 4530,
+                    "endLine": 57,
                     "endColumn": 12,
-                    "endOffset": 4796
+                    "endOffset": 4897
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -750,12 +769,12 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 4801,
-                    "endLine": 58,
+                    "startOffset": 4902,
+                    "endLine": 59,
                     "endColumn": 12,
-                    "endOffset": 4945
+                    "endOffset": 5046
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -771,12 +790,12 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 4950,
-                    "endLine": 60,
+                    "startOffset": 5051,
+                    "endLine": 61,
                     "endColumn": 12,
-                    "endOffset": 5094
+                    "endOffset": 5195
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -792,11 +811,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 5099,
+                    "startOffset": 5200,
                     "endColumn": 111,
-                    "endOffset": 5206
+                    "endOffset": 5307
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -811,11 +830,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 5211,
+                    "startOffset": 5312,
                     "endColumn": 146,
-                    "endOffset": 5353
+                    "endOffset": 5454
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -830,12 +849,12 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 5358,
-                    "endLine": 64,
+                    "startOffset": 5459,
+                    "endLine": 65,
                     "endColumn": 12,
-                    "endOffset": 5506
+                    "endOffset": 5607
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -851,12 +870,12 @@
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 5511,
-                    "endLine": 66,
+                    "startOffset": 5612,
+                    "endLine": 67,
                     "endColumn": 12,
-                    "endOffset": 5653
+                    "endOffset": 5754
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -872,11 +891,11 @@
             },
             {
                 "to": {
-                    "startLine": 67,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 5658,
+                    "startOffset": 5759,
                     "endColumn": 74,
-                    "endOffset": 5728
+                    "endOffset": 5829
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -891,11 +910,11 @@
             },
             {
                 "to": {
-                    "startLine": 68,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 5733,
+                    "startOffset": 5834,
                     "endColumn": 88,
-                    "endOffset": 5817
+                    "endOffset": 5918
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -910,11 +929,11 @@
             },
             {
                 "to": {
-                    "startLine": 69,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 5822,
+                    "startOffset": 5923,
                     "endColumn": 86,
-                    "endOffset": 5904
+                    "endOffset": 6005
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -929,11 +948,11 @@
             },
             {
                 "to": {
-                    "startLine": 70,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 5909,
+                    "startOffset": 6010,
                     "endColumn": 100,
-                    "endOffset": 6005
+                    "endOffset": 6106
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -948,11 +967,11 @@
             },
             {
                 "to": {
-                    "startLine": 71,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 6010,
+                    "startOffset": 6111,
                     "endColumn": 102,
-                    "endOffset": 6108
+                    "endOffset": 6209
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -967,12 +986,12 @@
             },
             {
                 "to": {
-                    "startLine": 72,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 6113,
-                    "endLine": 115,
+                    "startOffset": 6214,
+                    "endLine": 116,
                     "endColumn": 12,
-                    "endOffset": 9176
+                    "endOffset": 9277
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -988,12 +1007,12 @@
             },
             {
                 "to": {
-                    "startLine": 116,
+                    "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 9181,
-                    "endLine": 118,
+                    "startOffset": 9282,
+                    "endLine": 119,
                     "endColumn": 12,
-                    "endOffset": 9362
+                    "endOffset": 9463
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1009,12 +1028,12 @@
             },
             {
                 "to": {
-                    "startLine": 119,
+                    "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 9367,
-                    "endLine": 162,
+                    "startOffset": 9468,
+                    "endLine": 163,
                     "endColumn": 12,
-                    "endOffset": 12442
+                    "endOffset": 12543
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1030,12 +1049,12 @@
             },
             {
                 "to": {
-                    "startLine": 163,
+                    "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 12447,
-                    "endLine": 165,
+                    "startOffset": 12548,
+                    "endLine": 166,
                     "endColumn": 12,
-                    "endOffset": 12640
+                    "endOffset": 12741
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1051,12 +1070,12 @@
             },
             {
                 "to": {
-                    "startLine": 166,
+                    "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 12645,
-                    "endLine": 168,
+                    "startOffset": 12746,
+                    "endLine": 169,
                     "endColumn": 12,
-                    "endOffset": 12840
+                    "endOffset": 12941
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1072,12 +1091,12 @@
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 12845,
-                    "endLine": 170,
+                    "startOffset": 12946,
+                    "endLine": 171,
                     "endColumn": 12,
-                    "endOffset": 12963
+                    "endOffset": 13064
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1093,12 +1112,12 @@
             },
             {
                 "to": {
-                    "startLine": 171,
+                    "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 12968,
-                    "endLine": 172,
+                    "startOffset": 13069,
+                    "endLine": 173,
                     "endColumn": 12,
-                    "endOffset": 13086
+                    "endOffset": 13187
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1114,12 +1133,12 @@
             },
             {
                 "to": {
-                    "startLine": 173,
+                    "startLine": 174,
                     "startColumn": 4,
-                    "startOffset": 13091,
-                    "endLine": 174,
+                    "startOffset": 13192,
+                    "endLine": 175,
                     "endColumn": 12,
-                    "endOffset": 13199
+                    "endOffset": 13300
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1135,12 +1154,12 @@
             },
             {
                 "to": {
-                    "startLine": 175,
+                    "startLine": 176,
                     "startColumn": 4,
-                    "startOffset": 13204,
-                    "endLine": 177,
+                    "startOffset": 13305,
+                    "endLine": 178,
                     "endColumn": 12,
-                    "endOffset": 13382
+                    "endOffset": 13483
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1156,12 +1175,12 @@
             },
             {
                 "to": {
-                    "startLine": 178,
+                    "startLine": 179,
                     "startColumn": 4,
-                    "startOffset": 13387,
-                    "endLine": 179,
+                    "startOffset": 13488,
+                    "endLine": 180,
                     "endColumn": 12,
-                    "endOffset": 13513
+                    "endOffset": 13614
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1177,12 +1196,12 @@
             },
             {
                 "to": {
-                    "startLine": 180,
+                    "startLine": 181,
                     "startColumn": 4,
-                    "startOffset": 13518,
-                    "endLine": 182,
+                    "startOffset": 13619,
+                    "endLine": 183,
                     "endColumn": 12,
-                    "endOffset": 13714
+                    "endOffset": 13815
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1198,11 +1217,11 @@
             },
             {
                 "to": {
-                    "startLine": 183,
+                    "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 13719,
+                    "startOffset": 13820,
                     "endColumn": 88,
-                    "endOffset": 13803
+                    "endOffset": 13904
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1217,11 +1236,11 @@
             },
             {
                 "to": {
-                    "startLine": 184,
+                    "startLine": 185,
                     "startColumn": 4,
-                    "startOffset": 13808,
+                    "startOffset": 13909,
                     "endColumn": 110,
-                    "endOffset": 13914
+                    "endOffset": 14015
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1236,12 +1255,12 @@
             },
             {
                 "to": {
-                    "startLine": 185,
+                    "startLine": 186,
                     "startColumn": 4,
-                    "startOffset": 13919,
-                    "endLine": 187,
+                    "startOffset": 14020,
+                    "endLine": 188,
                     "endColumn": 12,
-                    "endOffset": 14147
+                    "endOffset": 14248
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1257,11 +1276,11 @@
             },
             {
                 "to": {
-                    "startLine": 188,
+                    "startLine": 189,
                     "startColumn": 4,
-                    "startOffset": 14152,
+                    "startOffset": 14253,
                     "endColumn": 100,
-                    "endOffset": 14248
+                    "endOffset": 14349
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1276,11 +1295,11 @@
             },
             {
                 "to": {
-                    "startLine": 189,
+                    "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 14253,
+                    "startOffset": 14354,
                     "endColumn": 94,
-                    "endOffset": 14343
+                    "endOffset": 14444
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1295,11 +1314,11 @@
             },
             {
                 "to": {
-                    "startLine": 190,
+                    "startLine": 191,
                     "startColumn": 4,
-                    "startOffset": 14348,
+                    "startOffset": 14449,
                     "endColumn": 122,
-                    "endOffset": 14466
+                    "endOffset": 14567
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1314,11 +1333,11 @@
             },
             {
                 "to": {
-                    "startLine": 191,
+                    "startLine": 192,
                     "startColumn": 4,
-                    "startOffset": 14471,
+                    "startOffset": 14572,
                     "endColumn": 128,
-                    "endOffset": 14595
+                    "endOffset": 14696
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1333,11 +1352,11 @@
             },
             {
                 "to": {
-                    "startLine": 192,
+                    "startLine": 193,
                     "startColumn": 4,
-                    "startOffset": 14600,
+                    "startOffset": 14701,
                     "endColumn": 116,
-                    "endOffset": 14712
+                    "endOffset": 14813
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1352,12 +1371,12 @@
             },
             {
                 "to": {
-                    "startLine": 193,
+                    "startLine": 194,
                     "startColumn": 4,
-                    "startOffset": 14717,
-                    "endLine": 195,
+                    "startOffset": 14818,
+                    "endLine": 196,
                     "endColumn": 12,
-                    "endOffset": 14889
+                    "endOffset": 14990
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1373,11 +1392,11 @@
             },
             {
                 "to": {
-                    "startLine": 196,
+                    "startLine": 197,
                     "startColumn": 4,
-                    "startOffset": 14894,
+                    "startOffset": 14995,
                     "endColumn": 98,
-                    "endOffset": 14988
+                    "endOffset": 15089
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1392,12 +1411,12 @@
             },
             {
                 "to": {
-                    "startLine": 197,
+                    "startLine": 198,
                     "startColumn": 4,
-                    "startOffset": 14993,
-                    "endLine": 198,
+                    "startOffset": 15094,
+                    "endLine": 199,
                     "endColumn": 12,
-                    "endOffset": 15123
+                    "endOffset": 15224
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1413,12 +1432,12 @@
             },
             {
                 "to": {
-                    "startLine": 199,
+                    "startLine": 200,
                     "startColumn": 4,
-                    "startOffset": 15128,
-                    "endLine": 200,
+                    "startOffset": 15229,
+                    "endLine": 201,
                     "endColumn": 12,
-                    "endOffset": 15266
+                    "endOffset": 15367
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1434,12 +1453,12 @@
             },
             {
                 "to": {
-                    "startLine": 201,
+                    "startLine": 202,
                     "startColumn": 4,
-                    "startOffset": 15271,
-                    "endLine": 202,
+                    "startOffset": 15372,
+                    "endLine": 203,
                     "endColumn": 12,
-                    "endOffset": 15401
+                    "endOffset": 15502
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1455,12 +1474,12 @@
             },
             {
                 "to": {
-                    "startLine": 203,
+                    "startLine": 204,
                     "startColumn": 4,
-                    "startOffset": 15406,
-                    "endLine": 204,
+                    "startOffset": 15507,
+                    "endLine": 205,
                     "endColumn": 12,
-                    "endOffset": 15520
+                    "endOffset": 15621
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1476,12 +1495,12 @@
             },
             {
                 "to": {
-                    "startLine": 205,
+                    "startLine": 206,
                     "startColumn": 4,
-                    "startOffset": 15525,
-                    "endLine": 208,
+                    "startOffset": 15626,
+                    "endLine": 209,
                     "endColumn": 12,
-                    "endOffset": 15721
+                    "endOffset": 15822
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1497,12 +1516,12 @@
             },
             {
                 "to": {
-                    "startLine": 209,
+                    "startLine": 210,
                     "startColumn": 4,
-                    "startOffset": 15726,
-                    "endLine": 210,
+                    "startOffset": 15827,
+                    "endLine": 211,
                     "endColumn": 12,
-                    "endOffset": 15840
+                    "endOffset": 15941
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1518,11 +1537,11 @@
             },
             {
                 "to": {
-                    "startLine": 211,
+                    "startLine": 212,
                     "startColumn": 4,
-                    "startOffset": 15845,
+                    "startOffset": 15946,
                     "endColumn": 92,
-                    "endOffset": 15933
+                    "endOffset": 16034
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1537,11 +1556,11 @@
             },
             {
                 "to": {
-                    "startLine": 212,
+                    "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 15938,
+                    "startOffset": 16039,
                     "endColumn": 110,
-                    "endOffset": 16044
+                    "endOffset": 16145
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1556,11 +1575,11 @@
             },
             {
                 "to": {
-                    "startLine": 213,
+                    "startLine": 214,
                     "startColumn": 4,
-                    "startOffset": 16049,
+                    "startOffset": 16150,
                     "endColumn": 55,
-                    "endOffset": 16100
+                    "endOffset": 16201
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1575,12 +1594,12 @@
             },
             {
                 "to": {
-                    "startLine": 214,
+                    "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 16105,
-                    "endLine": 215,
+                    "startOffset": 16206,
+                    "endLine": 216,
                     "endColumn": 12,
-                    "endOffset": 16207
+                    "endOffset": 16308
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1596,12 +1615,12 @@
             },
             {
                 "to": {
-                    "startLine": 216,
+                    "startLine": 217,
                     "startColumn": 4,
-                    "startOffset": 16212,
-                    "endLine": 219,
+                    "startOffset": 16313,
+                    "endLine": 220,
                     "endColumn": 12,
-                    "endOffset": 16402
+                    "endOffset": 16503
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1617,12 +1636,12 @@
             },
             {
                 "to": {
-                    "startLine": 220,
+                    "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 16407,
-                    "endLine": 221,
+                    "startOffset": 16508,
+                    "endLine": 222,
                     "endColumn": 12,
-                    "endOffset": 16513
+                    "endOffset": 16614
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1638,12 +1657,12 @@
             },
             {
                 "to": {
-                    "startLine": 222,
+                    "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 16518,
-                    "endLine": 223,
+                    "startOffset": 16619,
+                    "endLine": 224,
                     "endColumn": 12,
-                    "endOffset": 16646
+                    "endOffset": 16747
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1659,11 +1678,11 @@
             },
             {
                 "to": {
-                    "startLine": 224,
+                    "startLine": 225,
                     "startColumn": 4,
-                    "startOffset": 16651,
+                    "startOffset": 16752,
                     "endColumn": 94,
-                    "endOffset": 16741
+                    "endOffset": 16842
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1678,11 +1697,11 @@
             },
             {
                 "to": {
-                    "startLine": 225,
+                    "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 16746,
+                    "startOffset": 16847,
                     "endColumn": 90,
-                    "endOffset": 16832
+                    "endOffset": 16933
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1697,11 +1716,11 @@
             },
             {
                 "to": {
-                    "startLine": 226,
+                    "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 16837,
+                    "startOffset": 16938,
                     "endColumn": 90,
-                    "endOffset": 16923
+                    "endOffset": 17024
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1716,11 +1735,11 @@
             },
             {
                 "to": {
-                    "startLine": 227,
+                    "startLine": 228,
                     "startColumn": 4,
-                    "startOffset": 16928,
+                    "startOffset": 17029,
                     "endColumn": 116,
-                    "endOffset": 17040
+                    "endOffset": 17141
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1735,12 +1754,12 @@
             },
             {
                 "to": {
-                    "startLine": 228,
+                    "startLine": 229,
                     "startColumn": 4,
-                    "startOffset": 17045,
-                    "endLine": 229,
+                    "startOffset": 17146,
+                    "endLine": 230,
                     "endColumn": 12,
-                    "endOffset": 17179
+                    "endOffset": 17280
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1756,12 +1775,12 @@
             },
             {
                 "to": {
-                    "startLine": 230,
+                    "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 17184,
-                    "endLine": 232,
+                    "startOffset": 17285,
+                    "endLine": 233,
                     "endColumn": 12,
-                    "endOffset": 17324
+                    "endOffset": 17425
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
@@ -1777,11 +1796,11 @@
             },
             {
                 "to": {
-                    "startLine": 233,
+                    "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 17329,
+                    "startOffset": 17430,
                     "endColumn": 70,
-                    "endOffset": 17395
+                    "endOffset": 17496
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1796,11 +1815,11 @@
             },
             {
                 "to": {
-                    "startLine": 234,
+                    "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 17400,
+                    "startOffset": 17501,
                     "endColumn": 82,
-                    "endOffset": 17478
+                    "endOffset": 17579
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1815,12 +1834,12 @@
             },
             {
                 "to": {
-                    "startLine": 235,
+                    "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 17483,
-                    "endLine": 244,
+                    "startOffset": 17584,
+                    "endLine": 245,
                     "endColumn": 12,
-                    "endOffset": 18158
+                    "endOffset": 18259
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1836,11 +1855,11 @@
             },
             {
                 "to": {
-                    "startLine": 245,
+                    "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 18163,
+                    "startOffset": 18264,
                     "endColumn": 56,
-                    "endOffset": 18215
+                    "endOffset": 18316
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1855,11 +1874,11 @@
             },
             {
                 "to": {
-                    "startLine": 246,
+                    "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 18220,
+                    "startOffset": 18321,
                     "endColumn": 57,
-                    "endOffset": 18273
+                    "endOffset": 18374
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1874,12 +1893,12 @@
             },
             {
                 "to": {
-                    "startLine": 247,
+                    "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 18278,
-                    "endLine": 258,
+                    "startOffset": 18379,
+                    "endLine": 259,
                     "endColumn": 12,
-                    "endOffset": 18967
+                    "endOffset": 19068
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1895,12 +1914,12 @@
             },
             {
                 "to": {
-                    "startLine": 259,
+                    "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 18972,
-                    "endLine": 270,
+                    "startOffset": 19073,
+                    "endLine": 271,
                     "endColumn": 12,
-                    "endOffset": 19673
+                    "endOffset": 19774
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1916,12 +1935,12 @@
             },
             {
                 "to": {
-                    "startLine": 271,
+                    "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 19678,
-                    "endLine": 273,
+                    "startOffset": 19779,
+                    "endLine": 274,
                     "endColumn": 12,
-                    "endOffset": 19832
+                    "endOffset": 19933
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
@@ -1937,12 +1956,12 @@
             },
             {
                 "to": {
-                    "startLine": 274,
+                    "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 19837,
-                    "endLine": 276,
+                    "startOffset": 19938,
+                    "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 19991
+                    "endOffset": 20092
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
@@ -1958,11 +1977,11 @@
             },
             {
                 "to": {
-                    "startLine": 277,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 19996,
+                    "startOffset": 20097,
                     "endColumn": 118,
-                    "endOffset": 20110
+                    "endOffset": 20211
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1977,11 +1996,11 @@
             },
             {
                 "to": {
-                    "startLine": 278,
+                    "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 20115,
+                    "startOffset": 20216,
                     "endColumn": 128,
-                    "endOffset": 20239
+                    "endOffset": 20340
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -1996,12 +2015,12 @@
             },
             {
                 "to": {
-                    "startLine": 279,
+                    "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 20244,
-                    "endLine": 281,
+                    "startOffset": 20345,
+                    "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 20410
+                    "endOffset": 20511
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -2017,12 +2036,12 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 20415,
-                    "endLine": 284,
+                    "startOffset": 20516,
+                    "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 20576
+                    "endOffset": 20677
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -2038,11 +2057,11 @@
             },
             {
                 "to": {
-                    "startLine": 285,
+                    "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 20581,
+                    "startOffset": 20682,
                     "endColumn": 128,
-                    "endOffset": 20705
+                    "endOffset": 20806
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -2057,12 +2076,12 @@
             },
             {
                 "to": {
-                    "startLine": 286,
+                    "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 20710,
-                    "endLine": 288,
+                    "startOffset": 20811,
+                    "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 20876
+                    "endOffset": 20977
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -2078,11 +2097,11 @@
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 20881,
+                    "startOffset": 20982,
                     "endColumn": 130,
-                    "endOffset": 21007
+                    "endOffset": 21108
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -2097,12 +2116,12 @@
             },
             {
                 "to": {
-                    "startLine": 290,
+                    "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 21012,
-                    "endLine": 292,
+                    "startOffset": 21113,
+                    "endLine": 293,
                     "endColumn": 12,
-                    "endOffset": 21177
+                    "endOffset": 21278
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -2118,12 +2137,12 @@
             },
             {
                 "to": {
-                    "startLine": 293,
+                    "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 21182,
-                    "endLine": 295,
+                    "startOffset": 21283,
+                    "endLine": 296,
                     "endColumn": 12,
-                    "endOffset": 21352
+                    "endOffset": 21453
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -2139,12 +2158,12 @@
             },
             {
                 "to": {
-                    "startLine": 296,
+                    "startLine": 297,
                     "startColumn": 4,
-                    "startOffset": 21357,
-                    "endLine": 300,
+                    "startOffset": 21458,
+                    "endLine": 301,
                     "endColumn": 12,
-                    "endOffset": 21693
+                    "endOffset": 21794
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-v21\\values-v21.xml",
@@ -2160,12 +2179,12 @@
             },
             {
                 "to": {
-                    "startLine": 301,
+                    "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 21698,
-                    "endLine": 303,
+                    "startOffset": 21799,
+                    "endLine": 304,
                     "endColumn": 12,
-                    "endOffset": 21887
+                    "endOffset": 21988
                 },
                 "from": {
                     "file": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\values-v21\\values-v21.xml",

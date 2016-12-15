@@ -8,9 +8,9 @@ package com.estimote.sdk;
 
 public final class R {
 	public static final class string {
-		public static final int error_no_bluetooth_enabled = 0x7f050036;
-		public static final int error_no_bluetooth_le = 0x7f050037;
-		public static final int error_no_location_permission = 0x7f050038;
+		public static final int error_no_bluetooth_enabled = 0x7f050037;
+		public static final int error_no_bluetooth_le = 0x7f050038;
+		public static final int error_no_location_permission = 0x7f050039;
 		public static final int requesting_location_access = 0x7f05003a;
 		public static final int requesting_location_access_cancel = 0x7f05003b;
 		public static final int requesting_location_access_ok = 0x7f05003c;

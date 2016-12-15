@@ -20,12 +20,12 @@
         "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",

@@ -52,16 +52,16 @@
         "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
@@ -84,12 +84,12 @@
         "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
         "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable\\notification_bg_low.xml",

@@ -5844,13 +5844,13 @@
                     "endOffset": 51619
                 },
                 "from": {
-                    "file": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\values\\nativescript_google_maps_api.xml",
+                    "file": "K:\\IOTApp\\platforms\\android\\src\\F1\\res\\values\\nativescript_google_maps_api.xml",
                     "position": {
                         "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 100,
-                        "endOffset": 153
+                        "startColumn": 5,
+                        "startOffset": 56,
+                        "endColumn": 101,
+                        "endOffset": 152
                     }
                 }
             },

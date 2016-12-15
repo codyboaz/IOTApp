@@ -35,7 +35,7 @@
   "_id": "nativescript-permissions@1.2.1",
   "scripts": {},
   "_shasum": "d60178e907729bc8320208a2449b847154c0a296",
-  "_from": "nativescript-permissions@latest",
+  "_from": "nativescript-permissions@1.2.1",
   "_npmVersion": "3.7.4",
   "_nodeVersion": "4.3.1",
   "_npmUser": {

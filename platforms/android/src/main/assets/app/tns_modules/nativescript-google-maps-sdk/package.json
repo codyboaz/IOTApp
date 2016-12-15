@@ -42,7 +42,7 @@
   "gitHead": "f3af3d181f6086bd407c8a2f9af97ce303509cbb",
   "_id": "nativescript-google-maps-sdk@1.4.1",
   "_shasum": "a63bacbfe90acfdaa63d9a911b4510c62a668161",
-  "_from": "nativescript-google-maps-sdk@latest",
+  "_from": "nativescript-google-maps-sdk@1.4.1",
   "_npmVersion": "3.10.8",
   "_nodeVersion": "6.9.1",
   "_npmUser": {

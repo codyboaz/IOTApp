@@ -20,15 +20,6 @@ function ensureFrame() {
 }
 var AffectsLayout = global.android ? dependency_observable_1.PropertyMetadataSettings.None : dependency_observable_1.PropertyMetadataSettings.AffectsLayout;
 var backgroundSpanUnderStatusBarProperty = new dependency_observable_1.Property("backgroundSpanUnderStatusBar", "Page", new proxy.PropertyMetadata(false, AffectsLayout));
-var statusBarStyleProperty = new dependency_observable_1.Property("statusBarStyle", "Page", new proxy.PropertyMetadata(undefined));
-function onStatusBarStylePropertyChanged(data) {
-    var page = data.object;
-    if (page.isLoaded) {
-        page._updateStatusBar();
-    }
-}
-statusBarStyleProperty.metadata.onSetNativeValue = onStatusBarStylePropertyChanged;
-var androidStatusBarBackgroundProperty = new dependency_observable_1.Property("androidStatusBarBackground", "Page", new proxy.PropertyMetadata(undefined));
 var actionBarHiddenProperty = new dependency_observable_1.Property("actionBarHidden", "Page", new proxy.PropertyMetadata(undefined, AffectsLayout));
 function onActionBarHiddenPropertyChanged(data) {
     var page = data.object;
@@ -59,7 +50,6 @@ var Page = (function (_super) {
         if (this.actionBarHidden !== undefined) {
             this._updateActionBar(this.actionBarHidden);
         }
-        this._updateStatusBar();
         _super.prototype.onLoaded.call(this);
     };
     Object.defineProperty(Page.prototype, "backgroundSpanUnderStatusBar", {
@@ -68,26 +58,6 @@ var Page = (function (_super) {
         },
         set: function (value) {
             this._setValue(Page.backgroundSpanUnderStatusBarProperty, value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Page.prototype, "statusBarStyle", {
-        get: function () {
-            return this.style._getValue(Page.statusBarStyleProperty);
-        },
-        set: function (value) {
-            this.style._setValue(Page.statusBarStyleProperty, value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Page.prototype, "androidStatusBarBackground", {
-        get: function () {
-            return this.style.androidStatusBarBackground;
-        },
-        set: function (value) {
-            this.style.androidStatusBarBackground = value;
         },
         enumerable: true,
         configurable: true
@@ -113,8 +83,6 @@ var Page = (function (_super) {
         configurable: true
     });
     Page.prototype._updateActionBar = function (hidden) {
-    };
-    Page.prototype._updateStatusBar = function () {
     };
     Page.prototype._updateEnableSwipeBackNavigation = function (hidden) {
     };
@@ -347,8 +315,6 @@ var Page = (function (_super) {
         view.eachDescendant(this, resetCssValuesFunc);
     };
     Page.backgroundSpanUnderStatusBarProperty = backgroundSpanUnderStatusBarProperty;
-    Page.statusBarStyleProperty = statusBarStyleProperty;
-    Page.androidStatusBarBackgroundProperty = androidStatusBarBackgroundProperty;
     Page.actionBarHiddenProperty = actionBarHiddenProperty;
     Page.iosSwipeBackNavigationEnabledProperty = enableSwipeBackNavigationProperty;
     Page.navigatingToEvent = "navigatingTo";

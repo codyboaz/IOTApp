@@ -1,0 +1,18 @@
+<Page loaded="pageLoaded">
+    <ActionBar>
+        <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
+            <Label text="Linkality" class="action-label"></Label>
+        </StackLayout>
+    </ActionBar>
+    <ScrollView>
+        <StackLayout>
+            <Label text="Find Your Friends" class="h1 margin" textWrap="true"/>
+            <Image src="~/views/images/signal.png" class="findImg"/>
+            <Label text="Enter your friends secret identifier" class="h2 margin-top-top" textWrap="true"/>
+            <StackLayout class="form">
+            </StackLayout>
+            <button text="Search" tap="friendLocation" class="btnRooms btn-outline margin-top-large"/>
+            <Label text="" class="margin"/>
+        </StackLayout>
+    </ScrollView>
+</Page>

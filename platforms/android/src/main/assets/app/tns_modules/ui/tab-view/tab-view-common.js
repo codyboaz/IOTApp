@@ -244,24 +244,6 @@ var TabView = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(TabView.prototype, "iosIconRenderingMode", {
-        get: function () {
-            return undefined;
-        },
-        set: function (value) {
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(TabView.prototype, "androidOffscreenTabLimit", {
-        get: function () {
-            return undefined;
-        },
-        set: function (value) {
-        },
-        enumerable: true,
-        configurable: true
-    });
     TabView.prototype._onSelectedIndexPropertyChangedSetNativeValue = function (data) {
         var index = this.selectedIndex;
         if (types.isUndefined(index)) {

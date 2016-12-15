@@ -235,7 +235,7 @@ function isWhiteSpaceValid(value) {
 function isNonNegativeFiniteNumber(value) {
     return isFinite(value) && !isNaN(value) && value >= 0;
 }
-var supportedPaths = ["rect", "circle", "ellipse", "polygon", "inset"];
+var supportedPaths = ["rect", "circle", "ellipse", "polygon"];
 function isClipPathValid(value) {
     if (!value) {
         return true;
@@ -663,8 +663,7 @@ var Style = (function (_super) {
             return this._getValue(exports.fontWeightProperty);
         },
         set: function (value) {
-            var stringValue = value ? value.toString() : undefined;
-            this._setValue(exports.fontWeightProperty, stringValue);
+            this._setValue(exports.fontWeightProperty, value);
         },
         enumerable: true,
         configurable: true
@@ -929,26 +928,6 @@ var Style = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(Style.prototype, "statusBarStyle", {
-        get: function () {
-            return this._getValue(exports.statusBarStyleProperty);
-        },
-        set: function (value) {
-            this._setValue(exports.statusBarStyleProperty, value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Style.prototype, "androidStatusBarBackground", {
-        get: function () {
-            return this._getValue(exports.androidStatusBarBackgroundProperty);
-        },
-        set: function (value) {
-            this._setValue(exports.androidStatusBarBackgroundProperty, value);
-        },
-        enumerable: true,
-        configurable: true
-    });
     Object.defineProperty(Style.prototype, "tabTextColor", {
         get: function () {
             return this._getValue(exports.tabTextColorProperty);
@@ -995,16 +974,6 @@ var Style = (function (_super) {
         },
         set: function (value) {
             this._setValue(exports.selectedBackgroundColorProperty, value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Style.prototype, "separatorColor", {
-        get: function () {
-            return this._getValue(exports.separatorColorProperty);
-        },
-        set: function (value) {
-            this._setValue(exports.separatorColorProperty, value);
         },
         enumerable: true,
         configurable: true
@@ -1185,10 +1154,7 @@ exports.tabTextColorProperty = new styleProperty.Property("tabTextColor", "tab-t
 exports.tabBackgroundColorProperty = new styleProperty.Property("tabBackgroundColor", "tab-background-color", new dependency_observable_1.PropertyMetadata(undefined, dependency_observable_1.PropertyMetadataSettings.None, undefined, color_1.Color.isValid, color_1.Color.equals), converters.colorConverter);
 exports.selectedTabTextColorProperty = new styleProperty.Property("selectedTabTextColor", "selected-tab-text-color", new dependency_observable_1.PropertyMetadata(undefined, dependency_observable_1.PropertyMetadataSettings.None, undefined, color_1.Color.isValid, color_1.Color.equals), converters.colorConverter);
 exports.androidSelectedTabHighlightColorProperty = new styleProperty.Property("androidSelectedTabHighlightColor", "android-selected-tab-highlight-color", new dependency_observable_1.PropertyMetadata(undefined, dependency_observable_1.PropertyMetadataSettings.None, undefined, color_1.Color.isValid, color_1.Color.equals), converters.colorConverter);
-exports.statusBarStyleProperty = new styleProperty.Property("statusBarStyle", "status-bar-style", new dependency_observable_1.PropertyMetadata(undefined));
-exports.androidStatusBarBackgroundProperty = new styleProperty.Property("androidStatusBarBackground", "android-status-bar-background", new dependency_observable_1.PropertyMetadata(undefined, dependency_observable_1.PropertyMetadataSettings.None, undefined, color_1.Color.isValid, color_1.Color.equals), converters.colorConverter);
 exports.selectedBackgroundColorProperty = new styleProperty.Property("selectedBackgroundColor", "selected-background-color", new dependency_observable_1.PropertyMetadata(undefined, dependency_observable_1.PropertyMetadataSettings.None, undefined, color_1.Color.isValid, color_1.Color.equals), converters.colorConverter);
-exports.separatorColorProperty = new styleProperty.Property("separatorColor", "separator-color", new dependency_observable_1.PropertyMetadata(undefined, dependency_observable_1.PropertyMetadataSettings.None, undefined, color_1.Color.isValid, color_1.Color.equals), converters.colorConverter);
 exports.nativeLayoutParamsProperty = new styleProperty.Property("nativeLayoutParams", "nativeLayoutParams", new dependency_observable_1.PropertyMetadata({
     width: -1,
     widthPercent: -1,

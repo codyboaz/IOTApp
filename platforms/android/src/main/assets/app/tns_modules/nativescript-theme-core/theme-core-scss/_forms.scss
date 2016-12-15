@@ -17,10 +17,6 @@
       border-radius: 28;
       padding:16;
     }
-
-    &[isEnabled="false"] {
-      background-color: lighten($grey, 10%);
-    }
   }
 
   .input-field {

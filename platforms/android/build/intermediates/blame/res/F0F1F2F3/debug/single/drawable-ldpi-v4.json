@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable-ldpi-v4\\logo.png",
+        "source": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "K:\\IOTApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\drawable-ldpi-v4\\background.png",
+        "source": "K:\\IOTApp\\platforms\\android\\src\\main\\res\\drawable-ldpi\\background.png"
+    }
+]

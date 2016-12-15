@@ -1,9 +1,6 @@
-var observable = require("data/observable");
 var platform = require("platform");
-var ImageAsset = (function (_super) {
-    __extends(ImageAsset, _super);
+var ImageAsset = (function () {
     function ImageAsset() {
-        _super.apply(this, arguments);
     }
     Object.defineProperty(ImageAsset.prototype, "options", {
         get: function () {
@@ -48,7 +45,7 @@ var ImageAsset = (function (_super) {
     ImageAsset.prototype.getImageAsync = function (callback) {
     };
     return ImageAsset;
-}(observable.Observable));
+}());
 exports.ImageAsset = ImageAsset;
 function getAspectSafeDimensions(sourceWidth, sourceHeight, reqWidth, reqHeight) {
     var widthCoef = sourceWidth / reqWidth;

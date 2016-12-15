@@ -1,14 +1,8 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" xmlns:maps="nativescript-google-maps-sdk" loaded="pageLoaded">
 
-    <ActionBar>
-        <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="left">
-            <Label text="Linkality" class="action-label"></Label>
-            <NavigationButton text="Back"/>
-        </StackLayout>
-    </ActionBar>
 
     <GridLayout>
-        <maps:mapView latitude="36.652254" longitude="-121.797239" zoom="19.15" mapReady="onMapReady" markerSelect="onMarkerSelect"/>
+        <maps:mapView latitude="36.652254" longitude="-121.797239" zoom="19.15" mapReady="onMapReady" tilt="0" markerSelect="onMarkerSelect"/>
     </GridLayout>
 
 </Page>
